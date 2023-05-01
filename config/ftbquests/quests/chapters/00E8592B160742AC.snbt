@@ -1,0 +1,211 @@
+{
+	id: "00E8592B160742AC"
+	group: "0FEC8D895C672F23"
+	order_index: 2
+	filename: "00E8592B160742AC"
+	title: "魔咒"
+	icon: "kubejs:spells_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:spyglass"
+			x: -5.5d
+			y: 1.0d
+			shape: "octagon"
+			subtitle: "第四章的前三篇任务是并行的，你可以自由选择顺序"
+			dependencies: [
+				"459ED43B11ED0B7C"
+				"2A4815DDC0FBE36D"
+				"5CF18B1E4DD3C448"
+			]
+			hide: true
+			id: "2E31709ADCA03900"
+			tasks: [{
+				id: "45B5E08D41685E27"
+				type: "checkmark"
+				title: "开始战斗！"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			subtitle: "收集大量紫水晶粉，建议自动化"
+			dependencies: ["2E31709ADCA03900"]
+			id: "4B34B4B5A1F52FC5"
+			tasks: [{
+				id: "23B479A941F33C78"
+				type: "item"
+				item: "hexcasting:amethyst_dust"
+				count: 256L
+			}]
+		}
+		{
+			icon: "hexcasting:akashic_leaves1"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "学习法术，获取三种启迪树叶"
+			description: ["该法术记录于咒法学引导书的“图案”——“法术”——“方块工程”——“启迪树苗”"]
+			dependencies: ["2E31709ADCA03900"]
+			id: "5B607119AB51B082"
+			tasks: [
+				{
+					id: "7A3A3998C5836A48"
+					type: "item"
+					item: "hexcasting:akashic_leaves1"
+					count: 64L
+				}
+				{
+					id: "5E080F9EC166DF4E"
+					type: "item"
+					item: "hexcasting:akashic_leaves2"
+					count: 64L
+				}
+				{
+					id: "2E61BE02813805BA"
+					type: "item"
+					item: "hexcasting:akashic_leaves3"
+					count: 64L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: [
+				"4F42431B3C8CA35C"
+				"5B607119AB51B082"
+			]
+			id: "6950BCC8E5B742A5"
+			tasks: [{
+				id: "4668D8723D7B5E6C"
+				type: "item"
+				item: "kubejs:hex_concentrate"
+			}]
+		}
+		{
+			title: "内化染色剂"
+			icon: "hexcasting:pride_colorizer_transgender"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "制作一些染色剂"
+			dependencies: ["4B34B4B5A1F52FC5"]
+			id: "4F42431B3C8CA35C"
+			tasks: [{
+				id: "0A6D4943428A78FA"
+				type: "item"
+				title: "Any #kubejs:hex_dyes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:hex_dyes"
+					}
+				}
+				count: 64L
+			}]
+		}
+		{
+			x: -0.875d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "击败冰雪女王并获得战利品"
+			dependencies: ["6950BCC8E5B742A5"]
+			size: 1.5d
+			id: "276B3CE2289B4C97"
+			tasks: [{
+				id: "240849B644B5F24B"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "制作一个魔咒构件"
+			dependencies: ["276B3CE2289B4C97"]
+			size: 1.25d
+			id: "46C03F12DA0186A3"
+			tasks: [{
+				id: "2D5A1C8DCC195A72"
+				type: "item"
+				item: "kubejs:spells_mechanism"
+			}]
+		}
+		{
+			icon: {
+				id: "hexcasting:scroll"
+				Count: 1b
+				tag: {
+					pattern: {
+						angles: [B;
+							2b
+							4b
+							4b
+							1b
+							2b
+							0b
+							2b
+							5b
+							1b
+							1b
+							1b
+							4b
+							4b
+						]
+						start_dir: 3b
+					}
+					op_id: "hexcasting:potion/night_vision"
+				}
+			}
+			x: 0.5d
+			y: 2.0d
+			subtitle: "右键魔咒构件即可获得随机远古卷轴，上面记录了卓越法术的图案"
+			dependencies: ["46C03F12DA0186A3"]
+			id: "60289D24B09A9EEF"
+			tasks: [{
+				id: "4676815B361E0B6F"
+				type: "checkmark"
+				title: "卓越法术"
+			}]
+		}
+		{
+			icon: "minecraft:poppy"
+			x: 0.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "恭喜你完成了这一阶段的任务"
+			dependencies: ["60289D24B09A9EEF"]
+			size: 1.5d
+			id: "7B4AAE1F25016C8E"
+			tasks: [{
+				id: "0208D9C8DE153FF1"
+				type: "checkmark"
+				title: "完成！"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -7.0d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "罪恶的极光"
+			description: [
+				"高洁的冰雪女王已经被完全控制了思维，对所有探寻真相的勇士发起猛烈的攻势。"
+				" "
+				"还是那句话，要用魔法打败魔法，这一次轮到你成为一名魔法师了，然后再用扳手狠狠敲碎她的王冠！"
+				""
+				"冰雪女王身上的魔力能让你掌握更强大而古老的魔法，这是揭开真相的必要知识。"
+			]
+			dependencies: ["2E31709ADCA03900"]
+			id: "64E4402970EBDCF9"
+			tasks: [{
+				id: "44741914FC66865F"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

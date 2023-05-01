@@ -1,0 +1,229 @@
+{
+	id: "02BCED74A8CCA2C4"
+	group: "74F07FB54C1CE100"
+	order_index: 1
+	filename: "02BCED74A8CCA2C4"
+	title: "装甲"
+	icon: "kubejs:armor_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:spyglass"
+			x: -3.0d
+			y: 0.5d
+			shape: "octagon"
+			subtitle: "第三章的三篇任务是并行的，你可以自由选择进行探索"
+			dependencies: ["04ECB3429446FCFC"]
+			hide: true
+			id: "43429C6C41B2B583"
+			tasks: [{
+				id: "7DC18BB47F405DFC"
+				type: "checkmark"
+				title: "开始探索"
+			}]
+		}
+		{
+			title: "“茶叶”"
+			icon: "minecraft:oak_leaves"
+			x: -3.0d
+			y: 2.0d
+			subtitle: "自动化生产树叶，当然……手动也不是不行"
+			dependencies: ["43429C6C41B2B583"]
+			id: "25EB5E191F99CE11"
+			tasks: [{
+				id: "2FF9ACB58CDD7280"
+				type: "item"
+				title: "Any #minecraft:leaves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+				count: 1024L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "自动化生产建造工茶饮"
+			dependencies: ["25EB5E191F99CE11"]
+			id: "0C23F9AE25337F80"
+			tasks: [{
+				id: "67ED857893C3E89A"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			title: "更多饮料"
+			icon: "farmersdelight:melon_juice"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "任选一种饮品进行自动化生产"
+			dependencies: ["155AAA9BD8323E8F"]
+			id: "798A4B2D31A2D6DC"
+			tasks: [{
+				id: "468447556FCAB83C"
+				type: "item"
+				title: "Any #kubejs:knights_drinks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:knights_drinks"
+					}
+				}
+				count: 1024L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "制作大量玻璃瓶"
+			dependencies: [
+				"49DE9EEE05B73F3A"
+				"43429C6C41B2B583"
+			]
+			id: "155AAA9BD8323E8F"
+			tasks: [{
+				id: "2734B95B92CB3114"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 1024L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "生产大量玻璃"
+			dependencies: ["43429C6C41B2B583"]
+			id: "49DE9EEE05B73F3A"
+			tasks: [{
+				id: "2566C057A0308E0E"
+				type: "item"
+				item: "minecraft:glass"
+				count: 1024L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "制作一罐浓缩茶饮"
+			dependencies: [
+				"798A4B2D31A2D6DC"
+				"0C23F9AE25337F80"
+			]
+			id: "0EFB95C265A3F805"
+			tasks: [{
+				id: "7FB4720959AA29D4"
+				type: "item"
+				item: "kubejs:tea_concentrate"
+			}]
+		}
+		{
+			title: "机关号令"
+			icon: "twilightforest:knight_phantom_trophy"
+			x: -1.5d
+			y: 3.5d
+			shape: "rsquare"
+			subtitle: "击败幻影骑士们，并获得战利品"
+			dependencies: ["0EFB95C265A3F805"]
+			size: 1.5d
+			id: "0FA27AA5665F2B6F"
+			tasks: [{
+				id: "1BC11F62F5B61D4A"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			subtitle: "制作仙人掌农场"
+			dependencies: ["0FA27AA5665F2B6F"]
+			id: "4BCBE269DF6EE61D"
+			tasks: [{
+				id: "6D76F88097649E96"
+				type: "item"
+				item: "minecraft:cactus"
+				count: 64L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "制作一个装甲构件"
+			dependencies: ["4BCBE269DF6EE61D"]
+			size: 1.25d
+			id: "7825C8BCB662634D"
+			tasks: [{
+				id: "50D16F48D4647BB2"
+				type: "item"
+				item: "kubejs:armor_mechanism"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			subtitle: "制作一个升级核心，你可以用它来升级你的盔甲"
+			dependencies: ["66DE8A71FF0005B2"]
+			id: "4054EEFB3BEB22D3"
+			tasks: [{
+				id: "6135EAB8CAABE827"
+				type: "item"
+				item: "mcda:upgrade_core"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			subtitle: "从灵魂盒中获得碎片制作下届合金锭，或者直接获得它"
+			dependencies: ["7825C8BCB662634D"]
+			id: "66DE8A71FF0005B2"
+			tasks: [{
+				id: "4E32AC0BECE5A399"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			icon: "minecraft:poppy"
+			x: 1.5d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "恭喜你完成了这一阶段的任务"
+			dependencies: ["4054EEFB3BEB22D3"]
+			size: 1.5d
+			id: "459ED43B11ED0B7C"
+			tasks: [{
+				id: "50F8A5F21E77D758"
+				type: "checkmark"
+				title: "完成！"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -4.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "不灭的战魂"
+			description: [
+				"这些骑士的灵魂被未知的力量驱动了起来，附身于铠甲，或许闲适的饮品能够抚平它们的灵魂（？）"
+				""
+				"我现在有很大把握认为，它们是被更高等的存在制造出来的，那些机关的精密程度远超我们的想象。"
+			]
+			dependencies: ["43429C6C41B2B583"]
+			id: "78FB60AAFE2ED63D"
+			tasks: [{
+				id: "543EEFC41EBC13ED"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

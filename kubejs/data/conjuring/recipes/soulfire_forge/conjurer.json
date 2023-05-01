@@ -1,0 +1,21 @@
+{
+  "type": "conjuring:soulfire_forge",
+  "pattern": [
+    "sss",
+    "ses",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "conjuring:soul_alloy"
+    },
+    "e": {
+      "item": "kubejs:flame_mechanism"
+    }
+  },
+  "smeltTime": 1200,
+  "result": {
+    "item": "conjuring:conjurer",
+    "count": 1
+  }
+}

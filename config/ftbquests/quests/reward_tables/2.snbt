@@ -1,0 +1,349 @@
+{
+	id: "48AE3C69632EE3F3"
+	order_index: 1
+	title: "初始背包2"
+	icon: {
+		id: "travelersbackpack:standard"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "travelersbackpack:spider"
+				Count: 1b
+				tag: {
+					CraftingInventory: [ ]
+					Ability: 0b
+					RepairCost: 0
+					LeftTank: {
+						fluid: "minecraft:empty"
+					}
+					display: {
+						Name: "{\"text\":\"背包-攀爬\"}"
+					}
+					RightTankAmount: 0L
+					UnsortableSlots: [I; ]
+					RightTank: {
+						fluid: "minecraft:empty"
+					}
+					LeftTankAmount: 0L
+					Inventory: [
+						{
+							Slot: 2b
+							id: "minecraft:leather_helmet"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 9b
+							id: "minecraft:campfire"
+							Count: 1b
+						}
+						{
+							Slot: 10b
+							id: "create:goggles"
+							Count: 1b
+						}
+						{
+							Slot: 11b
+							id: "origins:orb_of_origin"
+							Count: 1b
+						}
+						{
+							Slot: 16b
+							id: "minecraft:stone_axe"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 17b
+							id: "create:wrench"
+							Count: 1b
+						}
+						{
+							Slot: 18b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 19b
+							id: "minecraft:fishing_rod"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 20b
+							id: "minecraft:shield"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 25b
+							id: "create:honeyed_apple"
+							Count: 16b
+						}
+						{
+							Slot: 26b
+							id: "minecraft:leather_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 27b
+							id: "farmersdelight:barbecue_stick"
+							Count: 16b
+						}
+						{
+							Slot: 31b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+					]
+					LastTime: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:iron"
+				Count: 1b
+				tag: {
+					CraftingInventory: [ ]
+					Ability: 0b
+					RepairCost: 0
+					LeftTank: {
+						fluid: "minecraft:empty"
+					}
+					display: {
+						Name: "{\"text\":\"背包-防护\"}"
+					}
+					RightTankAmount: 0L
+					UnsortableSlots: [I; ]
+					RightTank: {
+						fluid: "minecraft:empty"
+					}
+					LeftTankAmount: 0L
+					Inventory: [
+						{
+							Slot: 2b
+							id: "minecraft:leather_helmet"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 9b
+							id: "minecraft:campfire"
+							Count: 1b
+						}
+						{
+							Slot: 10b
+							id: "create:goggles"
+							Count: 1b
+						}
+						{
+							Slot: 11b
+							id: "origins:orb_of_origin"
+							Count: 1b
+						}
+						{
+							Slot: 16b
+							id: "minecraft:stone_axe"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 17b
+							id: "create:wrench"
+							Count: 1b
+						}
+						{
+							Slot: 18b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 19b
+							id: "minecraft:fishing_rod"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 20b
+							id: "minecraft:shield"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 25b
+							id: "create:honeyed_apple"
+							Count: 16b
+						}
+						{
+							Slot: 26b
+							id: "minecraft:leather_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 27b
+							id: "farmersdelight:barbecue_stick"
+							Count: 16b
+						}
+						{
+							Slot: 31b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+					]
+					LastTime: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:cake"
+				Count: 1b
+				tag: {
+					CraftingInventory: [ ]
+					Ability: 0b
+					RepairCost: 0
+					LeftTank: {
+						fluid: "minecraft:empty"
+					}
+					display: {
+						Name: "{\"text\":\"背包-干饭\"}"
+					}
+					RightTankAmount: 0L
+					UnsortableSlots: [I; ]
+					RightTank: {
+						fluid: "minecraft:empty"
+					}
+					LeftTankAmount: 0L
+					Inventory: [
+						{
+							Slot: 2b
+							id: "minecraft:leather_helmet"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 9b
+							id: "minecraft:campfire"
+							Count: 1b
+						}
+						{
+							Slot: 10b
+							id: "create:goggles"
+							Count: 1b
+						}
+						{
+							Slot: 11b
+							id: "origins:orb_of_origin"
+							Count: 1b
+						}
+						{
+							Slot: 16b
+							id: "minecraft:stone_axe"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 17b
+							id: "create:wrench"
+							Count: 1b
+						}
+						{
+							Slot: 18b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 19b
+							id: "minecraft:fishing_rod"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 20b
+							id: "minecraft:shield"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 25b
+							id: "create:honeyed_apple"
+							Count: 16b
+						}
+						{
+							Slot: 26b
+							id: "minecraft:leather_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 27b
+							id: "farmersdelight:barbecue_stick"
+							Count: 16b
+						}
+						{
+							Slot: 31b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+					]
+					LastTime: 0
+				}
+			}
+		}
+	]
+}

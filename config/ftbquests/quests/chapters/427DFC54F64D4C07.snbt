@@ -1,0 +1,236 @@
+{
+	id: "427DFC54F64D4C07"
+	group: "0FEC8D895C672F23"
+	order_index: 0
+	filename: "427DFC54F64D4C07"
+	title: "玄火"
+	icon: "kubejs:flame_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.5d
+			y: -2.0d
+			subtitle: "制作一罐浓缩杂烩"
+			dependencies: [
+				"6DE4D3A8E357C26A"
+				"7FDF9A026B0421AC"
+				"087DF6D4C90B8897"
+				"6A4EFED97092E483"
+			]
+			id: "33E0C2B9F1E70BDD"
+			tasks: [{
+				id: "42201971FD3A2A31"
+				type: "item"
+				item: "kubejs:hodgepodge_concentrate"
+			}]
+		}
+		{
+			icon: "minecraft:spyglass"
+			x: -9.5d
+			y: 1.0d
+			shape: "octagon"
+			subtitle: "第四章的前三篇任务是并行的，你可以自由选择顺序"
+			dependencies: [
+				"459ED43B11ED0B7C"
+				"2A4815DDC0FBE36D"
+				"5CF18B1E4DD3C448"
+			]
+			hide: true
+			id: "5358AFF17D91E77B"
+			tasks: [{
+				id: "5199E674CBDCEB52"
+				type: "checkmark"
+				title: "开始战斗！"
+			}]
+		}
+		{
+			title: "甜点"
+			icon: "farmersdelight:cake_slice"
+			x: -9.5d
+			y: -2.0d
+			dependencies: ["5358AFF17D91E77B"]
+			id: "6A4EFED97092E483"
+			tasks: [{
+				id: "7736A3E32D3EE118"
+				type: "item"
+				title: "Any #kubejs:desserts"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:desserts"
+					}
+				}
+				count: 256L
+			}]
+		}
+		{
+			title: "快餐"
+			icon: "farmersdelight:bacon_sandwich"
+			x: -8.5d
+			y: -1.0d
+			dependencies: ["5358AFF17D91E77B"]
+			id: "7FDF9A026B0421AC"
+			tasks: [{
+				id: "33E8127A8ED95FF1"
+				type: "item"
+				title: "Any #kubejs:fastfoods"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:fastfoods"
+					}
+				}
+				count: 256L
+			}]
+		}
+		{
+			title: "炖菜"
+			icon: "farmersdelight:baked_cod_stew"
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["5358AFF17D91E77B"]
+			id: "087DF6D4C90B8897"
+			tasks: [{
+				id: "72CD040CDF2323A2"
+				type: "item"
+				title: "Any #kubejs:stewed_foods"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:stewed_foods"
+					}
+				}
+				count: 256L
+			}]
+		}
+		{
+			title: "盛宴"
+			icon: "farmersdelight:pasta_with_mutton_chop"
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["5358AFF17D91E77B"]
+			id: "6DE4D3A8E357C26A"
+			tasks: [{
+				id: "6EBE7DFBAA16E37B"
+				type: "item"
+				title: "Any #kubejs:feasts"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:feasts"
+					}
+				}
+				count: 256L
+			}]
+		}
+		{
+			title: "铲除祸害"
+			x: -5.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "击败九头蛇并且获得战利品"
+			dependencies: ["33E0C2B9F1E70BDD"]
+			size: 1.5d
+			id: "5EE644E125D2024A"
+			tasks: [{
+				id: "57A672B0207BAB2B"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "制作一个玄火构件"
+			dependencies: ["5EE644E125D2024A"]
+			size: 1.25d
+			id: "2052442929034A48"
+			tasks: [{
+				id: "2706BB2B58BF570F"
+				type: "item"
+				item: "kubejs:flame_mechanism"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.5d
+			subtitle: "制作一个灵魂火煅炉"
+			dependencies: ["5CE3208CB63C3308"]
+			id: "08C0AE10F023B5E2"
+			tasks: [{
+				id: "43387552A7AE96DA"
+				type: "item"
+				item: "conjuring:soulfire_forge"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			subtitle: "自动化生产岩浆块"
+			dependencies: ["2052442929034A48"]
+			id: "6B2928CFEF56BD72"
+			tasks: [{
+				id: "190B31E0087ED0B0"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 512L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			subtitle: "自动化生产黑曜石"
+			dependencies: ["6B2928CFEF56BD72"]
+			id: "5CE3208CB63C3308"
+			tasks: [{
+				id: "780DAF8714E46C40"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 512L
+			}]
+		}
+		{
+			icon: "minecraft:poppy"
+			x: -9.5d
+			y: 4.0d
+			shape: "hexagon"
+			subtitle: "恭喜你完成了这一阶段的任务"
+			dependencies: ["08C0AE10F023B5E2"]
+			size: 1.5d
+			id: "171E34FE5331E20B"
+			tasks: [{
+				id: "18858A43365B7F80"
+				type: "checkmark"
+				title: "完成！"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -11.0d
+			y: 1.0d
+			shape: "diamond"
+			subtitle: "九头的噩梦"
+			description: [
+				"这种可怕的生物毫无疑问受到了下界的腐化，它能够从伤口之中不断地增殖新的头颅。"
+				""
+				"这种令人不适的能力同时也会消耗大量的能量，我们可以顺水推舟地让他吃下它承受不了的食物……"
+				""
+				"九头蛇的火焰具有难以置信的高温，只要能够击败他，你就能够得到全新的“科技”！"
+			]
+			dependencies: ["5358AFF17D91E77B"]
+			id: "450F7B6A9D3D0AD8"
+			tasks: [{
+				id: "647FBD5B32010467"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

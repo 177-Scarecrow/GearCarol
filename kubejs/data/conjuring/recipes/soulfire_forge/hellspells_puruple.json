@@ -1,0 +1,21 @@
+{
+  "type": "conjuring:soulfire_forge",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:nether_bricks"
+    },
+    "B": {
+      "item": "kubejs:hellspells_purple"
+    }
+  },
+  "smeltTime": 5,
+  "result": {
+    "item": "twilightforest:violet_castle_rune_brick",
+    "count": 1
+  }
+}

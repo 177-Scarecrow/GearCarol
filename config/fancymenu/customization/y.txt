@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_525
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  basecolor = #87ceeb
+  shadow = true
+  rotation = 0.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 294
+  actionid = 6ae77143-7174-44dd-96fb-9eb3f20803ed1675790113298
+  action = addsplash
+  y = 206
+  text = 点击这里,将世界类型调整为Modern Beta,再点击自定义
+}
+

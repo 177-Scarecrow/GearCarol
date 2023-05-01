@@ -1,0 +1,339 @@
+{
+	id: "439C2B6744BB2CFC"
+	group: "52F2EDCA6A703111"
+	order_index: 0
+	filename: "439C2B6744BB2CFC"
+	title: "整装待发"
+	icon: {
+		id: "travelersbackpack:standard"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "不会战斗的旅行家不是好工程师"
+			description: [
+				"《齿轮颂歌》是以探索、战斗、科技为主题，包含机械动力、暮色森林、MC地下城、咒法学、levelZ等模组的中型整合。在这里，你将扮演一名探索者，不断升级，发展科技、交易获取资源，锻造武器装备，挑战各种BOSS，成为传奇的探险家。同时，非常推荐多人游玩。"
+				"请在生成世界时按照蓝色提示文字对世界进行设置以获得最佳游戏体验！"
+			]
+			id: "02244CCF0C1454F2"
+			tasks: [{
+				id: "7DC07DB59D67E844"
+				type: "stat"
+				title: "欢迎来到【齿轮颂歌】的世界！"
+				icon: "create:wrench"
+				stat: "minecraft:walk_one_cm"
+				value: 1
+			}]
+		}
+		{
+			icon: "minecraft:pufferfish"
+			x: -8.0d
+			y: 0.0d
+			subtitle: "这里记录了游戏中经常出现的问题，请务必仔细阅读"
+			dependencies: ["02244CCF0C1454F2"]
+			id: "09D50CC93750C660"
+			tasks: [{
+				id: "37DCFDDF613D6265"
+				type: "checkmark"
+				title: "常见问题"
+			}]
+		}
+		{
+			icon: "minecraft:compass"
+			x: -7.0d
+			y: 1.0d
+			subtitle: "这里提供了非常有用的游玩建议，可以帮你快速了解这个整合包"
+			dependencies: ["02244CCF0C1454F2"]
+			id: "07D7839952294594"
+			tasks: [{
+				id: "588EC927FF52E1FD"
+				type: "checkmark"
+				title: "游玩指南"
+			}]
+		}
+		{
+			icon: "create:brass_hand"
+			x: -9.0d
+			y: 1.0d
+			subtitle: "关于齿轮颂歌5.0part1的更多信息"
+			dependencies: ["02244CCF0C1454F2"]
+			id: "33F76CFDA332A86B"
+			tasks: [{
+				id: "0A1CA3CD28DCC093"
+				type: "checkmark"
+				title: "更多信息"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							553047874
+							23085488
+							-1920419265
+							1132838586
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3NDU2OTAwMzk3OCwKICAicHJvZmlsZUlkIiA6ICIyMGY2ZDc0MjAxNjA0MWIwOGQ4OGJhM2Y0Mzg1YmViYSIsCiAgInByb2ZpbGVOYW1lIiA6ICIxNzdfc2NhcmVjcm93IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VhOWNiZTA0N2E5NjRkODZjYTk1ODQzZjE2ZjE0YTdmZGE2MTEzNTFjODAwYjJjNDNhMmMyNjJjN2M2NzViMzciCiAgICB9CiAgfQp9"
+							}]
+						}
+						Name: "177_scarecrow"
+					}
+				}
+			}
+			x: -11.0d
+			y: 1.0d
+			subtitle: "整合包制作：烩炒稻草人 我要去B站为这个勤恳的UP三连！"
+			description: [
+				"\"唔，如果偷偷给你一个技能点，你就会去B站关注我的叭QWQ\""
+				"Q群：见UP主B站简介"
+			]
+			dependencies: ["33F76CFDA332A86B"]
+			id: "3EFA8B0E46E8F760"
+			tasks: [{
+				id: "723FCDEBBA998F22"
+				type: "checkmark"
+				title: "一键三连"
+			}]
+			rewards: [{
+				id: "736A5807CFE649F1"
+				type: "command"
+				title: "悄悄给你一个技能点（> <）"
+				icon: "minecraft:experience_bottle"
+				command: "playerstats @p add points 1"
+				player_command: false
+			}]
+		}
+		{
+			icon: "create:display_link"
+			x: -9.0d
+			y: -1.0d
+			subtitle: "本整合可以在服务端正常运行，但作者不会提供任何帮助"
+			description: [
+				"如何生成空岛——你可以在客户端创建地图复制到服务端"
+				""
+				"禁止基于本整合制作商业服务器"
+			]
+			dependencies: ["09D50CC93750C660"]
+			id: "775CC955A515C1BB"
+			tasks: [{
+				id: "23799B8E0244B6BA"
+				type: "checkmark"
+				title: "服务器相关"
+			}]
+		}
+		{
+			icon: "create:brown_toolbox"
+			x: -7.0d
+			y: -1.0d
+			subtitle: "问题与解决方法"
+			description: [
+				"游戏崩溃——在寻求帮助之前请重启并尝试至少三次"
+				"熔炉失效--退档重进"
+				"技能点归零-—退档重进"
+			]
+			dependencies: ["09D50CC93750C660"]
+			id: "45648D9B54756908"
+			tasks: [{
+				id: "214093E0E8C162AC"
+				type: "checkmark"
+				title: "BUG与崩溃"
+			}]
+		}
+		{
+			icon: "create:blaze_burner"
+			x: -8.0d
+			y: -2.0d
+			subtitle: "问题与解决方法"
+			description: [
+				"不掉钻石——挖掘钻石需要挖矿10级"
+				"附魔等级低——需要30个书架和炼金30级"
+				"不能砍树——按h"
+				"精密制作出现问题——请严格对应物品nbt，比如需要满耐久未附魔的装备进行装配。铁匠的装备具有特殊加成，你可以通过动力合成和背包工作台来规避"
+				"不能吃/不能用XXX——O键仔细阅读你的种族能力"
+				"模组该怎么玩——自行查阅MC百科/B站/WIKI/最后寻求帮助"
+				"铁砧失效——你可以加入群聊来寻找相关文档阅读"
+			]
+			dependencies: ["09D50CC93750C660"]
+			id: "186A67516FFE7254"
+			tasks: [{
+				id: "735F06CEA8B41370"
+				type: "checkmark"
+				title: "游戏机制"
+			}]
+		}
+		{
+			icon: "create:schedule"
+			x: -10.0d
+			y: 0.0d
+			subtitle: "齿轮颂歌5.0 Part.1-暮光 游戏版本Fabric-1.18.2"
+			description: [
+				"当前章节：1-4章"
+				"光影：ComplementaryShaders_v4.7默认最低配置，请自行调整"
+				"纹理：齿轮颂歌纹理包——Spark404，B站关注该纹理更新"
+			]
+			dependencies: ["33F76CFDA332A86B"]
+			id: "15BFD8535466E5FF"
+			tasks: [{
+				id: "33A0B645CBB055A2"
+				type: "checkmark"
+				title: "版本信息"
+			}]
+		}
+		{
+			icon: "minecraft:cake"
+			x: -10.0d
+			y: 2.0d
+			subtitle: "感谢所有提供帮助的小伙伴！"
+			description: [
+				"齿轮颂歌纹理/素材材质提供——Spark404（Bilibili）"
+				"部分汉化翻译——洛-昕辰（B）"
+				"部分魔改代码——雪上谣（B）"
+				"技术指导——秋朔风华（B）、龟哥"
+				"实况与直播——卷卷子啦（B）、老King呀老King（B）、以及所有参与录制的B站UP们"
+				"游玩反馈——所有粉丝和群友"
+			]
+			dependencies: ["33F76CFDA332A86B"]
+			id: "3A377A5D7CEC1BDC"
+			tasks: [{
+				id: "0DBA86A3ECEA1D2C"
+				type: "checkmark"
+				title: "特别鸣谢"
+			}]
+		}
+		{
+			icon: "create:crafting_blueprint"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "依照任务书进行游玩就能体验到整合90%的内容"
+			description: [
+				"本整合的流程性很强，建议按照任务书进行游玩"
+				"你需要至少对以下模组有一定理论基础："
+				"机械动力/暮色森林/咒法学"
+				"主世界是你出生的地方，而后的冒险发生在暮色森林。"
+			]
+			dependencies: ["07D7839952294594"]
+			id: "1C6E654C747F8CF5"
+			tasks: [{
+				id: "0F785F80BC1F5EF3"
+				type: "checkmark"
+				title: "任务流程"
+			}]
+		}
+		{
+			icon: "create:handheld_worldshaper"
+			x: -6.0d
+			y: 2.0d
+			subtitle: "这些是整合之中存在的额外机制"
+			description: [
+				"技能加点：K键打开技能面板，点击图标查看相关信息，右上角按钮有详细信息"
+				"死亡墓碑：死后会生成一个持续30min的墓碑存放生前的物品"
+				"精英怪：部分生物会以精英怪的形式生成，BOSS必定为精英怪,同时有些怪物的体型也会发生变化"
+				"交易革新：村民们拥有了更多职业，而僵尸村民都是濒死的，宝藏附魔的出售权到了流浪商人手里"
+				"刷怪塔禁令：现在，利用自然生成的生物资源塔被限制了，它们将基本不能工作，而刷怪笼不受影响"
+				"战斗与翻滚：攻击模式改变了，默认alt键翻滚"
+				"灵魂出窍：默认为“ ~ ”键，通常在tab键上方"
+				"小耗子们：鼠鼠会生成在人烟稀少的地方，驱赶它们最好的办法就是增加村民"
+				"拆解台：被禁用了，但是站在上面会获得巨量跳跃提升"
+				"荧光棒：v键弹射荧光棒，自动充能"
+				"磨刀：使用武器shift右键砂轮，能够增加武器伤害"
+			]
+			dependencies: ["07D7839952294594"]
+			id: "1C8FE2772ADA7639"
+			tasks: [{
+				id: "4A22BE2BBD96E16E"
+				type: "checkmark"
+				title: "特殊机制"
+			}]
+		}
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -5.0d
+			y: 1.0d
+			subtitle: "这里记录了一些模组的名称，你可以在MC百科中搜索学习"
+			description: [
+				"机械动力（Create）"
+				"暮色森林（TwilightForset）"
+				"咒法学（HexCasting）"
+				"咒术（Conjuring）"
+				"农夫乐事（FarmersDelight）"
+				"一起去钓鱼（Gofish）"
+			]
+			dependencies: ["07D7839952294594"]
+			id: "29F2E4D523AAE7EA"
+			tasks: [{
+				id: "0CF1AE398432CBD7"
+				type: "checkmark"
+				title: "模组相关"
+			}]
+		}
+		{
+			title: "启程！"
+			icon: "conjuring:conjuration_essence"
+			x: -8.0d
+			y: 5.0d
+			subtitle: "我确认已经认真阅读了本页面的全部内容并且熟记于心，特此确认！"
+			hide_dependency_lines: true
+			dependencies: [
+				"186A67516FFE7254"
+				"45648D9B54756908"
+				"15BFD8535466E5FF"
+				"29F2E4D523AAE7EA"
+				"775CC955A515C1BB"
+				"1C6E654C747F8CF5"
+				"3A377A5D7CEC1BDC"
+				"1C8FE2772ADA7639"
+				"3EFA8B0E46E8F760"
+				"6561278808C53E7F"
+			]
+			id: "76B99D13EDE8EEBE"
+			tasks: [{
+				id: "7AFD32F904145D04"
+				type: "checkmark"
+				title: "确认"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -8.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "崩坏的世界"
+			description: [
+				"这本是一个魔法与科技并存，各种族和谐相处的世界，一切都欣欣向荣，但这天你突然从噩梦中惊醒。"
+				""
+				"这里是哪里？你疑惑地环顾四周，你依稀记得自己最后看到的场景是殷红色的天空和崩坏的大地。"
+				""
+				"闻声赶来的村民先是帮你检查了身体，确认无碍之后便向你讲述了之前发生的事情。"
+				""
+				"原来，七天前，大地突然开始震颤，一切事物都开始漂浮、撕裂、分崩离析。那些来自下界的生物不断地从地底涌现，肆意破坏着这个世界。"
+				""
+				"而你作为一名孱弱的工程师，则在一开始就在地震中不幸负伤，晕厥了过去。"
+				""
+				"这一晕就是七天，这段时间里，世界不断扭曲、分裂又重组，等到天边的猩红色褪去，幸存的人们终于敢从废墟之中探出头来，站在陆地的边缘眺望——这已经变成了天际群岛的世界"
+				""
+				"“那是什么！”一村民惊呼道。"
+				""
+				"“是个人！快给他救下来！”另一个村民指着昏睡在漂浮着的石头上的你喊道。"
+			]
+			dependencies: ["02244CCF0C1454F2"]
+			id: "6561278808C53E7F"
+			tasks: [{
+				id: "2E859A2E14BC5009"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

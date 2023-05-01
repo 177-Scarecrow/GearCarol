@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "kubejs:quest_dust"
+      },
+      {
+        "item": "minecraft:granite"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:ochrum"
+      }
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "twilightforest:violet_castle_rune_brick"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:hellspells_purple"
+    }
+  ]
+}

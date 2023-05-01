@@ -1,0 +1,193 @@
+{
+	id: "3EE9F68C1D8BE796"
+	group: "0FEC8D895C672F23"
+	order_index: 1
+	filename: "3EE9F68C1D8BE796"
+	title: "飞翼"
+	icon: "kubejs:wing_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:spyglass"
+			x: -4.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "第四章的前三篇任务是并行的，你可以自由选择顺序"
+			dependencies: [
+				"459ED43B11ED0B7C"
+				"2A4815DDC0FBE36D"
+				"5CF18B1E4DD3C448"
+			]
+			hide: true
+			id: "619429451686B36F"
+			tasks: [{
+				id: "44ABDE74042EC54D"
+				type: "checkmark"
+				title: "开始战斗！"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "制作星间水产煲"
+			dependencies: ["010BD4B25B99AC28"]
+			id: "49BBDEDAB131D075"
+			tasks: [{
+				id: "116F350A29E86493"
+				type: "item"
+				item: "gofish:aquatic_astral_stew"
+				count: 16L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "制作一罐浓缩星河"
+			dependencies: ["49BBDEDAB131D075"]
+			id: "579CA3F6513D942F"
+			tasks: [{
+				id: "74155CDE874067EB"
+				type: "item"
+				item: "kubejs:galaxy_concentrate"
+			}]
+		}
+		{
+			title: "炽厄之泪"
+			x: -2.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "击败暮色恶魂并且获得战利品"
+			dependencies: ["579CA3F6513D942F"]
+			size: 1.5d
+			id: "000909E2B908EF61"
+			tasks: [{
+				id: "4E5D5BD4E5A7099F"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			subtitle: "收集幻翼膜"
+			dependencies: ["000909E2B908EF61"]
+			id: "15E748717046F741"
+			tasks: [{
+				id: "5ECA7B438ECFC5B8"
+				type: "item"
+				item: "minecraft:phantom_membrane"
+				count: 16L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["15E748717046F741"]
+			size: 1.25d
+			id: "285F7FCA4044D091"
+			tasks: [{
+				id: "47015F19E69624F1"
+				type: "item"
+				item: "kubejs:wing_mechanism"
+			}]
+		}
+		{
+			title: "伊卡洛斯"
+			icon: {
+				id: "icarus:white_feathered_wings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: 3.0d
+			subtitle: "制作一对称心的翅膀"
+			description: ["起跳后按住空格消耗饥饿值进行飞行"]
+			dependencies: ["285F7FCA4044D091"]
+			id: "663FAF1364EB45EC"
+			tasks: [{
+				id: "22F94891433849A9"
+				type: "item"
+				title: "Any #icarus:melts"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "icarus:melts"
+					}
+				}
+			}]
+		}
+		{
+			icon: "gofish:starry_salmon"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "满月之时，星体盒有概率被钓到，其中含有这几种来自天空的鱼类"
+			description: ["你可以手动摸鱼，但是还有一种更简单的办法——机械手，自动钓鱼机是可以被制作出来的"]
+			dependencies: ["619429451686B36F"]
+			id: "010BD4B25B99AC28"
+			tasks: [
+				{
+					id: "7A7E4B090D67C562"
+					type: "item"
+					item: "gofish:lunarfish"
+				}
+				{
+					id: "595BDF36401A8BE5"
+					type: "item"
+					item: "gofish:galaxy_starfish"
+				}
+				{
+					id: "5E8DF94DE392EC0B"
+					type: "item"
+					item: "gofish:starry_salmon"
+				}
+				{
+					id: "36603FA22FF812FC"
+					type: "item"
+					item: "gofish:nebula_swordfish"
+				}
+			]
+		}
+		{
+			icon: "minecraft:poppy"
+			x: -1.0d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "恭喜你完成了这一阶段的任务"
+			dependencies: ["663FAF1364EB45EC"]
+			size: 1.5d
+			id: "186A732E329FC1D4"
+			tasks: [{
+				id: "686508C749C2BD75"
+				type: "checkmark"
+				title: "完成！"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -5.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "恶魂的星空"
+			description: [
+				"恶魂们向往着天空，所以它们才会不断地向着天空飞行。令人唏嘘的是，这座充斥着邪恶的科技的塔将它们永远地困在了这里，不断发出着悲鸣。"
+				""
+				"摘下星辰！然后让暮初恶魂安息。"
+				""
+				"它的身体将成为我们翱翔天际的翅膀，成为我们探索真相的利剑。"
+			]
+			dependencies: ["619429451686B36F"]
+			id: "2DE8ED09ECCC6BF3"
+			tasks: [{
+				id: "15E4BFC6A5B17CEC"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

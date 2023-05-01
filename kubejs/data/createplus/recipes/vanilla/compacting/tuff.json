@@ -1,0 +1,24 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "create:scoria"
+      },
+      {
+        "item": "create:scoria"
+      },
+      {
+        "item": "minecraft:deepslate"
+      },
+      {
+        "fluid": "minecraft:lava",
+        "nbt": {},
+        "amount": 8100
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:tuff","count":4
+      }
+    ]
+  }

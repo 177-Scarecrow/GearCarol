@@ -1,0 +1,226 @@
+{
+	id: "3AE87777B8E59F5D"
+	group: "74F07FB54C1CE100"
+	order_index: 0
+	filename: "3AE87777B8E59F5D"
+	title: "农艺"
+	icon: "kubejs:agriculture_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "蘑菇"
+			icon: "minecraft:red_mushroom"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "获取两种蘑菇"
+			dependencies: ["506772A373D15C70"]
+			id: "2836B9832AB0E057"
+			tasks: [
+				{
+					id: "5D9587C319A6D376"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "5E1AD4C8FA1F2B31"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+			]
+		}
+		{
+			title: "菌子"
+			icon: "minecraft:crimson_fungus"
+			x: -0.5d
+			y: -1.5d
+			subtitle: "用普通蘑菇制作两种菌子"
+			dependencies: ["2836B9832AB0E057"]
+			id: "00644F1CB6F87D23"
+			tasks: [
+				{
+					id: "5880DC58CF9246B5"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "352E6A8AA1081575"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+			]
+		}
+		{
+			title: "菌岩"
+			icon: "minecraft:crimson_nylium"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "对地狱岩使用菌子制作两种菌岩"
+			dependencies: ["00644F1CB6F87D23"]
+			id: "4F45506A3BB8D1A4"
+			tasks: [
+				{
+					id: "2AF0F630DF7D71C0"
+					type: "item"
+					item: "minecraft:warped_nylium"
+				}
+				{
+					id: "0E4EEC2B5458D738"
+					type: "item"
+					item: "minecraft:crimson_nylium"
+				}
+			]
+		}
+		{
+			title: "菌索"
+			icon: "minecraft:crimson_roots"
+			x: -0.5d
+			y: 1.5d
+			subtitle: "自动化生产两种菌索"
+			dependencies: ["4F45506A3BB8D1A4"]
+			id: "1A945C1EA3753663"
+			tasks: [
+				{
+					id: "245D7588A880F92F"
+					type: "item"
+					item: "minecraft:crimson_roots"
+					count: 1024L
+				}
+				{
+					id: "3EA39F533A7AD114"
+					type: "item"
+					item: "minecraft:warped_roots"
+					count: 1024L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			subtitle: "制作一罐浓缩菌索"
+			dependencies: [
+				"3CF5BB7101DCD83D"
+				"1A945C1EA3753663"
+			]
+			id: "20E93DE96977CC4D"
+			tasks: [{
+				id: "5FA8C04379C1FDE4"
+				type: "item"
+				item: "kubejs:rhizomorph_concentrate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "自动化生产发光浆果"
+			description: ["你可以直接制作发光浆果农场，或者制作甜浆果农场之后缠魂"]
+			dependencies: ["506772A373D15C70"]
+			id: "3CF5BB7101DCD83D"
+			tasks: [{
+				id: "254E419EBC371957"
+				type: "item"
+				item: "minecraft:glow_berries"
+				count: 1024L
+			}]
+		}
+		{
+			icon: "minecraft:spyglass"
+			x: -3.5d
+			y: 1.5d
+			shape: "octagon"
+			subtitle: "第三章的三篇任务是并行的，你可以自由选择进行探索"
+			dependencies: ["04ECB3429446FCFC"]
+			hide: true
+			id: "506772A373D15C70"
+			tasks: [{
+				id: "622A4A9723F2041A"
+				type: "checkmark"
+				title: "开始探索"
+			}]
+		}
+		{
+			title: "强力牛头人"
+			x: 1.0d
+			y: 3.0d
+			shape: "rsquare"
+			subtitle: "击败米诺菇并且获得战利品"
+			dependencies: ["20E93DE96977CC4D"]
+			size: 1.5d
+			id: "62D86D491EB51272"
+			tasks: [{
+				id: "68F833A3C76B1F3A"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			shape: "gear"
+			subtitle: "制作农艺构件"
+			dependencies: ["62D86D491EB51272"]
+			size: 1.25d
+			id: "0C01A7D763529633"
+			tasks: [{
+				id: "21BF101EC7D7C96E"
+				type: "item"
+				item: "kubejs:agriculture_mechanism"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			subtitle: "制作一把小麦种子手枪"
+			description: ["没错，这把枪太弱了。但是倘若它可以不断升级成毁灭性的武器，阁下又将如何评价呢？"]
+			dependencies: ["0C01A7D763529633"]
+			id: "6C836E8F1AC6013E"
+			tasks: [{
+				id: "08B304F7C8647805"
+				type: "item"
+				item: {
+					id: "gardenarsenal:seed_pistol"
+					Count: 1b
+					tag: {
+						Damage: 0
+						skinType: "metallic_copper"
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:poppy"
+			x: -2.0d
+			y: 6.0d
+			shape: "hexagon"
+			subtitle: "恭喜你完成了这一阶段的任务"
+			dependencies: ["6C836E8F1AC6013E"]
+			size: 1.5d
+			id: "2A4815DDC0FBE36D"
+			tasks: [{
+				id: "2360D3511DAB4675"
+				type: "checkmark"
+				title: "完成！"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -5.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "迷宫的怪兽"
+			description: [
+				"这种牛头人受到了真菌的感染而变的更强，但是如果将巨量的菌索强行注入，是否会达到物极必反的效果呢？"
+				""
+				"这种真菌与生物的感染反应并非像是自然界能够达到的，你越来越开始怀疑有什么东西在这后面操纵着一切。"
+			]
+			dependencies: ["506772A373D15C70"]
+			id: "510272C623752A92"
+			tasks: [{
+				id: "1E5BFE2BB1A97A56"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

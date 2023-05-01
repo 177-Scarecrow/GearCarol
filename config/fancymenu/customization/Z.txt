@@ -1,0 +1,79 @@
+type = menu
+
+customization-meta {
+  identifier = com.bespectacled.modernbeta.client.gui.screen.WorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  basecolor = #87ceeb
+  shadow = true
+  rotation = 0.0
+  scale = 0.5
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 36
+  actionid = 421dc4e2-3b48-491e-a016-09756faaa3961675789424069
+  action = addsplash
+  y = 41
+  text = 请调整为:Skylands
+}
+
+customization {
+  orientation = top-left
+  basecolor = #87ceeb
+  shadow = true
+  rotation = 0.0
+  scale = 0.5
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 35
+  actionid = 2778708d-769d-4fe5-8a30-ea40b55fc6ec1675789532240
+  action = addsplash
+  y = 66
+  text = 请调整为:Vanilla
+}
+
+customization {
+  orientation = top-left
+  basecolor = #87ceeb
+  shadow = true
+  rotation = 0.0
+  scale = 0.5
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 36
+  actionid = a3673c8a-f529-43f8-9010-13f7aa0e19c51675789599242
+  action = addsplash
+  y = 90
+  text = 请调整为:Voronoi
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = 0.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 136
+  actionid = b35836a4-2e3c-492e-a8fd-3b3ee01d46431675790228386
+  action = addsplash
+  y = 209
+  text = 完成后开始你的冒险吧！
+}
+

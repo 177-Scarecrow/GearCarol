@@ -1,0 +1,280 @@
+{
+	id: "46F790659F183082"
+	group: "0FEC8D895C672F23"
+	order_index: 3
+	filename: "46F790659F183082"
+	title: "狱咒"
+	icon: "kubejs:hellspells_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "符文城砖"
+			icon: "twilightforest:pink_castle_rune_brick"
+			x: -2.0d
+			y: 0.5d
+			subtitle: "抵达最终城堡，收集四种不同的符文城砖"
+			dependencies: ["485383492414DD97"]
+			id: "1FDC0741F5FFD766"
+			tasks: [
+				{
+					id: "08619ED3ACFF31E2"
+					type: "item"
+					item: "twilightforest:pink_castle_rune_brick"
+				}
+				{
+					id: "574B2973167552EB"
+					type: "item"
+					item: "twilightforest:yellow_castle_rune_brick"
+				}
+				{
+					id: "0ADAC4BA40D39D40"
+					type: "item"
+					item: "twilightforest:blue_castle_rune_brick"
+				}
+				{
+					id: "4CEBACA55BBFD663"
+					type: "item"
+					item: "twilightforest:violet_castle_rune_brick"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			subtitle: "在黑曜石笼里找到余烬之灯"
+			dependencies: ["028D9525D03C0EA0"]
+			id: "485383492414DD97"
+			tasks: [{
+				id: "4C3586438E9ACF30"
+				type: "advancement"
+				title: "余烬之灯"
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+			}]
+		}
+		{
+			title: "飘然云上"
+			x: -3.5d
+			y: 2.0d
+			subtitle: "使用魔豆攀上云端，获得巨人之镐"
+			dependencies: ["6AF23F44D6E54981"]
+			id: "028D9525D03C0EA0"
+			tasks: [{
+				id: "46CB864540A917E0"
+				type: "advancement"
+				title: "击败矿工巨人"
+				advancement: "twilightforest:giants"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			subtitle: "在巨魔巢穴中寻找魔豆"
+			dependencies: ["7857D8D40A1D88F1"]
+			id: "6AF23F44D6E54981"
+			tasks: [{
+				id: "3DB0E837D98C764B"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+		}
+		{
+			title: "最后的进军！"
+			x: -5.0d
+			y: 0.5d
+			shape: "octagon"
+			subtitle: "踏入暮色高地"
+			dependencies: [
+				"186A732E329FC1D4"
+				"171E34FE5331E20B"
+				"7B4AAE1F25016C8E"
+			]
+			hide: true
+			id: "7857D8D40A1D88F1"
+			tasks: [{
+				id: "6F6137C9D53C13AA"
+				type: "advancement"
+				title: "踏入暮色高地吧"
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+			}]
+		}
+		{
+			title: "炼狱咒文"
+			icon: "kubejs:hellspells_pink"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "对石砖使用纸即可获得对应的炼狱咒文"
+			dependencies: ["1FDC0741F5FFD766"]
+			id: "63FC6B53824B2483"
+			tasks: [
+				{
+					id: "562C9E59B4AFBDB6"
+					type: "item"
+					item: "kubejs:hellspells_blue"
+				}
+				{
+					id: "0A5ED0F662C51A33"
+					type: "item"
+					item: "kubejs:hellspells_pink"
+				}
+				{
+					id: "4F0F01AD2BD8CBAD"
+					type: "item"
+					item: "kubejs:hellspells_purple"
+				}
+				{
+					id: "7667480B876EFAE6"
+					type: "item"
+					item: "kubejs:hellspells_yellow"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			subtitle: "自动化生产錾制下界砖"
+			dependencies: ["63FC6B53824B2483"]
+			id: "253965820701A685"
+			tasks: [{
+				id: "03EADA4CDA3C1725"
+				type: "item"
+				item: "minecraft:chiseled_nether_bricks"
+				count: 1024L
+			}]
+		}
+		{
+			title: "炼狱咒文2"
+			icon: "kubejs:hellspells_yellow"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "量产炼狱咒文"
+			dependencies: ["253965820701A685"]
+			id: "0C0A836154700B4D"
+			tasks: [
+				{
+					id: "6F7682C83D47FEB3"
+					type: "item"
+					item: "kubejs:hellspells_blue"
+					count: 256L
+				}
+				{
+					id: "5E4C474671952A3F"
+					type: "item"
+					item: "kubejs:hellspells_pink"
+					count: 256L
+				}
+				{
+					id: "76F045043767B2DD"
+					type: "item"
+					item: "kubejs:hellspells_purple"
+					count: 256L
+				}
+				{
+					id: "2FE9F64C42B49605"
+					type: "item"
+					item: "kubejs:hellspells_yellow"
+					count: 256L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "组装一个狱咒之环"
+			dependencies: ["6748DE22AC45073E"]
+			id: "02101267FDEB2A16"
+			tasks: [{
+				id: "7817B92E61995225"
+				type: "item"
+				item: "kubejs:hellspells_ring"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "制作一个骑士金属环"
+			dependencies: ["0C0A836154700B4D"]
+			id: "6748DE22AC45073E"
+			tasks: [{
+				id: "482AE58D24A8B214"
+				type: "item"
+				item: "twilightforest:knightmetal_ring"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "制作一个对应容量的试剂之瓶"
+			description: ["该法术记录于咒法学引导书的“图案”——“卓越法术”——“制作试剂之瓶”"]
+			dependencies: ["02101267FDEB2A16"]
+			id: "0B8D624F1398CCAE"
+			tasks: [{
+				id: "5781EC35354F84C5"
+				type: "item"
+				item: {
+					id: "hexcasting:battery"
+					Count: 1b
+					tag: {
+						"hexcasting:mana": 6400000
+						"hexcasting:start_mana": 6400000
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "成为它们的噩梦"
+			description: [
+				"齿轮颂歌5.0Part1-暮光完结"
+				"敬请期待后续更新"
+			]
+			dependencies: ["0B8D624F1398CCAE"]
+			size: 1.75d
+			id: "07E0CBBDAD79DD90"
+			tasks: [{
+				id: "12460B81D601AA45"
+				type: "item"
+				item: "kubejs:hellspells_book"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -2.0d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "空荡的城堡"
+			description: [
+				"当你终于进入了终焉城堡，决心探明一切的时候。你也意识到这里成为了一座空城……"
+				""
+				"所谓的高等存在、下界势力早就已经离开了这里。整个暮色森林就像是一座巨大的试验场，它们利用暮色的世界发展着不可告人的科技与魔法。"
+				""
+				"暮色森林迎来了它的“黎明”，破败的黎明，结束的黎明。"
+				""
+				"邪恶的势力已经在这个世界消失，可是这个世界已经被不可逆地亵渎了。"
+				" "
+				"你想起了自己的家园，是否自己无论如何努力，最终也只能得到这样的“黎明”呢？"
+				""
+				"你最终还是拾起了自己的扳手，敲下了一块印着符文的石砖。"
+				""
+				"“还没结束。”你看着手中充盈着未知能量的石砖，喃喃自语道。"
+				""
+				"你想出了穿过下界之门的办法。"
+				""
+				"是时候直面噩梦了。"
+			]
+			dependencies: ["1FDC0741F5FFD766"]
+			id: "446D9F380676328A"
+			tasks: [{
+				id: "5804E51EB9E37C73"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

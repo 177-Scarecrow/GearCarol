@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/gold"
+  },
+  "transitionalItem": {
+    "item": "create:incomplete_precision_mechanism"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create:precision_mechanism",
+      "chance": 120.0
+    }
+  ],
+  "loops": 1
+}

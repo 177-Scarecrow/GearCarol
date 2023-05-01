@@ -1,0 +1,6 @@
+{
+  "infiniteChatHistory": true,
+  "clearChatHistoryOnWorldJoin": true,
+  "resetCounterOnWorldJoin": false,
+  "onlyCompactConsecutiveMessages": false
+}

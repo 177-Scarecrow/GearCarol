@@ -1,0 +1,46 @@
+{
+  "room": {
+    "id": 13405417,
+    "enable": true
+  },
+  "danmaku": {
+    "show": true,
+    "normal_style": " <%{user}> 说： %{danmaku}",
+    "guard_style": "[舰长] <%{user}> 说： %{danmaku}",
+    "admin_style": "&4[房] &d<%{user}> &f%{danmaku}",
+    "block_word": [
+      "小鬼",
+      "biss",
+      "嘴臭",
+      "骂我",
+      "傻逼",
+      "弱智",
+      "脑残",
+      "cnm"
+    ]
+  },
+  "gift": {
+    "show": true,
+    "style": "&7%{user} %{action} [%{gift}] × %{num}",
+    "block_gift": [
+    ]
+  },
+  "enter": {
+    "show_normal": false,
+    "show_guard": true,
+    "normal_style": "&7欢迎 %{user} 进入直播间",
+    "guard_style_1": "欢迎总督 %{user} 进入直播间",
+    "guard_style_2": "欢迎提督 %{user} 进入直播间",
+    "guard_style_3": "欢迎舰长 %{user} 进入直播间"
+  },
+  "guard": {
+    "show": true,
+    "guard_style_1": "&4%{user} 开通了主播的总督",
+    "guard_style_2": "&6%{user} 开通了主播的提督",
+    "guard_style_3": "&3%{user} 开通了主播的舰长"
+  },
+  "sc": {
+    "show": true,
+    "style": "&4%{user} > %{msg} [¥%{price}]"
+  }
+}

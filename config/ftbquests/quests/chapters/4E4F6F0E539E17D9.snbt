@@ -1,0 +1,216 @@
+{
+	id: "4E4F6F0E539E17D9"
+	group: "74F07FB54C1CE100"
+	order_index: 2
+	filename: "4E4F6F0E539E17D9"
+	title: "映射"
+	icon: "kubejs:casting_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:spyglass"
+			x: -1.0d
+			y: 0.5d
+			shape: "octagon"
+			subtitle: "第三章的三篇任务是并行的，你可以自由选择进行探索"
+			dependencies: ["04ECB3429446FCFC"]
+			hide: true
+			id: "6D3BFBC03FF253C9"
+			tasks: [{
+				id: "2EC07E06634D3332"
+				type: "checkmark"
+				title: "开始探索"
+			}]
+		}
+		{
+			title: "煤炭"
+			icon: "minecraft:charcoal"
+			x: 0.5d
+			y: -1.0d
+			subtitle: "生产大量炭/煤，建议自动化"
+			dependencies: ["6D3BFBC03FF253C9"]
+			id: "68201888DF7114EC"
+			tasks: [{
+				id: "74B2CAFD3500D332"
+				type: "item"
+				title: "Any #minecraft:coals"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:coals"
+					}
+				}
+				count: 64L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "使用硫磺骨粉和炭生产火药，建议自动化"
+			dependencies: ["68201888DF7114EC"]
+			id: "7E2404C67EAA5E48"
+			tasks: [{
+				id: "71969517B919F8AD"
+				type: "item"
+				item: "minecraft:gunpowder"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			subtitle: "建议自动化"
+			dependencies: ["6D3BFBC03FF253C9"]
+			id: "6A6FFBF4A2C0F075"
+			tasks: [{
+				id: "138FD7A2CE6345C4"
+				type: "item"
+				item: "minecraft:sugar"
+				count: 64L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "建议自动化"
+			dependencies: ["6D3BFBC03FF253C9"]
+			id: "334458976351C7D1"
+			tasks: [{
+				id: "6AE13850BA71E7CC"
+				type: "item"
+				item: "create:cinder_flour"
+				count: 64L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "建议自动化"
+			dependencies: [
+				"6A6FFBF4A2C0F075"
+				"334458976351C7D1"
+			]
+			id: "3865BD9ED5785B76"
+			tasks: [{
+				id: "56BDF65466EDD205"
+				type: "item"
+				item: "create:blaze_cake"
+				count: 64L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			subtitle: "通过超级加热搅拌圆石自动化生产岩浆"
+			dependencies: ["3865BD9ED5785B76"]
+			id: "4782A566C27EDA8B"
+			tasks: [{
+				id: "710AA2D087C7D9A5"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			subtitle: "制作一罐浓缩岩浆"
+			dependencies: [
+				"7E2404C67EAA5E48"
+				"4782A566C27EDA8B"
+			]
+			id: "049E2132EA59D1D2"
+			tasks: [{
+				id: "105584D88A183B08"
+				type: "item"
+				item: "kubejs:lava_concentrate"
+			}]
+		}
+		{
+			title: "雪怪异闻"
+			x: 5.0d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "击败雪怪首领，并且获得它的战利品"
+			dependencies: ["049E2132EA59D1D2"]
+			size: 1.5d
+			id: "1657E1F4D5A2ADD3"
+			tasks: [{
+				id: "2D350AC99FCA11E7"
+				type: "item"
+				item: "twilightforest:alpha_yeti_trophy"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "制作一个映射构件"
+			dependencies: ["1657E1F4D5A2ADD3"]
+			size: 1.25d
+			id: "149AA6FD75B71381"
+			tasks: [{
+				id: "0727E5A46DEE8EEA"
+				type: "item"
+				item: "kubejs:casting_mechanism"
+			}]
+		}
+		{
+			title: "施法物品"
+			icon: "hexcasting:cypher"
+			x: 5.0d
+			y: 2.0d
+			subtitle: "制作一些施法物品"
+			description: ["更强大的施法物品也能够被制作，它能够储存魔咒、帮助你更方便地使用法术"]
+			dependencies: ["149AA6FD75B71381"]
+			id: "5A1F9001D12A3F1F"
+			tasks: [
+				{
+					id: "1393B8805060DAE0"
+					type: "item"
+					item: "hexcasting:cypher"
+				}
+				{
+					id: "6B704C0461C02E57"
+					type: "item"
+					item: "hexcasting:abacus"
+				}
+			]
+		}
+		{
+			icon: "minecraft:poppy"
+			x: 3.5d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "恭喜你完成了这一阶段的任务"
+			dependencies: ["5A1F9001D12A3F1F"]
+			size: 1.5d
+			id: "5CF18B1E4DD3C448"
+			tasks: [{
+				id: "051832AA2BD8CAE8"
+				type: "checkmark"
+				title: "完成！"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -2.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "蛮荒的雪怪"
+			description: [
+				"这是一种看似原始的物种，但是被某种力量影响了神智，变得嗜血残暴，这种力量即使在它们死后依旧会残留，我可以趁机对其进行研究。"
+				""
+				"现在看来，幕后黑手涉猎的领域极广，它们的目的究竟是什么？我们原本的世界遭受的大灾难又和这个世界有什么关联？"
+			]
+			dependencies: ["6D3BFBC03FF253C9"]
+			id: "29295927CC1DDFFE"
+			tasks: [{
+				id: "36A0D7AA67917706"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

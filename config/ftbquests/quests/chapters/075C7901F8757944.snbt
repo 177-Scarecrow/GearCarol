@@ -1,0 +1,713 @@
+{
+	id: "075C7901F8757944"
+	group: "52F2EDCA6A703111"
+	order_index: 1
+	filename: "075C7901F8757944"
+	title: "工程基础"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "开始吧！"
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: -0.5d
+			shape: "octagon"
+			subtitle: "送给亲爱的工程师一件小礼物。"
+			description: [
+				"右键背包打开，点击按钮穿戴。"
+				"穿戴后按B打开，点击按钮开启能力。"
+				"无法砍树按H"
+			]
+			dependencies: ["76B99D13EDE8EEBE"]
+			hide: true
+			id: "50801363B6B88BD7"
+			tasks: [{
+				id: "78CF7DAAA3E5BB4D"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5C9174BBA3913872"
+					type: "choice"
+					icon: {
+						id: "travelersbackpack:standard"
+						Count: 1b
+						tag: { }
+					}
+					exclude_from_claim_all: true
+					table_id: 5237189840011715571L
+				}
+				{
+					id: "2B1B523B3C7C9857"
+					type: "item"
+					item: {
+						id: "hookshot:white_hookshot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "第一块铁！"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "烧制一块铁锭"
+			dependencies: ["50801363B6B88BD7"]
+			id: "3AA5100B9CA84457"
+			tasks: [{
+				id: "542AFF78AD6F7169"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "36F7A9012BBF2EF8"
+				type: "item"
+				item: {
+					id: "twilightforest:steeleaf_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "改变体型"
+			icon: "minecraft:campfire"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "这里介绍了如何改变体型。"
+			description: [
+				"站在营火上，你会变成普通人类的体型"
+				"站在仙人掌上，你的体型会变成人类的3/4"
+				"站在灵魂营火上，你的体型会变成人类的1/2"
+				"站在甜浆果丛，你的体型会变成人类的1/4"
+				"你可以按O来查看你的起源"
+			]
+			dependencies: ["50801363B6B88BD7"]
+			id: "2AD1CE748823CFF8"
+			tasks: [{
+				id: "33D54081EB6C300F"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "钩索是很重要的交通工具，这里介绍了它的使用方法。"
+			description: [
+				"发射：长按右键，基础射程24格。"
+				"收缩：继续按住右键，自动收缩。"
+				"脱离：松开右键，钩索脱离。"
+				"钩生物：将生物拉向自己，潜行会将自己拉向生物"
+				"升级：使用锻造台，更多信息可以查阅MC百科"
+				"模组名称：Hookshot（fabric）"
+				"小技巧：配合水桶，你可以去到任何地方"
+				"修复：你可以用铁锭修复它。"
+			]
+			dependencies: ["50801363B6B88BD7"]
+			id: "48FFDA2AEEE112F6"
+			tasks: [{
+				id: "1DA5C2E42D42937C"
+				type: "item"
+				item: {
+					id: "hookshot:white_hookshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "第一块合金！"
+			x: 1.5d
+			y: -2.0d
+			subtitle: "制作安山合金，开始发展科技"
+			description: ["如果缺少石头，你可以使用石磨对安山岩进行研磨"]
+			dependencies: ["3AA5100B9CA84457"]
+			id: "2EDCD7112D80CC4C"
+			tasks: [{
+				id: "32804084AC296934"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			title: "开始摸鱼！"
+			x: 3.0d
+			y: 1.0d
+			subtitle: "我知道你很急，但是先别急"
+			description: [
+				"通过钓鱼获得一只木箱。"
+				"开阔水域的限制已经被取消，一格水也能获得宝藏"
+			]
+			dependencies: ["68A859B8974FE0DD"]
+			id: "2687BA80760005E8"
+			tasks: [{
+				id: "11F4FE01CB42EC64"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "生命之源！"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "打一桶水"
+			dependencies: ["3AA5100B9CA84457"]
+			id: "68A859B8974FE0DD"
+			tasks: [{
+				id: "19CD588BACEBA1EE"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			title: "海带"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "从木箱中获得一只海带"
+			dependencies: ["2687BA80760005E8"]
+			id: "6043A431A71CCCA5"
+			tasks: [{
+				id: "7EC47CF8B874C6E6"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "对去皮木头使用安山合金，制作一个安山机壳"
+			dependencies: ["2EDCD7112D80CC4C"]
+			id: "420CED7C9A9A7026"
+			tasks: [{
+				id: "4416976412AD2C0C"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "及你可以通过切石机切制安山机壳/安山构件/铜构件/红石构件/黄铜构件来获得机械元件"
+			dependencies: ["420CED7C9A9A7026"]
+			id: "2B4463B46E17982B"
+			tasks: [{
+				id: "244B6B7D91ABDBDF"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+		}
+		{
+			title: "点金之手"
+			x: 4.5d
+			y: -2.0d
+			subtitle: "制作一个机械手"
+			dependencies: ["22D814A5FAB26B76"]
+			id: "299550948E880F13"
+			tasks: [{
+				id: "6161913471715A8A"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			subtitle: "烧制一个锌锭"
+			dependencies: ["6043A431A71CCCA5"]
+			id: "4A4E48478107033F"
+			tasks: [{
+				id: "110FB5DE87CAC762"
+				type: "item"
+				item: "create:zinc_ingot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "使用精密制作，来制作一个安山构件"
+			description: ["右键使用它，来解锁暮色森林"]
+			dependencies: [
+				"4A4E48478107033F"
+				"299550948E880F13"
+			]
+			size: 1.25d
+			id: "500D21F22EB29289"
+			tasks: [{
+				id: "451D09C9D067C777"
+				type: "item"
+				item: "kubejs:andesite_mechanism"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "依照安山构件，制作一个铜构件"
+			description: ["右键使用它，来解锁暮色森林"]
+			dependencies: ["500D21F22EB29289"]
+			size: 1.25d
+			id: "5F9B76456703B093"
+			tasks: [{
+				id: "430B09BD758C1D9B"
+				type: "item"
+				item: "kubejs:copper_mechanism"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "制作一个红石构件"
+			description: ["右键使用它，来解锁暮色森林"]
+			dependencies: ["519BDF4EF3523DD6"]
+			size: 1.25d
+			id: "789D4ABEE4B41035"
+			tasks: [{
+				id: "7E93BD0D6756C81F"
+				type: "item"
+				item: "kubejs:redstone_mechanism"
+			}]
+		}
+		{
+			title: "神兵利器"
+			x: 6.0d
+			y: -2.0d
+			subtitle: "制作一把心仪的武器"
+			description: ["不单单是剑，还有很多武器的配方摆在书中"]
+			dependencies: ["299550948E880F13"]
+			id: "29B2B6405C143C95"
+			tasks: [{
+				id: "7604C4499327B0F7"
+				type: "item"
+				item: {
+					id: "mcdw:sword_iron_sword_var"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E5809F326BA5F08"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1D40D079FE43B619"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			subtitle: "寻找并击败精英怪，并且获得它们掉落的灵魂盒"
+			dependencies: ["29B2B6405C143C95"]
+			id: "415418C1297E56E7"
+			tasks: [{
+				id: "26FB4536187D8357"
+				type: "item"
+				item: "gofish:soul_crate"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			subtitle: "从灵魂盒中获得灵魂沙/土制作一个灵魂营火"
+			dependencies: ["415418C1297E56E7"]
+			id: "4DBC883319733848"
+			tasks: [{
+				id: "1C5EF00EA61848B2"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+		}
+		{
+			title: "动力设备"
+			icon: "create:millstone"
+			x: 7.5d
+			y: -0.5d
+			subtitle: "这些设备是处理素材的必要途径"
+			dependencies: [
+				"415418C1297E56E7"
+				"500D21F22EB29289"
+			]
+			id: "53BA7A12AD116378"
+			tasks: [
+				{
+					id: "51886B2285124543"
+					type: "item"
+					item: "create:millstone"
+				}
+				{
+					id: "782F8D8FBB0173B2"
+					type: "item"
+					item: "create:encased_fan"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			subtitle: "查阅配方，利用设备处理圆石，获得石英"
+			dependencies: [
+				"53BA7A12AD116378"
+				"4DBC883319733848"
+			]
+			id: "519BDF4EF3523DD6"
+			tasks: [{
+				id: "4B95CA3B0D342C96"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			subtitle: "不错的动力源，暂时用它来提供动力吧"
+			dependencies: ["2B4463B46E17982B"]
+			id: "22D814A5FAB26B76"
+			tasks: [{
+				id: "6B47506234878044"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			subtitle: "制作一个猎具台，用于赋予村民职业"
+			dependencies: ["66598684C9C6458D"]
+			id: "5C637B8A02BBC074"
+			tasks: [{
+				id: "10C3B24C5530A629"
+				type: "item"
+				item: "morevillagers:hunting_post"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			subtitle: "通过交易得到烈焰棒"
+			description: ["专家级别的猎人会出售烈焰棒，你或许需要先和其他村民交易以获得绿宝石"]
+			dependencies: ["5C637B8A02BBC074"]
+			id: "1AC80C4CCB2BB096"
+			tasks: [{
+				id: "716E17411D03FB06"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			title: "畜牧业"
+			icon: "minecraft:wheat"
+			x: 7.5d
+			y: 2.5d
+			subtitle: "种植作物，繁殖动物，这些蛋可以让你不用费力搬运了"
+			dependencies: [
+				"789D4ABEE4B41035"
+				"5F9B76456703B093"
+			]
+			id: "66598684C9C6458D"
+			tasks: [{
+				id: "52385C68EC12B420"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "064664EDB0BDF798"
+					type: "item"
+					item: "minecraft:chicken_spawn_egg"
+					count: 2
+				}
+				{
+					id: "296B4FB0E6BDC4B3"
+					type: "item"
+					item: "minecraft:cow_spawn_egg"
+					count: 2
+				}
+				{
+					id: "2CBDBC43A1E8A357"
+					type: "item"
+					item: "minecraft:sheep_spawn_egg"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["66598684C9C6458D"]
+			id: "248AEC192B9C6ECE"
+			tasks: [{
+				id: "6367A4324C39AC15"
+				type: "item"
+				item: "minecraft:egg"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.5d
+			subtitle: "提升挖掘等级并挖掘八个钻石"
+			dependencies: ["248AEC192B9C6ECE"]
+			id: "03178D0F32686F69"
+			tasks: [{
+				id: "35037FAD1767FDFA"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 8L
+			}]
+		}
+		{
+			title: "基础蛋"
+			x: 12.0d
+			y: 1.0d
+			subtitle: "制作一个基础蛋"
+			description: ["它几乎能够制作所有原版生物"]
+			dependencies: ["03178D0F32686F69"]
+			id: "0D64C49C829AA44E"
+			tasks: [{
+				id: "48CF5821C5677913"
+				type: "item"
+				item: "cse:basespawnegg"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			subtitle: "制作一个烈焰人刷怪蛋"
+			dependencies: [
+				"1AC80C4CCB2BB096"
+				"0D64C49C829AA44E"
+			]
+			id: "2CBF030A5C1B2060"
+			tasks: [{
+				id: "530930EC4AE3009C"
+				type: "item"
+				item: "minecraft:blaze_spawn_egg"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			subtitle: "制作一个空燃烧室"
+			dependencies: ["582F74BC0FB3811B"]
+			id: "16FBECEEE36C8591"
+			tasks: [{
+				id: "453A1719E9D6C5BB"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			subtitle: "查阅配方制作下界岩，当然，运气不错的话你也有别的办法得到它。"
+			dependencies: ["519BDF4EF3523DD6"]
+			id: "305CA2F0BEF084B0"
+			tasks: [{
+				id: "0D8533D7973251D4"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			subtitle: "制作一个辊压机"
+			dependencies: [
+				"305CA2F0BEF084B0"
+				"7C6BC6096A6A2442"
+			]
+			id: "582F74BC0FB3811B"
+			tasks: [{
+				id: "4524DF72A3D36C01"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			subtitle: "右键，用燃烧室捕捉一只烈焰人"
+			dependencies: [
+				"2CBF030A5C1B2060"
+				"16FBECEEE36C8591"
+			]
+			id: "7792CE78C909D658"
+			tasks: [{
+				id: "00511E4E10C684E6"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			title: "搅拌"
+			icon: "create:mechanical_mixer"
+			x: 12.0d
+			y: 2.5d
+			subtitle: "制作搅拌器和工作盆"
+			dependencies: ["7792CE78C909D658"]
+			id: "48E3492057C1749B"
+			tasks: [
+				{
+					id: "1793DE71A5197FE1"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "5E12703B2336F013"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			subtitle: "制作一个黄铜锭，别忘了给烈焰人喂燃料"
+			dependencies: ["48E3492057C1749B"]
+			id: "37E5094A5A755B80"
+			tasks: [{
+				id: "0D543E642E792D83"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "制作一个黄铜构件"
+			description: ["右键使用它，来解锁暮色森林"]
+			dependencies: [
+				"599FDD70FD591ABF"
+				"37E5094A5A755B80"
+			]
+			size: 1.25d
+			id: "77309259873A92CD"
+			tasks: [{
+				id: "44B420E8FFD83AAA"
+				type: "item"
+				item: "kubejs:brass_mechanism"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["519BDF4EF3523DD6"]
+			id: "7C6BC6096A6A2442"
+			tasks: [{
+				id: "553B20ED5EE2237C"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.0d
+			dependencies: ["582F74BC0FB3811B"]
+			id: "599FDD70FD591ABF"
+			tasks: [{
+				id: "1681523279AF09D0"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+		{
+			title: "出征！暮色！"
+			icon: "minecraft:poppy"
+			x: 16.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "现在，你已经有能力踏入暮色森林了！"
+			dependencies: ["77309259873A92CD"]
+			size: 1.5d
+			id: "6521C1DBE86FA97C"
+			tasks: [{
+				id: "7DC6C937C15BF14B"
+				type: "item"
+				title: "Any #minecraft:flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:flowers"
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "37C39945BBD621C3"
+				type: "item"
+				item: {
+					id: "twilightforest:steeleaf_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -3.0d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "工程的巨匠"
+			description: [
+				"一晃眼已经过去了好几天，如今的世界已经不存在什么高端的科技，人们的生活也已经倒退到了农耕时代。"
+				""
+				"但是你作为一名工程师，掌握着能够改变命运的知识！你暗自下定决心，要依靠自己的能力重建家园。"
+				""
+				"一些村民们发现，大灾难之后，花朵之中仿佛蕴藏着特殊的魔力，能够打开另一个世界的大门。"
+				""
+				"你决定在村民们的帮助下先发展出基础的科技，当时机成熟，就会对另一个世界展开探索。"
+			]
+			dependencies: ["50801363B6B88BD7"]
+			id: "139C8C8D79DE98DE"
+			tasks: [{
+				id: "7CB04AC4CDE2A2AE"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

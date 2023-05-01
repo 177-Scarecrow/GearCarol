@@ -1,0 +1,24 @@
+{
+  "type": "conjuring:gem_tinkering",
+  "inputs": [
+    {
+      "item": "kubejs:quest_mechanism"
+    },
+    {
+      "item": "conjuring:lesser_conjuration_essence"
+    },
+    {
+      "item": "conjuring:lesser_conjuration_essence"
+    },
+    {
+      "item": "conjuring:lesser_conjuration_essence"
+    },
+    {
+      "item": "conjuring:lesser_conjuration_essence"
+    }
+  ],
+  "result": {
+    "item": "origins:orb_of_origin",
+    "count": 1
+  }
+}

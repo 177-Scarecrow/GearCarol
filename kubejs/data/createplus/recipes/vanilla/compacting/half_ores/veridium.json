@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "kubejs:quest_dust"
+      },
+      {
+        "item": "create:limestone"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:veridium"
+      }
+    ]
+  }

@@ -1,0 +1,4743 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 26, 2023, 10:27:53 PM
+
+#create:non_movable
+- immersiveengineering:connector_lv?
+- immersiveengineering:connector_lv_relay?
+- immersiveengineering:connector_mv?
+- immersiveengineering:connector_mv_relay?
+- immersiveengineering:connector_hv?
+- immersiveengineering:connector_hv_relay?
+- immersiveengineering:connector_bundled?
+- immersiveengineering:connector_structural?
+- immersiveengineering:connector_redstone?
+- immersiveengineering:connector_probe?
+- immersiveengineering:breaker_switch?
+- bitsandchisels:bits_block?
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+- minecraft:soul_soil
+- minecraft:soul_sand
+- minecraft:smooth_quartz
+
+#incendium:soil_sand
+- minecraft:soul_soil
+- minecraft:soul_sand
+
+#c:glass_panes/blue
+- minecraft:blue_stained_glass_pane
+
+#c:storage_blocks/amethyst
+- minecraft:amethyst_block
+
+#incendium:ssv_soil_ceiling
+- minecraft:netherrack
+- minecraft:blackstone
+- minecraft:soul_sand
+
+#farmersdelight:unaffected_by_rich_soil
+- minecraft:grass_block
+- minecraft:grass
+- minecraft:fern
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
+- farmersdelight:sandy_shrub
+- farmersdelight:brown_mushroom_colony
+- farmersdelight:red_mushroom_colony
+- #farmersdelight:wild_crops
+
+#twilightforest:ore_magnet/ignored_ores
+- #minecraft:coal_ores
+
+#minecraft:occludes_vibration_signals
+- #minecraft:wool
+- twilightforest:arctic_fur_block
+
+#c:ores/gold
+- #minecraft:gold_ores
+
+#twilightforest:twilight_oak_logs
+- twilightforest:twilight_oak_log
+- twilightforest:stripped_twilight_oak_log
+- twilightforest:twilight_oak_wood
+- twilightforest:stripped_twilight_oak_wood
+
+#c:storage_blocks/diamond
+- minecraft:diamond_block
+
+#c:end_stones
+- minecraft:end_stone
+
+#c:glass/purple
+- minecraft:purple_stained_glass
+
+#twilightforest:hollow_logs
+- #twilightforest:hollow_logs_horizontal
+- #twilightforest:hollow_logs_vertical
+- #twilightforest:hollow_logs_climbable
+
+#c:glass/light_gray
+- minecraft:light_gray_stained_glass
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#c:glass/blue
+- minecraft:blue_stained_glass
+
+#c:storage_blocks
+- create:raw_zinc_block
+- create:zinc_block
+- create:brass_block
+- #c:storage_blocks/amethyst
+- #c:storage_blocks/coal
+- #c:storage_blocks/copper
+- #c:storage_blocks/diamond
+- #c:storage_blocks/emerald
+- #c:storage_blocks/gold
+- #c:storage_blocks/iron
+- #c:storage_blocks/lapis
+- #c:storage_blocks/quartz
+- #c:storage_blocks/raw_copper
+- #c:storage_blocks/raw_gold
+- #c:storage_blocks/raw_iron
+- #c:storage_blocks/redstone
+- #c:storage_blocks/netherite
+- #twilightforest:storage_blocks/arctic_fur
+- #twilightforest:storage_blocks/carminite
+- #twilightforest:storage_blocks/fiery
+- #twilightforest:storage_blocks/ironwood
+- #twilightforest:storage_blocks/knightmetal
+- #twilightforest:storage_blocks/steeleaf
+
+#c:sand/colorless
+- minecraft:sand
+
+#incendium:nether_blocks_air
+- minecraft:warped_fungus
+- minecraft:crimson_fungus
+- minecraft:crimson_roots
+- minecraft:warped_roots
+- minecraft:twisting_vines
+- minecraft:weeping_vines
+- minecraft:nether_sprouts
+- minecraft:polished_blackstone_bricks
+- minecraft:blackstone
+- minecraft:basalt
+- minecraft:netherrack
+- minecraft:nether_bricks
+- minecraft:nether_brick_fence
+- minecraft:nether_brick_stairs
+- minecraft:soul_sand
+- minecraft:nether_wart
+- minecraft:chest
+- minecraft:spawner
+- minecraft:warped_nylium
+- minecraft:crimson_nylium
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+- minecraft:fire
+- minecraft:soul_fire
+- minecraft:ancient_debris
+- minecraft:bedrock
+- minecraft:crimson_stem
+- minecraft:glowstone
+- minecraft:magma_block
+- minecraft:nether_gold_ore
+- minecraft:shroomlight
+- minecraft:soul_soil
+- minecraft:warped_stem
+- minecraft:air
+- minecraft:gravel
+
+#twilightforest:ores/knightmetal
+
+#c:glass/light_blue
+- minecraft:light_blue_stained_glass
+
+#minecraft:beehives
+- minecraft:bee_nest
+- minecraft:beehive
+
+#twilightforest:timewood_logs
+- twilightforest:time_log
+- twilightforest:stripped_time_log
+- twilightforest:time_wood
+- twilightforest:stripped_time_wood
+
+#minecraft:ice
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+- minecraft:frosted_ice
+
+#c:ores/quartz
+- minecraft:nether_quartz_ore
+
+#minecraft:dragon_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- minecraft:obsidian
+- minecraft:crying_obsidian
+- minecraft:end_stone
+- minecraft:iron_bars
+- minecraft:respawn_anchor
+- infusion_table:infusion_table
+- #twilightforest:common_protections
+- twilightforest:giant_obsidian
+- twilightforest:fake_diamond
+- twilightforest:fake_gold
+- universal_graves:grave
+
+#minecraft:crops
+- minecraft:beetroots
+- minecraft:carrots
+- minecraft:potatoes
+- minecraft:wheat
+- minecraft:melon_stem
+- minecraft:pumpkin_stem
+- farmersdelight:cabbages
+- farmersdelight:onions
+- farmersdelight:rice_upper_crop
+- farmersdelight:budding_tomatoes
+- farmersdelight:tomatoes
+
+#farmersdelight:heat_sources
+- minecraft:magma_block
+- minecraft:lava_cauldron
+- farmersdelight:stove
+- #farmersdelight:tray_heat_sources
+
+#c:sand/red
+- minecraft:red_sand
+
+#minecraft:features_cannot_replace
+- minecraft:bedrock
+- minecraft:spawner
+- minecraft:chest
+- minecraft:end_portal_frame
+- #twilightforest:common_protections
+- twilightforest:liveroot_block
+- twilightforest:mangrove_root
+
+#c:storage_blocks/brass
+- create:brass_block
+
+#c:glass_panes/orange
+- minecraft:orange_stained_glass_pane
+
+#minecraft:crystal_sound_blocks
+- minecraft:amethyst_block
+- minecraft:budding_amethyst
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#c:storage_blocks/redstone
+- minecraft:redstone_block
+
+#farmersdelight:ropes
+- farmersdelight:rope
+- quark:rope?
+- supplementaries:rope?
+
+#c:glass/green
+- minecraft:green_stained_glass
+
+#twilightforest:structure_banned_interactions
+- #minecraft:buttons
+- #c:chests
+- minecraft:lever
+- twilightforest:antibuilder
+
+#c:glass/gray
+- minecraft:gray_stained_glass
+
+#c:ore_bearing_ground/stone
+- minecraft:stone
+
+#create:seats
+- create:white_seat
+- create:orange_seat
+- create:magenta_seat
+- create:light_blue_seat
+- create:yellow_seat
+- create:lime_seat
+- create:pink_seat
+- create:gray_seat
+- create:light_gray_seat
+- create:cyan_seat
+- create:purple_seat
+- create:blue_seat
+- create:brown_seat
+- create:green_seat
+- create:red_seat
+- create:black_seat
+
+#incendium:soul_sand
+- minecraft:soul_sand
+
+#incendium:red_sandstone
+- minecraft:red_sandstone
+- minecraft:red_sand
+- minecraft:smooth_red_sandstone
+- minecraft:netherrack
+
+#twilightforest:mangrove_logs
+- twilightforest:mangrove_log
+- twilightforest:stripped_mangrove_log
+- twilightforest:mangrove_wood
+- twilightforest:stripped_mangrove_wood
+
+#minecraft:lava_pool_stone_cannot_replace
+- #minecraft:features_cannot_replace
+- #minecraft:leaves
+- #minecraft:logs
+
+#minecraft:inside_step_sound_blocks
+- minecraft:snow
+- minecraft:powder_snow
+
+#create:wrench_pickup
+- minecraft:redstone_wire
+- minecraft:redstone_torch
+- minecraft:repeater
+- minecraft:lever
+- minecraft:comparator
+- minecraft:observer
+- minecraft:redstone_wall_torch
+- minecraft:piston
+- minecraft:sticky_piston
+- minecraft:tripwire
+- minecraft:tripwire_hook
+- minecraft:daylight_detector
+- minecraft:target
+- minecraft:hopper
+- #minecraft:buttons
+- #minecraft:pressure_plates
+- #minecraft:rails
+
+#minecraft:prevent_mob_spawning_inside
+- #minecraft:rails
+
+#c:fence_gates/wooden
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- twilightforest:twilight_oak_fence_gate
+- twilightforest:canopy_fence_gate
+- twilightforest:mangrove_fence_gate
+- twilightforest:dark_fence_gate
+- twilightforest:time_fence_gate
+- twilightforest:transformation_fence_gate
+- twilightforest:mining_fence_gate
+- twilightforest:sorting_fence_gate
+
+#minecraft:climbable
+- minecraft:ladder
+- minecraft:vine
+- minecraft:scaffolding
+- minecraft:weeping_vines
+- minecraft:weeping_vines_plant
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
+- minecraft:cave_vines
+- minecraft:cave_vines_plant
+- create:andesite_ladder
+- create:brass_ladder
+- create:copper_ladder
+- farmersdelight:rope
+- farmersdelight:tomatoes
+- twilightforest:iron_ladder
+- twilightforest:root_strand
+- #twilightforest:hollow_logs_climbable
+
+#c:glass/yellow
+- minecraft:yellow_stained_glass
+
+#twilightforest:sortwood_logs
+- twilightforest:sorting_log
+- twilightforest:stripped_sorting_log
+- twilightforest:sorting_wood
+- twilightforest:stripped_sorting_wood
+
+#minecraft:parrots_spawnable_on
+- minecraft:grass_block
+- minecraft:air
+- #minecraft:leaves
+- #minecraft:logs
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+
+#farmersdelight:compost_activators
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:podzol
+- minecraft:mycelium
+- farmersdelight:organic_compost
+- farmersdelight:rich_soil
+- farmersdelight:rich_soil_farmland
+- farmersdelight:brown_mushroom_colony
+- farmersdelight:red_mushroom_colony
+
+#create:ore_override_stone
+- #minecraft:stone_ore_replaceables
+
+#farmersdelight:tray_heat_sources
+- minecraft:lava
+- #minecraft:campfires
+- #minecraft:fire
+
+#twilightforest:portal/fluid
+- minecraft:water
+
+#minecraft:coral_plants
+- minecraft:tube_coral
+- minecraft:brain_coral
+- minecraft:bubble_coral
+- minecraft:fire_coral
+- minecraft:horn_coral
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- minecraft:crimson_wall_sign
+- minecraft:warped_wall_sign
+
+#minecraft:goats_spawnable_on
+- minecraft:stone
+- minecraft:snow
+- minecraft:snow_block
+- minecraft:packed_ice
+- minecraft:gravel
+
+#c:storage_blocks/raw_gold
+- minecraft:raw_gold_block
+
+#c:quartz_ores
+- minecraft:nether_quartz_ore
+
+#quark:non_double_door
+- create:train_door
+- create:framed_glass_door
+
+#adventurez:platform_nether_blocks
+- minecraft:blackstone
+- minecraft:blackstone_slab
+- minecraft:cracked_polished_blackstone_bricks
+- minecraft:polished_blackstone
+- minecraft:polished_blackstone_bricks
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- minecraft:gilded_blackstone
+
+#minecraft:lapis_ores
+- minecraft:lapis_ore
+- minecraft:deepslate_lapis_ore
+
+#twilightforest:canopy_logs
+- twilightforest:canopy_log
+- twilightforest:stripped_canopy_log
+- twilightforest:canopy_wood
+- twilightforest:stripped_canopy_wood
+
+#incendium:warped_wart_block
+- minecraft:warped_wart_block
+
+#incendium:ices
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+
+#create:safe_nbt
+- create:creative_motor
+- create:creative_fluid_tank
+- create:mechanical_piston
+- create:sticky_mechanical_piston
+- create:windmill_bearing
+- create:mechanical_bearing
+- create:clockwork_bearing
+- create:rope_pulley
+- create:cart_assembler
+- create:linear_chassis
+- create:secondary_linear_chassis
+- create:radial_chassis
+- create:sequenced_gearshift
+- create:rotation_speed_controller
+- create:andesite_funnel
+- create:andesite_belt_funnel
+- create:brass_funnel
+- create:brass_belt_funnel
+- create:creative_crate
+- create:redstone_link
+- create:analog_lever
+- create:placard
+- create:pulse_repeater
+- create:pulse_extender
+- #minecraft:banners
+- #minecraft:signs
+
+#twilightforest:mining_logs
+- twilightforest:mining_log
+- twilightforest:stripped_mining_log
+- twilightforest:mining_wood
+- twilightforest:stripped_mining_wood
+
+#twilightforest:antibuilder_ignores
+- #twilightforest:common_protections
+- gravestone:gravestone?
+- minecraft:redstone_lamp
+- minecraft:tnt
+- minecraft:water
+- twilightforest:antibuilder
+- twilightforest:carminite_builder
+- twilightforest:built_block
+- twilightforest:reactor_debris
+- twilightforest:carminite_reactor
+- twilightforest:reappearing_block
+- twilightforest:ghast_trap
+- twilightforest:fake_diamond
+- twilightforest:fake_gold
+
+#minecraft:lush_ground_replaceable
+- #minecraft:moss_replaceable
+- minecraft:clay
+- minecraft:gravel
+- minecraft:sand
+- create:asurine
+- create:crimsite
+- create:limestone
+- create:ochrum
+- create:scoria
+- create:scorchia
+- create:veridium
+
+#c:rails/activator
+- minecraft:activator_rail
+
+#c:ore_bearing_ground/netherrack
+- minecraft:netherrack
+
+#c:glass_panes/black
+- minecraft:black_stained_glass_pane
+
+#c:ore_rates/sparse
+- minecraft:nether_gold_ore
+
+#twilightforest:banisters
+- twilightforest:oak_banister
+- twilightforest:spruce_banister
+- twilightforest:birch_banister
+- twilightforest:jungle_banister
+- twilightforest:acacia_banister
+- twilightforest:dark_oak_banister
+- twilightforest:crimson_banister
+- twilightforest:warped_banister
+- twilightforest:twilight_oak_banister
+- twilightforest:canopy_banister
+- twilightforest:mangrove_banister
+- twilightforest:darkwood_banister
+- twilightforest:time_banister
+- twilightforest:transformation_banister
+- twilightforest:mining_banister
+- twilightforest:sorting_banister
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- minecraft:azalea
+- minecraft:flowering_azalea
+- twilightforest:twilight_oak_sapling
+- twilightforest:canopy_sapling
+- twilightforest:mangrove_sapling
+- twilightforest:darkwood_sapling
+- twilightforest:time_sapling
+- twilightforest:transformation_sapling
+- twilightforest:mining_sapling
+- twilightforest:sorting_sapling
+- twilightforest:hollow_oak_sapling
+- twilightforest:rainbow_oak_sapling
+
+#incendium:bsn_no_basalt
+- minecraft:netherrack
+- minecraft:blackstone
+
+#c:storage_blocks/coal
+- minecraft:coal_block
+
+#minecraft:mineable/pickaxe
+- minecraft:stone
+- minecraft:granite
+- minecraft:polished_granite
+- minecraft:diorite
+- minecraft:polished_diorite
+- minecraft:andesite
+- minecraft:polished_andesite
+- minecraft:cobblestone
+- minecraft:gold_ore
+- minecraft:deepslate_gold_ore
+- minecraft:iron_ore
+- minecraft:deepslate_iron_ore
+- minecraft:coal_ore
+- minecraft:deepslate_coal_ore
+- minecraft:nether_gold_ore
+- minecraft:lapis_ore
+- minecraft:deepslate_lapis_ore
+- minecraft:lapis_block
+- minecraft:dispenser
+- minecraft:sandstone
+- minecraft:chiseled_sandstone
+- minecraft:cut_sandstone
+- minecraft:gold_block
+- minecraft:iron_block
+- minecraft:bricks
+- minecraft:mossy_cobblestone
+- minecraft:obsidian
+- minecraft:spawner
+- minecraft:diamond_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:diamond_block
+- minecraft:furnace
+- minecraft:cobblestone_stairs
+- minecraft:stone_pressure_plate
+- minecraft:iron_door
+- minecraft:redstone_ore
+- minecraft:deepslate_redstone_ore
+- minecraft:netherrack
+- minecraft:basalt
+- minecraft:polished_basalt
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+- minecraft:iron_bars
+- minecraft:chain
+- minecraft:brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:nether_bricks
+- minecraft:nether_brick_fence
+- minecraft:nether_brick_stairs
+- minecraft:enchanting_table
+- minecraft:brewing_stand
+- minecraft:end_stone
+- minecraft:sandstone_stairs
+- minecraft:emerald_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:ender_chest
+- minecraft:emerald_block
+- minecraft:light_weighted_pressure_plate
+- minecraft:heavy_weighted_pressure_plate
+- minecraft:redstone_block
+- minecraft:nether_quartz_ore
+- minecraft:hopper
+- minecraft:quartz_block
+- minecraft:chiseled_quartz_block
+- minecraft:quartz_pillar
+- minecraft:quartz_stairs
+- minecraft:dropper
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta
+- minecraft:iron_trapdoor
+- minecraft:prismarine
+- minecraft:prismarine_bricks
+- minecraft:dark_prismarine
+- minecraft:prismarine_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:terracotta
+- minecraft:coal_block
+- minecraft:red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:red_sandstone_stairs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:sandstone_slab
+- minecraft:cut_sandstone_slab
+- minecraft:petrified_oak_slab
+- minecraft:cobblestone_slab
+- minecraft:brick_slab
+- minecraft:stone_brick_slab
+- minecraft:nether_brick_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:purpur_slab
+- minecraft:smooth_stone
+- minecraft:smooth_sandstone
+- minecraft:smooth_quartz
+- minecraft:smooth_red_sandstone
+- minecraft:purpur_block
+- minecraft:purpur_pillar
+- minecraft:purpur_stairs
+- minecraft:end_stone_bricks
+- minecraft:magma_block
+- minecraft:red_nether_bricks
+- minecraft:bone_block
+- minecraft:observer
+- minecraft:white_glazed_terracotta
+- minecraft:orange_glazed_terracotta
+- minecraft:magenta_glazed_terracotta
+- minecraft:light_blue_glazed_terracotta
+- minecraft:yellow_glazed_terracotta
+- minecraft:lime_glazed_terracotta
+- minecraft:pink_glazed_terracotta
+- minecraft:gray_glazed_terracotta
+- minecraft:light_gray_glazed_terracotta
+- minecraft:cyan_glazed_terracotta
+- minecraft:purple_glazed_terracotta
+- minecraft:blue_glazed_terracotta
+- minecraft:brown_glazed_terracotta
+- minecraft:green_glazed_terracotta
+- minecraft:red_glazed_terracotta
+- minecraft:black_glazed_terracotta
+- minecraft:white_concrete
+- minecraft:orange_concrete
+- minecraft:magenta_concrete
+- minecraft:light_blue_concrete
+- minecraft:yellow_concrete
+- minecraft:lime_concrete
+- minecraft:pink_concrete
+- minecraft:gray_concrete
+- minecraft:light_gray_concrete
+- minecraft:cyan_concrete
+- minecraft:purple_concrete
+- minecraft:blue_concrete
+- minecraft:brown_concrete
+- minecraft:green_concrete
+- minecraft:red_concrete
+- minecraft:black_concrete
+- minecraft:dead_tube_coral_block
+- minecraft:dead_brain_coral_block
+- minecraft:dead_bubble_coral_block
+- minecraft:dead_fire_coral_block
+- minecraft:dead_horn_coral_block
+- minecraft:tube_coral_block
+- minecraft:brain_coral_block
+- minecraft:bubble_coral_block
+- minecraft:fire_coral_block
+- minecraft:horn_coral_block
+- minecraft:dead_tube_coral
+- minecraft:dead_brain_coral
+- minecraft:dead_bubble_coral
+- minecraft:dead_fire_coral
+- minecraft:dead_horn_coral
+- minecraft:dead_tube_coral_fan
+- minecraft:dead_brain_coral_fan
+- minecraft:dead_bubble_coral_fan
+- minecraft:dead_fire_coral_fan
+- minecraft:dead_horn_coral_fan
+- minecraft:dead_tube_coral_wall_fan
+- minecraft:dead_brain_coral_wall_fan
+- minecraft:dead_bubble_coral_wall_fan
+- minecraft:dead_fire_coral_wall_fan
+- minecraft:dead_horn_coral_wall_fan
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:smoker
+- minecraft:blast_furnace
+- minecraft:grindstone
+- minecraft:stonecutter
+- minecraft:bell
+- minecraft:lantern
+- minecraft:soul_lantern
+- minecraft:warped_nylium
+- minecraft:crimson_nylium
+- minecraft:netherite_block
+- minecraft:ancient_debris
+- minecraft:crying_obsidian
+- minecraft:respawn_anchor
+- minecraft:lodestone
+- minecraft:blackstone
+- minecraft:blackstone_stairs
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone
+- minecraft:polished_blackstone_bricks
+- minecraft:cracked_polished_blackstone_bricks
+- minecraft:chiseled_polished_blackstone
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:gilded_blackstone
+- minecraft:polished_blackstone_stairs
+- minecraft:polished_blackstone_slab
+- minecraft:polished_blackstone_pressure_plate
+- minecraft:chiseled_nether_bricks
+- minecraft:cracked_nether_bricks
+- minecraft:quartz_bricks
+- minecraft:tuff
+- minecraft:calcite
+- minecraft:oxidized_copper
+- minecraft:weathered_copper
+- minecraft:exposed_copper
+- minecraft:copper_block
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+- minecraft:oxidized_cut_copper
+- minecraft:weathered_cut_copper
+- minecraft:exposed_cut_copper
+- minecraft:cut_copper
+- minecraft:oxidized_cut_copper_stairs
+- minecraft:weathered_cut_copper_stairs
+- minecraft:exposed_cut_copper_stairs
+- minecraft:cut_copper_stairs
+- minecraft:oxidized_cut_copper_slab
+- minecraft:weathered_cut_copper_slab
+- minecraft:exposed_cut_copper_slab
+- minecraft:cut_copper_slab
+- minecraft:waxed_copper_block
+- minecraft:waxed_weathered_copper
+- minecraft:waxed_exposed_copper
+- minecraft:waxed_oxidized_copper
+- minecraft:waxed_oxidized_cut_copper
+- minecraft:waxed_weathered_cut_copper
+- minecraft:waxed_exposed_cut_copper
+- minecraft:waxed_cut_copper
+- minecraft:waxed_oxidized_cut_copper_stairs
+- minecraft:waxed_weathered_cut_copper_stairs
+- minecraft:waxed_exposed_cut_copper_stairs
+- minecraft:waxed_cut_copper_stairs
+- minecraft:waxed_oxidized_cut_copper_slab
+- minecraft:waxed_weathered_cut_copper_slab
+- minecraft:waxed_exposed_cut_copper_slab
+- minecraft:waxed_cut_copper_slab
+- minecraft:lightning_rod
+- minecraft:pointed_dripstone
+- minecraft:dripstone_block
+- minecraft:deepslate
+- minecraft:cobbled_deepslate
+- minecraft:cobbled_deepslate_stairs
+- minecraft:cobbled_deepslate_slab
+- minecraft:polished_deepslate
+- minecraft:polished_deepslate_stairs
+- minecraft:polished_deepslate_slab
+- minecraft:deepslate_tiles
+- minecraft:deepslate_tile_stairs
+- minecraft:deepslate_tile_slab
+- minecraft:deepslate_bricks
+- minecraft:deepslate_brick_stairs
+- minecraft:deepslate_brick_slab
+- minecraft:chiseled_deepslate
+- minecraft:cracked_deepslate_bricks
+- minecraft:cracked_deepslate_tiles
+- minecraft:smooth_basalt
+- minecraft:raw_iron_block
+- minecraft:raw_copper_block
+- minecraft:raw_gold_block
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+- minecraft:stone_button
+- minecraft:piston
+- minecraft:sticky_piston
+- minecraft:piston_head
+- minecraft:amethyst_cluster
+- minecraft:small_amethyst_bud
+- minecraft:medium_amethyst_bud
+- minecraft:large_amethyst_bud
+- minecraft:amethyst_block
+- minecraft:budding_amethyst
+- minecraft:infested_cobblestone
+- minecraft:infested_chiseled_stone_bricks
+- minecraft:infested_cracked_stone_bricks
+- minecraft:infested_deepslate
+- minecraft:infested_stone
+- minecraft:infested_mossy_stone_bricks
+- minecraft:infested_stone_bricks
+- #minecraft:walls
+- #minecraft:shulker_boxes
+- #minecraft:anvil
+- #minecraft:cauldrons
+- #minecraft:rails
+- minecraft:conduit
+- conjuring:blackstone_pedestal
+- conjuring:soul_weaver
+- conjuring:conjurer
+- conjuring:soulfire_forge
+- conjuring:gem_tinkerer
+- conjuring:soul_funnel
+- create:schematicannon
+- create:schematic_table
+- create:shaft
+- create:cogwheel
+- create:large_cogwheel
+- create:andesite_encased_shaft
+- create:brass_encased_shaft
+- create:andesite_encased_cogwheel
+- create:brass_encased_cogwheel
+- create:andesite_encased_large_cogwheel
+- create:brass_encased_large_cogwheel
+- create:gearbox
+- create:clutch
+- create:gearshift
+- create:encased_chain_drive
+- create:adjustable_chain_gearshift
+- create:belt
+- create:creative_motor
+- create:water_wheel
+- create:encased_fan
+- create:nozzle
+- create:turntable
+- create:hand_crank
+- create:cuckoo_clock
+- create:mysterious_cuckoo_clock
+- create:millstone
+- create:crushing_wheel
+- create:mechanical_press
+- create:mechanical_mixer
+- create:basin
+- create:blaze_burner
+- create:lit_blaze_burner
+- create:depot
+- create:weighted_ejector
+- create:chute
+- create:smart_chute
+- create:speedometer
+- create:stressometer
+- create:wooden_bracket
+- create:metal_bracket
+- create:metal_girder
+- create:metal_girder_encased_shaft
+- create:andesite_ladder
+- create:brass_ladder
+- create:copper_ladder
+- create:fluid_pipe
+- create:encased_fluid_pipe
+- create:glass_fluid_pipe
+- create:mechanical_pump
+- create:smart_fluid_pipe
+- create:fluid_valve
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+- create:fluid_tank
+- create:creative_fluid_tank
+- create:hose_pulley
+- create:item_drain
+- create:spout
+- create:portable_fluid_interface
+- create:steam_engine
+- create:steam_whistle
+- create:steam_whistle_extension
+- create:powered_shaft
+- create:mechanical_piston
+- create:sticky_mechanical_piston
+- create:piston_extension_pole
+- create:mechanical_piston_head
+- create:gantry_carriage
+- create:gantry_shaft
+- create:windmill_bearing
+- create:mechanical_bearing
+- create:clockwork_bearing
+- create:rope_pulley
+- create:cart_assembler
+- create:controller_rail
+- create:linear_chassis
+- create:secondary_linear_chassis
+- create:radial_chassis
+- create:sticker
+- create:mechanical_drill
+- create:mechanical_saw
+- create:deployer
+- create:portable_storage_interface
+- create:redstone_contact
+- create:mechanical_harvester
+- create:mechanical_plough
+- create:andesite_casing
+- create:brass_casing
+- create:copper_casing
+- create:shadow_steel_casing
+- create:refined_radiance_casing
+- create:mechanical_crafter
+- create:sequenced_gearshift
+- create:flywheel
+- create:rotation_speed_controller
+- create:mechanical_arm
+- create:track
+- create:railway_casing
+- create:track_station
+- create:track_signal
+- create:track_observer
+- create:small_bogey
+- create:large_bogey
+- create:controls
+- create:train_door
+- create:train_trapdoor
+- create:framed_glass_door
+- create:framed_glass_trapdoor
+- create:item_vault
+- create:andesite_funnel
+- create:andesite_belt_funnel
+- create:brass_funnel
+- create:brass_belt_funnel
+- create:andesite_tunnel
+- create:brass_tunnel
+- create:content_observer
+- create:stockpile_switch
+- create:creative_crate
+- create:display_link
+- create:display_board
+- create:nixie_tube
+- create:white_nixie_tube
+- create:magenta_nixie_tube
+- create:light_blue_nixie_tube
+- create:yellow_nixie_tube
+- create:lime_nixie_tube
+- create:pink_nixie_tube
+- create:gray_nixie_tube
+- create:light_gray_nixie_tube
+- create:cyan_nixie_tube
+- create:purple_nixie_tube
+- create:blue_nixie_tube
+- create:brown_nixie_tube
+- create:green_nixie_tube
+- create:red_nixie_tube
+- create:black_nixie_tube
+- create:rose_quartz_lamp
+- create:redstone_link
+- create:analog_lever
+- create:placard
+- create:copper_backtank
+- create:peculiar_bell
+- create:haunted_bell
+- create:zinc_ore
+- create:deepslate_zinc_ore
+- create:raw_zinc_block
+- create:zinc_block
+- create:brass_block
+- create:rose_quartz_block
+- create:rose_quartz_tiles
+- create:small_rose_quartz_tiles
+- create:copper_shingles
+- create:exposed_copper_shingles
+- create:weathered_copper_shingles
+- create:oxidized_copper_shingles
+- create:copper_shingle_slab
+- create:exposed_copper_shingle_slab
+- create:weathered_copper_shingle_slab
+- create:oxidized_copper_shingle_slab
+- create:copper_shingle_stairs
+- create:exposed_copper_shingle_stairs
+- create:weathered_copper_shingle_stairs
+- create:oxidized_copper_shingle_stairs
+- create:waxed_copper_shingles
+- create:waxed_exposed_copper_shingles
+- create:waxed_weathered_copper_shingles
+- create:waxed_oxidized_copper_shingles
+- create:waxed_copper_shingle_slab
+- create:waxed_exposed_copper_shingle_slab
+- create:waxed_weathered_copper_shingle_slab
+- create:waxed_oxidized_copper_shingle_slab
+- create:waxed_copper_shingle_stairs
+- create:waxed_exposed_copper_shingle_stairs
+- create:waxed_weathered_copper_shingle_stairs
+- create:waxed_oxidized_copper_shingle_stairs
+- create:copper_tiles
+- create:exposed_copper_tiles
+- create:weathered_copper_tiles
+- create:oxidized_copper_tiles
+- create:copper_tile_slab
+- create:exposed_copper_tile_slab
+- create:weathered_copper_tile_slab
+- create:oxidized_copper_tile_slab
+- create:copper_tile_stairs
+- create:exposed_copper_tile_stairs
+- create:weathered_copper_tile_stairs
+- create:oxidized_copper_tile_stairs
+- create:waxed_copper_tiles
+- create:waxed_exposed_copper_tiles
+- create:waxed_weathered_copper_tiles
+- create:waxed_oxidized_copper_tiles
+- create:waxed_copper_tile_slab
+- create:waxed_exposed_copper_tile_slab
+- create:waxed_weathered_copper_tile_slab
+- create:waxed_oxidized_copper_tile_slab
+- create:waxed_copper_tile_stairs
+- create:waxed_exposed_copper_tile_stairs
+- create:waxed_weathered_copper_tile_stairs
+- create:waxed_oxidized_copper_tile_stairs
+- create:cut_granite
+- create:cut_granite_stairs
+- create:cut_granite_slab
+- create:cut_granite_wall
+- create:polished_cut_granite
+- create:polished_cut_granite_stairs
+- create:polished_cut_granite_slab
+- create:polished_cut_granite_wall
+- create:cut_granite_bricks
+- create:cut_granite_brick_stairs
+- create:cut_granite_brick_slab
+- create:cut_granite_brick_wall
+- create:small_granite_bricks
+- create:small_granite_brick_stairs
+- create:small_granite_brick_slab
+- create:small_granite_brick_wall
+- create:layered_granite
+- create:granite_pillar
+- create:cut_diorite
+- create:cut_diorite_stairs
+- create:cut_diorite_slab
+- create:cut_diorite_wall
+- create:polished_cut_diorite
+- create:polished_cut_diorite_stairs
+- create:polished_cut_diorite_slab
+- create:polished_cut_diorite_wall
+- create:cut_diorite_bricks
+- create:cut_diorite_brick_stairs
+- create:cut_diorite_brick_slab
+- create:cut_diorite_brick_wall
+- create:small_diorite_bricks
+- create:small_diorite_brick_stairs
+- create:small_diorite_brick_slab
+- create:small_diorite_brick_wall
+- create:layered_diorite
+- create:diorite_pillar
+- create:cut_andesite
+- create:cut_andesite_stairs
+- create:cut_andesite_slab
+- create:cut_andesite_wall
+- create:polished_cut_andesite
+- create:polished_cut_andesite_stairs
+- create:polished_cut_andesite_slab
+- create:polished_cut_andesite_wall
+- create:cut_andesite_bricks
+- create:cut_andesite_brick_stairs
+- create:cut_andesite_brick_slab
+- create:cut_andesite_brick_wall
+- create:small_andesite_bricks
+- create:small_andesite_brick_stairs
+- create:small_andesite_brick_slab
+- create:small_andesite_brick_wall
+- create:layered_andesite
+- create:andesite_pillar
+- create:cut_calcite
+- create:cut_calcite_stairs
+- create:cut_calcite_slab
+- create:cut_calcite_wall
+- create:polished_cut_calcite
+- create:polished_cut_calcite_stairs
+- create:polished_cut_calcite_slab
+- create:polished_cut_calcite_wall
+- create:cut_calcite_bricks
+- create:cut_calcite_brick_stairs
+- create:cut_calcite_brick_slab
+- create:cut_calcite_brick_wall
+- create:small_calcite_bricks
+- create:small_calcite_brick_stairs
+- create:small_calcite_brick_slab
+- create:small_calcite_brick_wall
+- create:layered_calcite
+- create:calcite_pillar
+- create:cut_dripstone
+- create:cut_dripstone_stairs
+- create:cut_dripstone_slab
+- create:cut_dripstone_wall
+- create:polished_cut_dripstone
+- create:polished_cut_dripstone_stairs
+- create:polished_cut_dripstone_slab
+- create:polished_cut_dripstone_wall
+- create:cut_dripstone_bricks
+- create:cut_dripstone_brick_stairs
+- create:cut_dripstone_brick_slab
+- create:cut_dripstone_brick_wall
+- create:small_dripstone_bricks
+- create:small_dripstone_brick_stairs
+- create:small_dripstone_brick_slab
+- create:small_dripstone_brick_wall
+- create:layered_dripstone
+- create:dripstone_pillar
+- create:cut_deepslate
+- create:cut_deepslate_stairs
+- create:cut_deepslate_slab
+- create:cut_deepslate_wall
+- create:polished_cut_deepslate
+- create:polished_cut_deepslate_stairs
+- create:polished_cut_deepslate_slab
+- create:polished_cut_deepslate_wall
+- create:cut_deepslate_bricks
+- create:cut_deepslate_brick_stairs
+- create:cut_deepslate_brick_slab
+- create:cut_deepslate_brick_wall
+- create:small_deepslate_bricks
+- create:small_deepslate_brick_stairs
+- create:small_deepslate_brick_slab
+- create:small_deepslate_brick_wall
+- create:layered_deepslate
+- create:deepslate_pillar
+- create:cut_tuff
+- create:cut_tuff_stairs
+- create:cut_tuff_slab
+- create:cut_tuff_wall
+- create:polished_cut_tuff
+- create:polished_cut_tuff_stairs
+- create:polished_cut_tuff_slab
+- create:polished_cut_tuff_wall
+- create:cut_tuff_bricks
+- create:cut_tuff_brick_stairs
+- create:cut_tuff_brick_slab
+- create:cut_tuff_brick_wall
+- create:small_tuff_bricks
+- create:small_tuff_brick_stairs
+- create:small_tuff_brick_slab
+- create:small_tuff_brick_wall
+- create:layered_tuff
+- create:tuff_pillar
+- create:asurine
+- create:cut_asurine
+- create:cut_asurine_stairs
+- create:cut_asurine_slab
+- create:cut_asurine_wall
+- create:polished_cut_asurine
+- create:polished_cut_asurine_stairs
+- create:polished_cut_asurine_slab
+- create:polished_cut_asurine_wall
+- create:cut_asurine_bricks
+- create:cut_asurine_brick_stairs
+- create:cut_asurine_brick_slab
+- create:cut_asurine_brick_wall
+- create:small_asurine_bricks
+- create:small_asurine_brick_stairs
+- create:small_asurine_brick_slab
+- create:small_asurine_brick_wall
+- create:layered_asurine
+- create:asurine_pillar
+- create:crimsite
+- create:cut_crimsite
+- create:cut_crimsite_stairs
+- create:cut_crimsite_slab
+- create:cut_crimsite_wall
+- create:polished_cut_crimsite
+- create:polished_cut_crimsite_stairs
+- create:polished_cut_crimsite_slab
+- create:polished_cut_crimsite_wall
+- create:cut_crimsite_bricks
+- create:cut_crimsite_brick_stairs
+- create:cut_crimsite_brick_slab
+- create:cut_crimsite_brick_wall
+- create:small_crimsite_bricks
+- create:small_crimsite_brick_stairs
+- create:small_crimsite_brick_slab
+- create:small_crimsite_brick_wall
+- create:layered_crimsite
+- create:crimsite_pillar
+- create:limestone
+- create:cut_limestone
+- create:cut_limestone_stairs
+- create:cut_limestone_slab
+- create:cut_limestone_wall
+- create:polished_cut_limestone
+- create:polished_cut_limestone_stairs
+- create:polished_cut_limestone_slab
+- create:polished_cut_limestone_wall
+- create:cut_limestone_bricks
+- create:cut_limestone_brick_stairs
+- create:cut_limestone_brick_slab
+- create:cut_limestone_brick_wall
+- create:small_limestone_bricks
+- create:small_limestone_brick_stairs
+- create:small_limestone_brick_slab
+- create:small_limestone_brick_wall
+- create:layered_limestone
+- create:limestone_pillar
+- create:ochrum
+- create:cut_ochrum
+- create:cut_ochrum_stairs
+- create:cut_ochrum_slab
+- create:cut_ochrum_wall
+- create:polished_cut_ochrum
+- create:polished_cut_ochrum_stairs
+- create:polished_cut_ochrum_slab
+- create:polished_cut_ochrum_wall
+- create:cut_ochrum_bricks
+- create:cut_ochrum_brick_stairs
+- create:cut_ochrum_brick_slab
+- create:cut_ochrum_brick_wall
+- create:small_ochrum_bricks
+- create:small_ochrum_brick_stairs
+- create:small_ochrum_brick_slab
+- create:small_ochrum_brick_wall
+- create:layered_ochrum
+- create:ochrum_pillar
+- create:scoria
+- create:cut_scoria
+- create:cut_scoria_stairs
+- create:cut_scoria_slab
+- create:cut_scoria_wall
+- create:polished_cut_scoria
+- create:polished_cut_scoria_stairs
+- create:polished_cut_scoria_slab
+- create:polished_cut_scoria_wall
+- create:cut_scoria_bricks
+- create:cut_scoria_brick_stairs
+- create:cut_scoria_brick_slab
+- create:cut_scoria_brick_wall
+- create:small_scoria_bricks
+- create:small_scoria_brick_stairs
+- create:small_scoria_brick_slab
+- create:small_scoria_brick_wall
+- create:layered_scoria
+- create:scoria_pillar
+- create:scorchia
+- create:cut_scorchia
+- create:cut_scorchia_stairs
+- create:cut_scorchia_slab
+- create:cut_scorchia_wall
+- create:polished_cut_scorchia
+- create:polished_cut_scorchia_stairs
+- create:polished_cut_scorchia_slab
+- create:polished_cut_scorchia_wall
+- create:cut_scorchia_bricks
+- create:cut_scorchia_brick_stairs
+- create:cut_scorchia_brick_slab
+- create:cut_scorchia_brick_wall
+- create:small_scorchia_bricks
+- create:small_scorchia_brick_stairs
+- create:small_scorchia_brick_slab
+- create:small_scorchia_brick_wall
+- create:layered_scorchia
+- create:scorchia_pillar
+- create:veridium
+- create:cut_veridium
+- create:cut_veridium_stairs
+- create:cut_veridium_slab
+- create:cut_veridium_wall
+- create:polished_cut_veridium
+- create:polished_cut_veridium_stairs
+- create:polished_cut_veridium_slab
+- create:polished_cut_veridium_wall
+- create:cut_veridium_bricks
+- create:cut_veridium_brick_stairs
+- create:cut_veridium_brick_slab
+- create:cut_veridium_brick_wall
+- create:small_veridium_bricks
+- create:small_veridium_brick_stairs
+- create:small_veridium_brick_slab
+- create:small_veridium_brick_wall
+- create:layered_veridium
+- create:veridium_pillar
+- expandedstorage:iron_chest
+- expandedstorage:gold_chest
+- expandedstorage:diamond_chest
+- expandedstorage:obsidian_chest
+- expandedstorage:netherite_chest
+- expandedstorage:old_iron_chest
+- expandedstorage:old_gold_chest
+- expandedstorage:old_diamond_chest
+- expandedstorage:old_obsidian_chest
+- expandedstorage:old_netherite_chest
+- extended_drawers:controller
+- extended_drawers:shadow_drawer
+- farmersdelight:stove
+- farmersdelight:cooking_pot
+- farmersdelight:skillet
+- ftbquests:screen_1
+- ftbquests:screen_3
+- ftbquests:screen_5
+- ftbquests:screen_7
+- ftbquests:aux_task_screen
+- gofish:iron_crate
+- gofish:golden_crate
+- gofish:diamond_crate
+- gofish:frosted_crate
+- gofish:fiery_crate
+- gofish:soul_crate
+- gofish:gilded_blackstone_crate
+- gofish:astral_crate
+- gofish:end_crate
+- infusion_table:infusion_table
+- libraryferret:fake_iron_block
+- libraryferret:fake_gold_block
+- libraryferret:fake_emerald_block
+- libraryferret:fake_diamond_block
+- libraryferret:fake_netherite_block
+- morevillagers:purpur_altar
+- morevillagers:mining_bench
+- twilightforest:mazestone
+- twilightforest:mazestone_border
+- twilightforest:mazestone_brick
+- twilightforest:cut_mazestone
+- twilightforest:cracked_mazestone
+- twilightforest:decorative_mazestone
+- twilightforest:mazestone_mosaic
+- twilightforest:mossy_mazestone
+- twilightforest:nagastone
+- twilightforest:nagastone_head
+- twilightforest:stronghold_shield
+- twilightforest:trophy_pedestal
+- twilightforest:aurora_pillar
+- twilightforest:aurora_slab
+- twilightforest:underbrick
+- twilightforest:mossy_underbrick
+- twilightforest:cracked_underbrick
+- twilightforest:underbrick_floor
+- twilightforest:deadrock
+- twilightforest:cracked_deadrock
+- twilightforest:weathered_deadrock
+- twilightforest:trollsteinn
+- twilightforest:giant_leaves
+- twilightforest:giant_obsidian
+- twilightforest:giant_cobblestone
+- twilightforest:giant_log
+- twilightforest:castle_brick
+- twilightforest:worn_castle_brick
+- twilightforest:cracked_castle_brick
+- twilightforest:castle_roof_tile
+- twilightforest:mossy_castle_brick
+- twilightforest:thick_castle_brick
+- twilightforest:encased_castle_brick_pillar
+- twilightforest:encased_castle_brick_tile
+- twilightforest:bold_castle_brick_pillar
+- twilightforest:bold_castle_brick_tile
+- twilightforest:castle_brick_stairs
+- twilightforest:worn_castle_brick_stairs
+- twilightforest:cracked_castle_brick_stairs
+- twilightforest:mossy_castle_brick_stairs
+- twilightforest:encased_castle_brick_stairs
+- twilightforest:bold_castle_brick_stairs
+- twilightforest:pink_castle_rune_brick
+- twilightforest:yellow_castle_rune_brick
+- twilightforest:blue_castle_rune_brick
+- twilightforest:violet_castle_rune_brick
+- twilightforest:pink_castle_door
+- twilightforest:yellow_castle_door
+- twilightforest:blue_castle_door
+- twilightforest:violet_castle_door
+- twilightforest:cinder_furnace
+- twilightforest:twilight_portal_miniature_structure
+- twilightforest:naga_courtyard_miniature_structure
+- twilightforest:lich_tower_miniature_structure
+- twilightforest:knightmetal_block
+- twilightforest:ironwood_block
+- twilightforest:fiery_block
+- twilightforest:spiral_bricks
+- twilightforest:etched_nagastone
+- twilightforest:nagastone_pillar
+- twilightforest:nagastone_stairs_left
+- twilightforest:nagastone_stairs_right
+- twilightforest:mossy_etched_nagastone
+- twilightforest:mossy_nagastone_pillar
+- twilightforest:mossy_nagastone_stairs_left
+- twilightforest:mossy_nagastone_stairs_right
+- twilightforest:cracked_etched_nagastone
+- twilightforest:cracked_nagastone_pillar
+- twilightforest:cracked_nagastone_stairs_left
+- twilightforest:cracked_nagastone_stairs_right
+- twilightforest:iron_ladder
+- twilightforest:twisted_stone
+- twilightforest:twisted_stone_pillar
+- twilightforest:keepsake_casket
+- twilightforest:bold_stone_pillar
+- fwaystones:red_desert_waystone
+- fwaystones:blackstone_brick_waystone
+- fwaystones:desert_waystone
+- fwaystones:waystone
+- fwaystones:stone_brick_waystone
+- fwaystones:end_stone_brick_waystone
+- fwaystones:deepslate_brick_waystone
+- fwaystones:red_nether_brick_waystone
+- fwaystones:nether_brick_waystone
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#universal_graves:replaceable
+- #minecraft:fire
+- #minecraft:flowers
+- minecraft:snow
+- minecraft:grass
+- minecraft:tall_grass
+- minecraft:seagrass
+- minecraft:glow_lichen
+- minecraft:moss_carpet
+- minecraft:large_fern
+- minecraft:fern
+- minecraft:lava
+- minecraft:water
+
+#minecraft:unstable_bottom_center
+- #minecraft:fence_gates
+
+#twilightforest:storage_blocks/ironwood
+- twilightforest:ironwood_block
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- create:train_door
+- create:framed_glass_door
+
+#minecraft:enderman_holdable
+- #minecraft:small_flowers
+- #minecraft:dirt
+- minecraft:sand
+- minecraft:red_sand
+- minecraft:gravel
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:tnt
+- minecraft:cactus
+- minecraft:clay
+- minecraft:pumpkin
+- minecraft:carved_pumpkin
+- minecraft:melon
+- minecraft:crimson_fungus
+- minecraft:crimson_nylium
+- minecraft:crimson_roots
+- minecraft:warped_fungus
+- minecraft:warped_nylium
+- minecraft:warped_roots
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+- minecraft:white_wall_banner
+- minecraft:orange_wall_banner
+- minecraft:magenta_wall_banner
+- minecraft:light_blue_wall_banner
+- minecraft:yellow_wall_banner
+- minecraft:lime_wall_banner
+- minecraft:pink_wall_banner
+- minecraft:gray_wall_banner
+- minecraft:light_gray_wall_banner
+- minecraft:cyan_wall_banner
+- minecraft:purple_wall_banner
+- minecraft:blue_wall_banner
+- minecraft:brown_wall_banner
+- minecraft:green_wall_banner
+- minecraft:red_wall_banner
+- minecraft:black_wall_banner
+
+#minecraft:infiniburn_overworld
+- minecraft:netherrack
+- minecraft:magma_block
+
+#minecraft:flower_pots
+- minecraft:flower_pot
+- minecraft:potted_poppy
+- minecraft:potted_blue_orchid
+- minecraft:potted_allium
+- minecraft:potted_azure_bluet
+- minecraft:potted_red_tulip
+- minecraft:potted_orange_tulip
+- minecraft:potted_white_tulip
+- minecraft:potted_pink_tulip
+- minecraft:potted_oxeye_daisy
+- minecraft:potted_dandelion
+- minecraft:potted_oak_sapling
+- minecraft:potted_spruce_sapling
+- minecraft:potted_birch_sapling
+- minecraft:potted_jungle_sapling
+- minecraft:potted_acacia_sapling
+- minecraft:potted_dark_oak_sapling
+- minecraft:potted_red_mushroom
+- minecraft:potted_brown_mushroom
+- minecraft:potted_dead_bush
+- minecraft:potted_fern
+- minecraft:potted_cactus
+- minecraft:potted_cornflower
+- minecraft:potted_lily_of_the_valley
+- minecraft:potted_wither_rose
+- minecraft:potted_bamboo
+- minecraft:potted_crimson_fungus
+- minecraft:potted_warped_fungus
+- minecraft:potted_crimson_roots
+- minecraft:potted_warped_roots
+- minecraft:potted_azalea_bush
+- minecraft:potted_flowering_azalea_bush
+- twilightforest:potted_twilight_oak_sapling
+- twilightforest:potted_canopy_sapling
+- twilightforest:potted_mangrove_sapling
+- twilightforest:potted_darkwood_sapling
+- twilightforest:potted_rainbow_oak_sapling
+- twilightforest:potted_hollow_oak_sapling
+- twilightforest:potted_time_sapling
+- twilightforest:potted_transformation_sapling
+- twilightforest:potted_mining_sapling
+- twilightforest:potted_sorting_sapling
+- twilightforest:potted_mayapple
+- twilightforest:potted_fiddlehead
+- twilightforest:potted_mushgloom
+- twilightforest:potted_thorn
+- twilightforest:potted_green_thorn
+- twilightforest:potted_dead_thorn
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- twilightforest:twilight_oak_fence
+- twilightforest:canopy_fence
+- twilightforest:mangrove_fence
+- twilightforest:dark_fence
+- twilightforest:time_fence
+- twilightforest:transformation_fence
+- twilightforest:mining_fence
+- twilightforest:sorting_fence
+
+#c:ores_in_ground/deepslate
+- create:deepslate_zinc_ore
+- minecraft:deepslate_coal_ore
+- minecraft:deepslate_copper_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:deepslate_gold_ore
+- minecraft:deepslate_iron_ore
+- minecraft:deepslate_lapis_ore
+- minecraft:deepslate_redstone_ore
+
+#incendium:netherrack
+- minecraft:netherrack
+
+#minecraft:wall_post_override
+- minecraft:torch
+- minecraft:soul_torch
+- minecraft:redstone_torch
+- minecraft:tripwire
+- #minecraft:signs
+- #minecraft:banners
+- #minecraft:pressure_plates
+
+#incendium:bedrock
+- minecraft:bedrock
+
+#c:storage_blocks/zinc
+- create:zinc_block
+
+#twilightforest:transwood_logs
+- twilightforest:transformation_log
+- twilightforest:stripped_transformation_log
+- twilightforest:transformation_wood
+- twilightforest:stripped_transformation_wood
+
+#origins:unphasable
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:crying_obsidian
+- minecraft:obsidian
+
+#incendium:nether_wart_block
+- minecraft:nether_wart_block
+
+#farmersdelight:drops_cake_slice
+- minecraft:candle_cake
+- minecraft:white_candle_cake
+- minecraft:orange_candle_cake
+- minecraft:magenta_candle_cake
+- minecraft:light_blue_candle_cake
+- minecraft:yellow_candle_cake
+- minecraft:lime_candle_cake
+- minecraft:pink_candle_cake
+- minecraft:gray_candle_cake
+- minecraft:light_gray_candle_cake
+- minecraft:cyan_candle_cake
+- minecraft:purple_candle_cake
+- minecraft:blue_candle_cake
+- minecraft:brown_candle_cake
+- minecraft:green_candle_cake
+- minecraft:red_candle_cake
+- minecraft:black_candle_cake
+
+#twilightforest:annihilation_inclusions
+- minecraft:nether_portal
+- twilightforest:deadrock
+- twilightforest:cracked_deadrock
+- twilightforest:weathered_deadrock
+- twilightforest:castle_brick
+- twilightforest:cracked_deadrock
+- twilightforest:thick_castle_brick
+- twilightforest:mossy_castle_brick
+- twilightforest:castle_roof_tile
+- twilightforest:worn_castle_brick
+- twilightforest:blue_castle_rune_brick
+- twilightforest:violet_castle_rune_brick
+- twilightforest:yellow_castle_rune_brick
+- twilightforest:pink_castle_rune_brick
+- twilightforest:pink_force_field
+- twilightforest:orange_force_field
+- twilightforest:green_force_field
+- twilightforest:blue_force_field
+- twilightforest:violet_force_field
+- twilightforest:brown_thorns
+- twilightforest:green_thorns
+
+#extended_drawers:drawers
+- extended_drawers:shadow_drawer
+- extended_drawers:single_drawer
+- extended_drawers:double_drawer
+- extended_drawers:quad_drawer
+
+#minecraft:cauldrons
+- minecraft:cauldron
+- minecraft:water_cauldron
+- minecraft:lava_cauldron
+- minecraft:powder_snow_cauldron
+
+#incendium:basalt
+- minecraft:basalt
+- minecraft:netherrack
+
+#twilightforest:trophies
+- twilightforest:naga_trophy
+- twilightforest:naga_wall_trophy
+- twilightforest:lich_trophy
+- twilightforest:lich_wall_trophy
+- twilightforest:minoshroom_trophy
+- twilightforest:minoshroom_wall_trophy
+- twilightforest:hydra_trophy
+- twilightforest:hydra_wall_trophy
+- twilightforest:knight_phantom_trophy
+- twilightforest:knight_phantom_wall_trophy
+- twilightforest:ur_ghast_trophy
+- twilightforest:ur_ghast_wall_trophy
+- twilightforest:alpha_yeti_trophy
+- twilightforest:alpha_yeti_wall_trophy
+- twilightforest:snow_queen_trophy
+- twilightforest:snow_queen_wall_trophy
+- twilightforest:quest_ram_trophy
+- twilightforest:quest_ram_wall_trophy
+
+#minecraft:big_dripleaf_placeable
+- #minecraft:small_dripleaf_placeable
+- #minecraft:dirt
+- minecraft:farmland
+
+#minecraft:polar_bears_spawnable_on_in_frozen_ocean
+- minecraft:ice
+
+#twilightforest:common_protections
+- twilightforest:naga_boss_spawner
+- twilightforest:lich_boss_spawner
+- twilightforest:minoshroom_boss_spawner
+- twilightforest:hydra_boss_spawner
+- twilightforest:knight_phantom_boss_spawner
+- twilightforest:ur_ghast_boss_spawner
+- twilightforest:alpha_yeti_boss_spawner
+- twilightforest:snow_queen_boss_spawner
+- twilightforest:final_boss_boss_spawner
+- twilightforest:stronghold_shield
+- twilightforest:vanishing_block
+- twilightforest:locked_vanishing_block
+- twilightforest:pink_force_field
+- twilightforest:orange_force_field
+- twilightforest:green_force_field
+- twilightforest:blue_force_field
+- twilightforest:violet_force_field
+- twilightforest:keepsake_casket
+- twilightforest:trophy_pedestal
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+
+#twilightforest:ice_bomb_replaceables
+- twilightforest:mayapple
+- twilightforest:fiddlehead
+- minecraft:grass
+- minecraft:tall_grass
+- minecraft:fern
+- minecraft:large_fern
+- #minecraft:flowers
+
+#c:ore_rates/dense
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+- minecraft:deepslate_lapis_ore
+- minecraft:deepslate_redstone_ore
+- minecraft:lapis_ore
+- minecraft:redstone_ore
+
+#minecraft:signs
+- #minecraft:standing_signs
+- #minecraft:wall_signs
+
+#incendium:nether_blocks
+- minecraft:warped_fungus
+- minecraft:crimson_fungus
+- minecraft:crimson_roots
+- minecraft:warped_roots
+- minecraft:twisting_vines
+- minecraft:weeping_vines
+- minecraft:nether_sprouts
+- minecraft:polished_blackstone_bricks
+- minecraft:blackstone
+- minecraft:basalt
+- minecraft:netherrack
+- minecraft:nether_brick_fence
+- minecraft:nether_brick_stairs
+- minecraft:soul_sand
+- minecraft:nether_wart
+- minecraft:chest
+- minecraft:spawner
+- minecraft:warped_nylium
+- minecraft:crimson_nylium
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+- minecraft:fire
+- minecraft:soul_fire
+- minecraft:ancient_debris
+- minecraft:crimson_stem
+- minecraft:glowstone
+- minecraft:magma_block
+- minecraft:nether_gold_ore
+- minecraft:shroomlight
+- minecraft:soul_soil
+- minecraft:warped_stem
+- minecraft:air
+- minecraft:gravel
+
+#farmersdelight:mushroom_colony_growable_on
+- farmersdelight:rich_soil
+
+#c:glass/white
+- minecraft:white_stained_glass
+
+#c:obsidian
+- minecraft:obsidian
+
+#twilightforest:ores/ironwood
+
+#minecraft:wither_summon_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#c:fences/wooden
+- #minecraft:wooden_fences
+- twilightforest:twilight_oak_fence
+- twilightforest:canopy_fence
+- twilightforest:mangrove_fence
+- twilightforest:dark_fence
+- twilightforest:time_fence
+- twilightforest:transformation_fence
+- twilightforest:mining_fence
+- twilightforest:sorting_fence
+
+#minecraft:dripstone_replaceable_blocks
+- #minecraft:base_stone_overworld
+- create:asurine
+- create:crimsite
+- create:limestone
+- create:ochrum
+- create:scoria
+- create:scorchia
+- create:veridium
+
+#minecraft:hoglin_repellents
+- minecraft:warped_fungus
+- minecraft:potted_warped_fungus
+- minecraft:nether_portal
+- minecraft:respawn_anchor
+
+#c:glass
+- #c:glass/colorless
+- #c:stained_glass
+- #c:glass/tinted
+
+#twilightforest:towerwood
+- twilightforest:towerwood
+- twilightforest:mossy_towerwood
+- twilightforest:cracked_towerwood
+- twilightforest:infested_towerwood
+
+#minecraft:fire
+- minecraft:fire
+- minecraft:soul_fire
+
+#c:glass_panes/green
+- minecraft:green_stained_glass_pane
+
+#c:glass_panes/colorless
+- minecraft:glass_pane
+
+#minecraft:needs_diamond_tool
+- minecraft:obsidian
+- minecraft:crying_obsidian
+- minecraft:netherite_block
+- minecraft:respawn_anchor
+- minecraft:ancient_debris
+- expandedstorage:obsidian_barrel
+- expandedstorage:netherite_barrel
+- expandedstorage:obsidian_chest
+- expandedstorage:netherite_chest
+- expandedstorage:old_obsidian_chest
+- expandedstorage:old_netherite_chest
+
+#minecraft:base_stone_nether
+- minecraft:netherrack
+- minecraft:basalt
+- minecraft:blackstone
+- minecraft:netherrack
+- minecraft:basalt
+- minecraft:polished_basalt
+- minecraft:blackstone
+- minecraft:quartz_block
+- minecraft:smooth_quartz
+- minecraft:red_sandstone
+
+#c:glass/brown
+- minecraft:brown_stained_glass
+
+#minecraft:wall_signs
+- minecraft:oak_wall_sign
+- minecraft:spruce_wall_sign
+- minecraft:birch_wall_sign
+- minecraft:acacia_wall_sign
+- minecraft:jungle_wall_sign
+- minecraft:dark_oak_wall_sign
+- minecraft:crimson_wall_sign
+- minecraft:warped_wall_sign
+- farmersdelight:canvas_wall_sign
+- farmersdelight:white_canvas_wall_sign
+- farmersdelight:orange_canvas_wall_sign
+- farmersdelight:magenta_canvas_wall_sign
+- farmersdelight:light_blue_canvas_wall_sign
+- farmersdelight:yellow_canvas_wall_sign
+- farmersdelight:lime_canvas_wall_sign
+- farmersdelight:pink_canvas_wall_sign
+- farmersdelight:gray_canvas_wall_sign
+- farmersdelight:light_gray_canvas_wall_sign
+- farmersdelight:cyan_canvas_wall_sign
+- farmersdelight:purple_canvas_wall_sign
+- farmersdelight:blue_canvas_wall_sign
+- farmersdelight:brown_canvas_wall_sign
+- farmersdelight:green_canvas_wall_sign
+- farmersdelight:red_canvas_wall_sign
+- farmersdelight:black_canvas_wall_sign
+- twilightforest:twilight_wall_sign
+- twilightforest:canopy_wall_sign
+- twilightforest:mangrove_wall_sign
+- twilightforest:darkwood_wall_sign
+- twilightforest:time_wall_sign
+- twilightforest:transformation_wall_sign
+- twilightforest:mining_wall_sign
+- twilightforest:sorting_wall_sign
+
+#c:ore_rates/singular
+- minecraft:ancient_debris
+- minecraft:coal_ore
+- minecraft:deepslate_coal_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:deepslate_gold_ore
+- minecraft:deepslate_iron_ore
+- minecraft:diamond_ore
+- minecraft:emerald_ore
+- minecraft:gold_ore
+- minecraft:iron_ore
+- minecraft:nether_quartz_ore
+
+#c:farmland
+- farmersdelight:rich_soil_farmland
+
+#c:glass_panes/purple
+- minecraft:purple_stained_glass_pane
+
+#create:fan_transparent
+- create:blaze_burner
+- create:lit_blaze_burner
+- create:sail_frame
+- minecraft:iron_bars
+- #minecraft:campfires
+- #minecraft:fences
+
+#c:sand
+- #c:sand/colorless
+- #c:sand/red
+
+#twilightforest:tree_roots_skip
+- #minecraft:features_cannot_replace
+- twilightforest:root
+- twilightforest:liveroot_block
+- twilightforest:mangrove_root
+- twilightforest:time_wood
+
+#c:glass_panes/red
+- minecraft:red_stained_glass_pane
+
+#minecraft:mineable/shovel
+- minecraft:clay
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:farmland
+- minecraft:grass_block
+- minecraft:gravel
+- minecraft:mycelium
+- minecraft:sand
+- minecraft:red_sand
+- minecraft:snow_block
+- minecraft:snow
+- minecraft:soul_sand
+- minecraft:dirt_path
+- minecraft:white_concrete_powder
+- minecraft:orange_concrete_powder
+- minecraft:magenta_concrete_powder
+- minecraft:light_blue_concrete_powder
+- minecraft:yellow_concrete_powder
+- minecraft:lime_concrete_powder
+- minecraft:pink_concrete_powder
+- minecraft:gray_concrete_powder
+- minecraft:light_gray_concrete_powder
+- minecraft:cyan_concrete_powder
+- minecraft:purple_concrete_powder
+- minecraft:blue_concrete_powder
+- minecraft:brown_concrete_powder
+- minecraft:green_concrete_powder
+- minecraft:red_concrete_powder
+- minecraft:black_concrete_powder
+- minecraft:soul_soil
+- minecraft:rooted_dirt
+- farmersdelight:organic_compost
+- farmersdelight:rich_soil
+- farmersdelight:rich_soil_farmland
+- twilightforest:smoker
+- twilightforest:fire_jet
+- twilightforest:uberous_soil
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- create:train_trapdoor
+- create:framed_glass_trapdoor
+
+#minecraft:redstone_ores
+- minecraft:redstone_ore
+- minecraft:deepslate_redstone_ore
+
+#farmersdelight:straw_blocks
+- farmersdelight:rice_bag
+- farmersdelight:rope
+- farmersdelight:safety_net
+- farmersdelight:canvas_rug
+- farmersdelight:tatami
+- farmersdelight:full_tatami_mat
+- farmersdelight:half_tatami_mat
+
+#c:stained_glass_panes
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+
+#minecraft:fall_damage_resetting
+- #minecraft:climbable
+- minecraft:sweet_berry_bush
+- minecraft:cobweb
+
+#c:glass_panes/light_blue
+- minecraft:light_blue_stained_glass_pane
+
+#twilightforest:fire_jet_fuel
+- minecraft:lava
+
+#minecraft:soul_speed_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#c:storage_blocks/emerald
+- minecraft:emerald_block
+
+#minecraft:geode_invalid_blocks
+- minecraft:bedrock
+- minecraft:water
+- minecraft:lava
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- minecraft:azalea_leaves
+- minecraft:flowering_azalea_leaves
+- twilightforest:rainbow_oak_leaves
+- twilightforest:twilight_oak_leaves
+- twilightforest:canopy_leaves
+- twilightforest:mangrove_leaves
+- twilightforest:dark_leaves
+- twilightforest:time_leaves
+- twilightforest:transformation_leaves
+- twilightforest:mining_leaves
+- twilightforest:sorting_leaves
+- twilightforest:thorn_leaves
+- twilightforest:beanstalk_leaves
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- minecraft:cobbled_deepslate_wall
+- minecraft:polished_deepslate_wall
+- minecraft:deepslate_tile_wall
+- minecraft:deepslate_brick_wall
+- create:cut_granite_wall
+- create:polished_cut_granite_wall
+- create:cut_granite_brick_wall
+- create:small_granite_brick_wall
+- create:cut_diorite_wall
+- create:polished_cut_diorite_wall
+- create:cut_diorite_brick_wall
+- create:small_diorite_brick_wall
+- create:cut_andesite_wall
+- create:polished_cut_andesite_wall
+- create:cut_andesite_brick_wall
+- create:small_andesite_brick_wall
+- create:cut_calcite_wall
+- create:polished_cut_calcite_wall
+- create:cut_calcite_brick_wall
+- create:small_calcite_brick_wall
+- create:cut_dripstone_wall
+- create:polished_cut_dripstone_wall
+- create:cut_dripstone_brick_wall
+- create:small_dripstone_brick_wall
+- create:cut_deepslate_wall
+- create:polished_cut_deepslate_wall
+- create:cut_deepslate_brick_wall
+- create:small_deepslate_brick_wall
+- create:cut_tuff_wall
+- create:polished_cut_tuff_wall
+- create:cut_tuff_brick_wall
+- create:small_tuff_brick_wall
+- create:cut_asurine_wall
+- create:polished_cut_asurine_wall
+- create:cut_asurine_brick_wall
+- create:small_asurine_brick_wall
+- create:cut_crimsite_wall
+- create:polished_cut_crimsite_wall
+- create:cut_crimsite_brick_wall
+- create:small_crimsite_brick_wall
+- create:cut_limestone_wall
+- create:polished_cut_limestone_wall
+- create:cut_limestone_brick_wall
+- create:small_limestone_brick_wall
+- create:cut_ochrum_wall
+- create:polished_cut_ochrum_wall
+- create:cut_ochrum_brick_wall
+- create:small_ochrum_brick_wall
+- create:cut_scoria_wall
+- create:polished_cut_scoria_wall
+- create:cut_scoria_brick_wall
+- create:small_scoria_brick_wall
+- create:cut_scorchia_wall
+- create:polished_cut_scorchia_wall
+- create:cut_scorchia_brick_wall
+- create:small_scorchia_brick_wall
+- create:cut_veridium_wall
+- create:polished_cut_veridium_wall
+- create:cut_veridium_brick_wall
+- create:small_veridium_brick_wall
+
+#minecraft:coral_blocks
+- minecraft:tube_coral_block
+- minecraft:brain_coral_block
+- minecraft:bubble_coral_block
+- minecraft:fire_coral_block
+- minecraft:horn_coral_block
+
+#minecraft:cave_vines
+- minecraft:cave_vines_plant
+- minecraft:cave_vines
+
+#c:ores/coal
+- #minecraft:coal_ores
+
+#c:glass_panes/light_gray
+- minecraft:light_gray_stained_glass_pane
+
+#c:glass/magenta
+- minecraft:magenta_stained_glass
+
+#minecraft:wither_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- #twilightforest:common_protections
+- twilightforest:fake_diamond
+- twilightforest:fake_gold
+- universal_graves:grave
+
+#carrier:blacklist
+- conjuring:blackstone_pedestal
+- conjuring:gem_tinkerer
+- conjuring:soul_weaver
+- conjuring:soul_funnel
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+
+#twilightforest:storage_blocks/fiery
+- twilightforest:fiery_block
+
+#adventurez:platform_end_blocks
+- minecraft:obsidian
+- minecraft:crying_obsidian
+
+#c:stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- minecraft:deepslate
+- minecraft:polished_deepslate
+- minecraft:infested_deepslate
+- minecraft:tuff
+
+#c:enderman_place_on_blacklist
+
+#minecraft:underwater_bonemeals
+- minecraft:seagrass
+- #minecraft:corals
+- #minecraft:wall_corals
+
+#incendium:smooth_basalt
+- minecraft:soul_soil
+- minecraft:soul_sand
+- minecraft:smooth_basalt
+- minecraft:netherrack
+- minecraft:basalt
+
+#c:relocation_not_supported
+- create:track
+
+#minecraft:impermeable
+- minecraft:glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+- minecraft:tinted_glass
+- create:tiled_glass
+- create:framed_glass
+- create:horizontal_framed_glass
+- create:vertical_framed_glass
+- create:oak_window
+- create:spruce_window
+- create:birch_window
+- create:jungle_window
+- create:acacia_window
+- create:dark_oak_window
+- create:crimson_window
+- create:warped_window
+- create:ornate_iron_window
+
+#twilightforest:worldgen_replaceables
+- #minecraft:lush_ground_replaceable
+- #minecraft:replaceable_plants
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+
+#minecraft:copper_ores
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+
+#minecraft:small_dripleaf_placeable
+- minecraft:clay
+- minecraft:moss_block
+- twilightforest:uberous_soil
+
+#origins:natural_stone
+- #minecraft:base_stone_overworld
+- #minecraft:base_stone_nether
+- minecraft:sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:smooth_red_sandstone
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- #twilightforest:twilight_oak_logs
+- #twilightforest:canopy_logs
+- #twilightforest:mangrove_logs
+- #twilightforest:timewood_logs
+- #twilightforest:transwood_logs
+- #twilightforest:mining_logs
+- #twilightforest:sortwood_logs
+
+#minecraft:mineable/hoe
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+- minecraft:hay_block
+- minecraft:dried_kelp_block
+- minecraft:target
+- minecraft:shroomlight
+- minecraft:sponge
+- minecraft:wet_sponge
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- minecraft:azalea_leaves
+- minecraft:flowering_azalea_leaves
+- minecraft:sculk_sensor
+- minecraft:moss_block
+- minecraft:moss_carpet
+- farmersdelight:rice_bale
+- farmersdelight:straw_bale
+- twilightforest:twilight_oak_leaves
+- twilightforest:canopy_leaves
+- twilightforest:mangrove_leaves
+- twilightforest:dark_leaves
+- twilightforest:rainbow_oak_leaves
+- twilightforest:time_leaves
+- twilightforest:transformation_leaves
+- twilightforest:mining_leaves
+- twilightforest:sorting_leaves
+- twilightforest:thorn_leaves
+- twilightforest:thorn_rose
+- twilightforest:beanstalk_leaves
+- twilightforest:steeleaf_block
+- twilightforest:arctic_fur_block
+
+#c:ores_in_ground/netherrack
+- minecraft:nether_gold_ore
+- minecraft:nether_quartz_ore
+
+#c:glass_panes/gray
+- minecraft:gray_stained_glass_pane
+
+#minecraft:needs_iron_tool
+- minecraft:diamond_block
+- minecraft:diamond_ore
+- minecraft:deepslate_diamond_ore
+- minecraft:emerald_ore
+- minecraft:deepslate_emerald_ore
+- minecraft:emerald_block
+- minecraft:gold_block
+- minecraft:raw_gold_block
+- minecraft:gold_ore
+- minecraft:deepslate_gold_ore
+- minecraft:redstone_ore
+- minecraft:deepslate_redstone_ore
+- conjuring:conjurer
+- create:zinc_ore
+- create:deepslate_zinc_ore
+- create:raw_zinc_block
+- create:zinc_block
+- create:brass_block
+- expandedstorage:diamond_barrel
+- expandedstorage:diamond_chest
+- expandedstorage:old_diamond_chest
+- ftbquests:screen_1
+- ftbquests:screen_3
+- ftbquests:screen_5
+- ftbquests:screen_7
+- ftbquests:aux_task_screen
+
+#c:glass/cyan
+- minecraft:cyan_stained_glass
+
+#expandedstorage:mini_chest_secret_cycle
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+- expandedstorage:lavender_mini_present
+- expandedstorage:pink_amethyst_mini_present
+
+#minecraft:campfires
+- minecraft:campfire
+- minecraft:soul_campfire
+
+#minecraft:infiniburn_nether
+- #minecraft:infiniburn_overworld
+- minecraft:soul_soil
+- minecraft:soul_sand
+- minecraft:smooth_quartz
+- minecraft:netherrack
+- minecraft:warped_nylium
+- minecraft:crimson_nylium
+- minecraft:yellow_terracotta
+- minecraft:red_sand
+- minecraft:red_terracotta
+- minecraft:red_sandstone
+- minecraft:smooth_red_sandstone
+
+#incendium:basalt_replace
+- minecraft:netherrack
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#c:glass/colorless
+- create:tiled_glass
+- create:framed_glass
+- create:horizontal_framed_glass
+- create:vertical_framed_glass
+- minecraft:glass
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- twilightforest:twilight_oak_slab
+- twilightforest:canopy_slab
+- twilightforest:mangrove_slab
+- twilightforest:dark_slab
+- twilightforest:time_slab
+- twilightforest:transformation_slab
+- twilightforest:mining_slab
+- twilightforest:sorting_slab
+
+#c:wooden_chests
+- minecraft:chest
+- minecraft:trapped_chest
+- expandedstorage:wood_chest
+
+#minecraft:coal_ores
+- minecraft:coal_ore
+- minecraft:deepslate_coal_ore
+
+#create:toolboxes
+- create:white_toolbox
+- create:orange_toolbox
+- create:magenta_toolbox
+- create:light_blue_toolbox
+- create:yellow_toolbox
+- create:lime_toolbox
+- create:pink_toolbox
+- create:gray_toolbox
+- create:light_gray_toolbox
+- create:cyan_toolbox
+- create:purple_toolbox
+- create:blue_toolbox
+- create:brown_toolbox
+- create:green_toolbox
+- create:red_toolbox
+- create:black_toolbox
+
+#incendium:smooth_basalt_only
+- minecraft:smooth_basalt
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
+
+#minecraft:replaceable_plants
+- minecraft:grass
+- minecraft:fern
+- minecraft:dead_bush
+- minecraft:vine
+- minecraft:glow_lichen
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:rose_bush
+- minecraft:peony
+- minecraft:tall_grass
+- minecraft:large_fern
+- minecraft:hanging_roots
+- farmersdelight:sandy_shrub
+- twilightforest:mayapple
+- twilightforest:fiddlehead
+- twilightforest:mushgloom
+- twilightforest:torchberry_plant
+- twilightforest:root_strand
+- twilightforest:moss_patch
+- twilightforest:clover_patch
+- twilightforest:fallen_leaves
+
+#c:ores/redstone
+- #minecraft:redstone_ores
+
+#farmersdelight:mineable/knife
+- minecraft:cobweb
+- minecraft:cake
+- farmersdelight:apple_pie
+- farmersdelight:sweet_berry_cheesecake
+- farmersdelight:chocolate_pie
+- farmersdelight:roast_chicken_block
+- farmersdelight:honey_glazed_ham_block
+- farmersdelight:shepherds_pie_block
+- farmersdelight:rice_roll_medley_block
+- #minecraft:wool_carpets
+- #minecraft:wool
+- #minecraft:candle_cakes
+- #farmersdelight:straw_blocks
+- #c:mineable/knife
+
+#minecraft:azalea_root_replaceable
+- #minecraft:base_stone_overworld
+- #minecraft:dirt
+- #minecraft:terracotta
+- minecraft:red_sand
+- minecraft:clay
+- minecraft:gravel
+- minecraft:sand
+- minecraft:snow_block
+- minecraft:powder_snow
+- create:asurine
+- create:crimsite
+- create:limestone
+- create:ochrum
+- create:scoria
+- create:scorchia
+- create:veridium
+
+#minecraft:wooden_trapdoors
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- twilightforest:twilight_oak_trapdoor
+- twilightforest:canopy_trapdoor
+- twilightforest:mangrove_trapdoor
+- twilightforest:dark_trapdoor
+- twilightforest:time_trapdoor
+- twilightforest:transformation_trapdoor
+- twilightforest:mining_trapdoor
+- twilightforest:sorting_trapdoor
+
+#create:valve_handles
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+
+#c:glass/pink
+- minecraft:pink_stained_glass
+
+#c:glass/red
+- minecraft:red_stained_glass
+
+#c:fence_gates
+- #c:fence_gates/wooden
+- twilightforest:twilight_oak_fence_gate
+- twilightforest:canopy_fence_gate
+- twilightforest:mangrove_fence_gate
+- twilightforest:dark_fence_gate
+- twilightforest:time_fence_gate
+- twilightforest:transformation_fence_gate
+- twilightforest:mining_fence_gate
+- twilightforest:sorting_fence_gate
+
+#incendium:dunes
+- minecraft:red_sand
+- minecraft:red_terracotta
+- minecraft:netherrack
+
+#twilightforest:storage_blocks/knightmetal
+- twilightforest:knightmetal_block
+
+#c:glass_panes/pink
+- minecraft:pink_stained_glass_pane
+
+#farmersdelight:wild_crops
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
+- farmersdelight:wild_rice
+
+#minecraft:wolves_spawnable_on
+- minecraft:grass_block
+- minecraft:snow
+- minecraft:snow_block
+
+#minecraft:foxes_spawnable_on
+- minecraft:grass_block
+- minecraft:snow
+- minecraft:snow_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+
+#minecraft:stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- minecraft:cobbled_deepslate_stairs
+- minecraft:polished_deepslate_stairs
+- minecraft:deepslate_tile_stairs
+- minecraft:deepslate_brick_stairs
+- minecraft:oxidized_cut_copper_stairs
+- minecraft:weathered_cut_copper_stairs
+- minecraft:exposed_cut_copper_stairs
+- minecraft:cut_copper_stairs
+- minecraft:waxed_weathered_cut_copper_stairs
+- minecraft:waxed_exposed_cut_copper_stairs
+- minecraft:waxed_cut_copper_stairs
+- minecraft:waxed_oxidized_cut_copper_stairs
+- create:cut_granite_stairs
+- create:polished_cut_granite_stairs
+- create:cut_granite_brick_stairs
+- create:small_granite_brick_stairs
+- create:cut_diorite_stairs
+- create:polished_cut_diorite_stairs
+- create:cut_diorite_brick_stairs
+- create:small_diorite_brick_stairs
+- create:cut_andesite_stairs
+- create:polished_cut_andesite_stairs
+- create:cut_andesite_brick_stairs
+- create:small_andesite_brick_stairs
+- create:cut_calcite_stairs
+- create:polished_cut_calcite_stairs
+- create:cut_calcite_brick_stairs
+- create:small_calcite_brick_stairs
+- create:cut_dripstone_stairs
+- create:polished_cut_dripstone_stairs
+- create:cut_dripstone_brick_stairs
+- create:small_dripstone_brick_stairs
+- create:cut_deepslate_stairs
+- create:polished_cut_deepslate_stairs
+- create:cut_deepslate_brick_stairs
+- create:small_deepslate_brick_stairs
+- create:cut_tuff_stairs
+- create:polished_cut_tuff_stairs
+- create:cut_tuff_brick_stairs
+- create:small_tuff_brick_stairs
+- create:cut_asurine_stairs
+- create:polished_cut_asurine_stairs
+- create:cut_asurine_brick_stairs
+- create:small_asurine_brick_stairs
+- create:cut_crimsite_stairs
+- create:polished_cut_crimsite_stairs
+- create:cut_crimsite_brick_stairs
+- create:small_crimsite_brick_stairs
+- create:cut_limestone_stairs
+- create:polished_cut_limestone_stairs
+- create:cut_limestone_brick_stairs
+- create:small_limestone_brick_stairs
+- create:cut_ochrum_stairs
+- create:polished_cut_ochrum_stairs
+- create:cut_ochrum_brick_stairs
+- create:small_ochrum_brick_stairs
+- create:cut_scoria_stairs
+- create:polished_cut_scoria_stairs
+- create:cut_scoria_brick_stairs
+- create:small_scoria_brick_stairs
+- create:cut_scorchia_stairs
+- create:polished_cut_scorchia_stairs
+- create:cut_scorchia_brick_stairs
+- create:small_scorchia_brick_stairs
+- create:cut_veridium_stairs
+- create:polished_cut_veridium_stairs
+- create:cut_veridium_brick_stairs
+- create:small_veridium_brick_stairs
+- twilightforest:castle_brick_stairs
+- twilightforest:worn_castle_brick_stairs
+- twilightforest:cracked_castle_brick_stairs
+- twilightforest:mossy_castle_brick_stairs
+- twilightforest:encased_castle_brick_stairs
+- twilightforest:bold_castle_brick_stairs
+- twilightforest:nagastone_stairs_left
+- twilightforest:nagastone_stairs_right
+- twilightforest:mossy_nagastone_stairs_left
+- twilightforest:mossy_nagastone_stairs_right
+- twilightforest:cracked_nagastone_stairs_left
+- twilightforest:cracked_nagastone_stairs_right
+
+#twilightforest:portal/decoration
+- #minecraft:flowers
+- #minecraft:leaves
+- #minecraft:saplings
+- #minecraft:crops
+- minecraft:bamboo
+- minecraft:grass
+- minecraft:fern
+- minecraft:dead_bush
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:sugar_cane
+- minecraft:attached_pumpkin_stem
+- minecraft:attached_melon_stem
+- minecraft:vine
+- minecraft:glow_lichen
+- minecraft:lily_pad
+- minecraft:nether_wart
+- minecraft:cocoa
+- minecraft:tall_grass
+- minecraft:large_fern
+- minecraft:chorus_plant
+- minecraft:chorus_flower
+- minecraft:sweet_berry_bush
+- minecraft:warped_fungus
+- minecraft:crimson_fungus
+- minecraft:weeping_vines
+- minecraft:weeping_vines_plant
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
+- minecraft:cave_vines
+- minecraft:cave_vines_plant
+- minecraft:spore_blossom
+- minecraft:moss_carpet
+- minecraft:big_dripleaf
+- minecraft:big_dripleaf_stem
+- minecraft:small_dripleaf
+- minecraft:hanging_roots
+- twilightforest:moss_patch
+- twilightforest:mayapple
+- twilightforest:clover_patch
+- twilightforest:fiddlehead
+- twilightforest:mushgloom
+- twilightforest:torchberry_plant
+- twilightforest:root_strand
+- twilightforest:fallen_leaves
+- twilightforest:huge_lily_pad
+- twilightforest:huge_water_lily
+- twilightforest:thorn_rose
+- twilightforest:giant_leaves
+- twilightforest:trollvidr
+- twilightforest:unripe_trollber
+- twilightforest:trollber
+- twilightforest:steeleaf_block
+- twilightforest:hardened_dark_leaves
+
+#minecraft:logs
+- #minecraft:logs_that_burn
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+- #twilightforest:logs
+
+#c:glass_panes/magenta
+- minecraft:magenta_stained_glass_pane
+
+#c:glass_panes/brown
+- minecraft:brown_stained_glass_pane
+
+#c:glass/tinted
+- minecraft:tinted_glass
+
+#c:storage_blocks/iron
+- minecraft:iron_block
+
+#minecraft:azalea_grows_on
+- #minecraft:dirt
+- #minecraft:sand
+- #minecraft:terracotta
+- minecraft:snow_block
+- minecraft:powder_snow
+
+#create:passive_boiler_heaters
+- create:blaze_burner
+- create:lit_blaze_burner
+- minecraft:magma_block
+- minecraft:lava
+- #minecraft:campfires
+- #minecraft:fire
+
+#twilightforest:progression_allow_breaking
+- twilightforest:keepsake_casket
+- gravestone:gravestone?
+
+#c:glass_panes/white
+- minecraft:white_stained_glass_pane
+
+#twilightforest:fence_gates
+- twilightforest:twilight_oak_fence_gate
+- twilightforest:canopy_fence_gate
+- twilightforest:mangrove_fence_gate
+- twilightforest:dark_fence_gate
+- twilightforest:time_fence_gate
+- twilightforest:transformation_fence_gate
+- twilightforest:mining_fence_gate
+- twilightforest:sorting_fence_gate
+
+#twilightforest:ore_magnet/ore_safe_replace_block
+- #minecraft:dirt
+- #c:gravel
+- #c:sand
+- #minecraft:nylium
+- #minecraft:base_stone_overworld
+- #minecraft:base_stone_nether
+- #c:end_stones
+- #minecraft:deepslate_ore_replaceables
+- #minecraft:stone_ore_replaceables
+- #c:ore_bearing_ground/root
+
+#c:gravel
+- minecraft:gravel
+
+#twilightforest:carminite_reactor_ores
+- minecraft:nether_quartz_ore
+- minecraft:nether_gold_ore
+
+#minecraft:valid_spawn
+- minecraft:grass_block
+- minecraft:podzol
+
+#minecraft:mushroom_grow_block
+- minecraft:mycelium
+- minecraft:podzol
+- minecraft:crimson_nylium
+- minecraft:warped_nylium
+- farmersdelight:organic_compost
+- farmersdelight:rich_soil
+- minecraft:gravel
+- twilightforest:uberous_soil
+
+#minecraft:wooden_doors
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- create:train_door
+- create:framed_glass_door
+- twilightforest:twilight_oak_door
+- twilightforest:canopy_door
+- twilightforest:mangrove_door
+- twilightforest:dark_door
+- twilightforest:time_door
+- twilightforest:transformation_door
+- twilightforest:mining_door
+- twilightforest:sorting_door
+
+#c:wooden_barrels
+- minecraft:barrel
+
+#c:storage_blocks/copper
+- minecraft:copper_block
+- minecraft:cut_copper
+
+#minecraft:standing_signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- farmersdelight:canvas_sign
+- farmersdelight:white_canvas_sign
+- farmersdelight:orange_canvas_sign
+- farmersdelight:magenta_canvas_sign
+- farmersdelight:light_blue_canvas_sign
+- farmersdelight:yellow_canvas_sign
+- farmersdelight:lime_canvas_sign
+- farmersdelight:pink_canvas_sign
+- farmersdelight:gray_canvas_sign
+- farmersdelight:light_gray_canvas_sign
+- farmersdelight:cyan_canvas_sign
+- farmersdelight:purple_canvas_sign
+- farmersdelight:blue_canvas_sign
+- farmersdelight:brown_canvas_sign
+- farmersdelight:green_canvas_sign
+- farmersdelight:red_canvas_sign
+- farmersdelight:black_canvas_sign
+- twilightforest:twilight_oak_sign
+- twilightforest:canopy_sign
+- twilightforest:mangrove_sign
+- twilightforest:darkwood_sign
+- twilightforest:time_sign
+- twilightforest:transformation_sign
+- twilightforest:mining_sign
+- twilightforest:sorting_sign
+
+#incendium:nether_blocks_no_air
+- minecraft:warped_fungus
+- minecraft:crimson_fungus
+- minecraft:crimson_roots
+- minecraft:warped_roots
+- minecraft:twisting_vines
+- minecraft:weeping_vines
+- minecraft:nether_sprouts
+- minecraft:polished_blackstone_bricks
+- minecraft:blackstone
+- minecraft:netherrack
+- minecraft:nether_brick_fence
+- minecraft:nether_brick_stairs
+- minecraft:nether_wart
+- minecraft:chest
+- minecraft:spawner
+- minecraft:warped_nylium
+- minecraft:crimson_nylium
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+- minecraft:fire
+- minecraft:soul_fire
+- minecraft:ancient_debris
+- minecraft:crimson_stem
+- minecraft:glowstone
+- minecraft:magma_block
+- minecraft:nether_gold_ore
+- minecraft:soul_soil
+- minecraft:shroomlight
+- minecraft:warped_stem
+- minecraft:gravel
+
+#minecraft:infiniburn_end
+- #minecraft:infiniburn_overworld
+- minecraft:bedrock
+
+#adventurez:unbreakable_blocks
+- minecraft:bedrock
+- minecraft:barrier
+- minecraft:chain_command_block
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:jigsaw
+- minecraft:respawn_anchor
+- minecraft:end_portal
+- minecraft:dragon_egg
+- voidz:void_portal
+
+#create:tree_attachments
+- minecraft:bee_nest
+- minecraft:cocoa
+- minecraft:moss_carpet
+- minecraft:shroomlight
+- minecraft:vine
+
+#c:glass_panes/cyan
+- minecraft:cyan_stained_glass_pane
+
+#minecraft:emerald_ores
+- minecraft:emerald_ore
+- minecraft:deepslate_emerald_ore
+
+#twilightforest:storage_blocks/steeleaf
+- twilightforest:steeleaf_block
+
+#minecraft:crimson_stems
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+
+#minecraft:needs_stone_tool
+- minecraft:iron_block
+- minecraft:raw_iron_block
+- minecraft:iron_ore
+- minecraft:deepslate_iron_ore
+- minecraft:lapis_block
+- minecraft:lapis_ore
+- minecraft:deepslate_lapis_ore
+- minecraft:copper_block
+- minecraft:raw_copper_block
+- minecraft:copper_ore
+- minecraft:deepslate_copper_ore
+- minecraft:cut_copper_slab
+- minecraft:cut_copper_stairs
+- minecraft:cut_copper
+- minecraft:weathered_copper
+- minecraft:weathered_cut_copper_slab
+- minecraft:weathered_cut_copper_stairs
+- minecraft:weathered_cut_copper
+- minecraft:oxidized_copper
+- minecraft:oxidized_cut_copper_slab
+- minecraft:oxidized_cut_copper_stairs
+- minecraft:oxidized_cut_copper
+- minecraft:exposed_copper
+- minecraft:exposed_cut_copper_slab
+- minecraft:exposed_cut_copper_stairs
+- minecraft:exposed_cut_copper
+- minecraft:waxed_copper_block
+- minecraft:waxed_cut_copper_slab
+- minecraft:waxed_cut_copper_stairs
+- minecraft:waxed_cut_copper
+- minecraft:waxed_weathered_copper
+- minecraft:waxed_weathered_cut_copper_slab
+- minecraft:waxed_weathered_cut_copper_stairs
+- minecraft:waxed_weathered_cut_copper
+- minecraft:waxed_exposed_copper
+- minecraft:waxed_exposed_cut_copper_slab
+- minecraft:waxed_exposed_cut_copper_stairs
+- minecraft:waxed_exposed_cut_copper
+- minecraft:waxed_oxidized_copper
+- minecraft:waxed_oxidized_cut_copper_slab
+- minecraft:waxed_oxidized_cut_copper_stairs
+- minecraft:waxed_oxidized_cut_copper
+- minecraft:lightning_rod
+- create:copper_shingles
+- create:exposed_copper_shingles
+- create:weathered_copper_shingles
+- create:oxidized_copper_shingles
+- create:copper_shingle_slab
+- create:exposed_copper_shingle_slab
+- create:weathered_copper_shingle_slab
+- create:oxidized_copper_shingle_slab
+- create:copper_shingle_stairs
+- create:exposed_copper_shingle_stairs
+- create:weathered_copper_shingle_stairs
+- create:oxidized_copper_shingle_stairs
+- create:waxed_copper_shingles
+- create:waxed_exposed_copper_shingles
+- create:waxed_weathered_copper_shingles
+- create:waxed_oxidized_copper_shingles
+- create:waxed_copper_shingle_slab
+- create:waxed_exposed_copper_shingle_slab
+- create:waxed_weathered_copper_shingle_slab
+- create:waxed_oxidized_copper_shingle_slab
+- create:waxed_copper_shingle_stairs
+- create:waxed_exposed_copper_shingle_stairs
+- create:waxed_weathered_copper_shingle_stairs
+- create:waxed_oxidized_copper_shingle_stairs
+- create:copper_tiles
+- create:exposed_copper_tiles
+- create:weathered_copper_tiles
+- create:oxidized_copper_tiles
+- create:copper_tile_slab
+- create:exposed_copper_tile_slab
+- create:weathered_copper_tile_slab
+- create:oxidized_copper_tile_slab
+- create:copper_tile_stairs
+- create:exposed_copper_tile_stairs
+- create:weathered_copper_tile_stairs
+- create:oxidized_copper_tile_stairs
+- create:waxed_copper_tiles
+- create:waxed_exposed_copper_tiles
+- create:waxed_weathered_copper_tiles
+- create:waxed_oxidized_copper_tiles
+- create:waxed_copper_tile_slab
+- create:waxed_exposed_copper_tile_slab
+- create:waxed_weathered_copper_tile_slab
+- create:waxed_oxidized_copper_tile_slab
+- create:waxed_copper_tile_stairs
+- create:waxed_exposed_copper_tile_stairs
+- create:waxed_weathered_copper_tile_stairs
+- create:waxed_oxidized_copper_tile_stairs
+- expandedstorage:iron_barrel
+- expandedstorage:gold_barrel
+- expandedstorage:iron_chest
+- expandedstorage:gold_chest
+- expandedstorage:old_iron_chest
+- expandedstorage:old_gold_chest
+- ftbquests:loot_crate_opener
+- fwaystones:red_desert_waystone
+- fwaystones:blackstone_brick_waystone
+- fwaystones:desert_waystone
+- fwaystones:waystone
+- fwaystones:stone_brick_waystone
+- fwaystones:end_stone_brick_waystone
+- fwaystones:deepslate_brick_waystone
+- fwaystones:red_nether_brick_waystone
+- fwaystones:nether_brick_waystone
+
+#c:storage_blocks/gold
+- minecraft:gold_block
+
+#minecraft:wart_blocks
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+
+#minecraft:terracotta
+- minecraft:terracotta
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta
+
+#c:ores/zinc
+- create:zinc_ore
+- create:deepslate_zinc_ore
+
+#farmersdelight:heat_conductors
+- minecraft:hopper
+- create:chute?
+
+#c:ore_bearing_ground/root
+- twilightforest:root
+
+#twilightforest:dark_tower_allowed_pots
+- twilightforest:potted_twilight_oak_sapling
+- twilightforest:potted_canopy_sapling
+- twilightforest:potted_mangrove_sapling
+- twilightforest:potted_darkwood_sapling
+- twilightforest:potted_rainbow_oak_sapling
+- twilightforest:potted_mayapple
+- twilightforest:potted_fiddlehead
+- twilightforest:potted_mushgloom
+- minecraft:flower_pot
+- minecraft:potted_poppy
+- minecraft:potted_blue_orchid
+- minecraft:potted_allium
+- minecraft:potted_azure_bluet
+- minecraft:potted_red_tulip
+- minecraft:potted_orange_tulip
+- minecraft:potted_white_tulip
+- minecraft:potted_pink_tulip
+- minecraft:potted_oxeye_daisy
+- minecraft:potted_dandelion
+- minecraft:potted_oak_sapling
+- minecraft:potted_spruce_sapling
+- minecraft:potted_birch_sapling
+- minecraft:potted_jungle_sapling
+- minecraft:potted_acacia_sapling
+- minecraft:potted_dark_oak_sapling
+- minecraft:potted_red_mushroom
+- minecraft:potted_brown_mushroom
+- minecraft:potted_dead_bush
+- minecraft:potted_fern
+- minecraft:potted_cactus
+- minecraft:potted_cornflower
+- minecraft:potted_lily_of_the_valley
+- minecraft:potted_wither_rose
+- minecraft:potted_bamboo
+- minecraft:potted_crimson_fungus
+- minecraft:potted_warped_fungus
+- minecraft:potted_crimson_roots
+- minecraft:potted_warped_roots
+- minecraft:potted_azalea_bush
+- minecraft:potted_flowering_azalea_bush
+
+#c:chests
+- minecraft:chest
+- minecraft:ender_chest
+- minecraft:trapped_chest
+- #c:chests/ender
+- #c:chests/trapped
+- #c:chests/wooden
+
+#c:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+
+#minecraft:beacon_base_blocks
+- minecraft:netherite_block
+- minecraft:emerald_block
+- minecraft:diamond_block
+- minecraft:gold_block
+- minecraft:iron_block
+- create:zinc_block
+- create:brass_block
+- #twilightforest:storage_blocks/arctic_fur
+- #twilightforest:storage_blocks/carminite
+- #twilightforest:storage_blocks/fiery
+- #twilightforest:storage_blocks/ironwood
+- #twilightforest:storage_blocks/knightmetal
+- #twilightforest:storage_blocks/steeleaf
+
+#c:storage_blocks/lapis
+- minecraft:lapis_block
+
+#minecraft:shulker_boxes
+- minecraft:shulker_box
+- minecraft:black_shulker_box
+- minecraft:blue_shulker_box
+- minecraft:brown_shulker_box
+- minecraft:cyan_shulker_box
+- minecraft:gray_shulker_box
+- minecraft:green_shulker_box
+- minecraft:light_blue_shulker_box
+- minecraft:light_gray_shulker_box
+- minecraft:lime_shulker_box
+- minecraft:magenta_shulker_box
+- minecraft:orange_shulker_box
+- minecraft:pink_shulker_box
+- minecraft:purple_shulker_box
+- minecraft:red_shulker_box
+- minecraft:white_shulker_box
+- minecraft:yellow_shulker_box
+
+#incendium:knight_immune
+- #minecraft:wither_immune
+- minecraft:obsidian
+- minecraft:crying_obsidian
+- minecraft:ancient_debris
+- minecraft:netherite_block
+- minecraft:ender_chest
+
+#twilightforest:darkwood_logs
+- twilightforest:dark_log
+- twilightforest:stripped_dark_log
+- twilightforest:dark_wood
+- twilightforest:stripped_dark_wood
+
+#c:ores/emerald
+- #minecraft:emerald_ores
+
+#minecraft:anvil
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+
+#twilightforest:hollow_logs_vertical
+- twilightforest:hollow_oak_log_vertical
+- twilightforest:hollow_spruce_log_vertical
+- twilightforest:hollow_birch_log_vertical
+- twilightforest:hollow_jungle_log_vertical
+- twilightforest:hollow_acacia_log_vertical
+- twilightforest:hollow_dark_oak_log_vertical
+- twilightforest:hollow_crimson_stem_vertical
+- twilightforest:hollow_warped_stem_vertical
+- twilightforest:hollow_twilight_oak_log_vertical
+- twilightforest:hollow_canopy_log_vertical
+- twilightforest:hollow_mangrove_log_vertical
+- twilightforest:hollow_dark_log_vertical
+- twilightforest:hollow_time_log_vertical
+- twilightforest:hollow_transformation_log_vertical
+- twilightforest:hollow_mining_log_vertical
+- twilightforest:hollow_sorting_log_vertical
+
+#minecraft:moss_replaceable
+- #minecraft:base_stone_overworld
+- #minecraft:cave_vines
+- #minecraft:dirt
+- create:asurine
+- create:crimsite
+- create:limestone
+- create:ochrum
+- create:scoria
+- create:scorchia
+- create:veridium
+
+#minecraft:wall_corals
+- minecraft:tube_coral_wall_fan
+- minecraft:brain_coral_wall_fan
+- minecraft:bubble_coral_wall_fan
+- minecraft:fire_coral_wall_fan
+- minecraft:horn_coral_wall_fan
+
+#create:fan_heaters
+- farmersdelight:stove
+
+#c:glass_panes
+- create:tiled_glass_pane
+- create:framed_glass_pane
+- create:horizontal_framed_glass_pane
+- create:vertical_framed_glass_pane
+- create:oak_window_pane
+- create:spruce_window_pane
+- create:birch_window_pane
+- create:jungle_window_pane
+- create:acacia_window_pane
+- create:dark_oak_window_pane
+- create:crimson_window_pane
+- create:warped_window_pane
+- create:ornate_iron_window_pane
+- minecraft:glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:black_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:white_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- #c:glass_panes/colorless
+- #c:stained_glass_panes
+
+#twilightforest:storage_blocks/arctic_fur
+- twilightforest:arctic_fur_block
+
+#c:sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+
+#twilightforest:storage_blocks/carminite
+- twilightforest:carminite_block
+
+#extended_drawers:network_components
+- #extended_drawers:drawers
+- extended_drawers:controller
+- extended_drawers:connector
+
+#c:storage_blocks/netherite
+- minecraft:netherite_block
+
+#minecraft:iron_ores
+- minecraft:iron_ore
+- minecraft:deepslate_iron_ore
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+
+#c:ores/diamond
+- #minecraft:diamond_ores
+
+#c:ore_bearing_ground/deepslate
+- minecraft:deepslate
+
+#incendium:airs
+- minecraft:air
+- minecraft:cave_air
+- minecraft:redstone_torch
+- minecraft:cobweb
+- minecraft:fire
+- minecraft:soul_fire
+- minecraft:blackstone_slab
+- minecraft:crimson_fence
+- minecraft:lantern
+- minecraft:red_nether_brick_slab
+- minecraft:lava
+
+#minecraft:piglin_repellents
+- minecraft:soul_fire
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_wall_torch
+- minecraft:soul_campfire
+- minecraft:soul_fire
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_wall_torch
+- minecraft:soul_campfire
+- minecraft:green_terracotta
+- minecraft:blue_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:purple_terracotta
+- minecraft:lime_terracotta
+
+#twilightforest:fences
+- twilightforest:twilight_oak_fence
+- twilightforest:canopy_fence
+- twilightforest:mangrove_fence
+- twilightforest:dark_fence
+- twilightforest:time_fence
+- twilightforest:transformation_fence
+- twilightforest:mining_fence
+- twilightforest:sorting_fence
+
+#c:glass_panes/lime
+- minecraft:lime_stained_glass_pane
+
+#minecraft:mooshrooms_spawnable_on
+- minecraft:mycelium
+
+#c:bookshelves
+- minecraft:bookshelf
+- travelersbackpack:bookshelf
+
+#minecraft:portals
+- minecraft:nether_portal
+- minecraft:end_portal
+- minecraft:end_gateway
+- twilightforest:twilight_portal
+
+#c:storage_blocks/quartz
+- minecraft:quartz_block
+
+#c:fences
+- #c:fences/nether_brick
+- #c:fences/wooden
+- twilightforest:twilight_oak_fence
+- twilightforest:canopy_fence
+- twilightforest:mangrove_fence
+- twilightforest:dark_fence
+- twilightforest:time_fence
+- twilightforest:transformation_fence
+- twilightforest:mining_fence
+- twilightforest:sorting_fence
+
+#minecraft:bamboo_plantable_on
+- #minecraft:sand
+- #minecraft:dirt
+- minecraft:bamboo
+- minecraft:bamboo_sapling
+- minecraft:gravel
+- farmersdelight:rich_soil
+
+#c:ores/iron
+- #minecraft:iron_ores
+
+#expandedstorage:chest_cycle
+- expandedstorage:wood_chest
+- expandedstorage:pumpkin_chest
+- expandedstorage:present
+- expandedstorage:bamboo_chest
+
+#twilightforest:logs
+- #twilightforest:twilight_oak_logs
+- #twilightforest:canopy_logs
+- #twilightforest:mangrove_logs
+- #twilightforest:darkwood_logs
+- #twilightforest:timewood_logs
+- #twilightforest:transwood_logs
+- #twilightforest:mining_logs
+- #twilightforest:sortwood_logs
+
+#c:storage_blocks/raw_zinc
+- create:raw_zinc_block
+
+#minecraft:pressure_plates
+- minecraft:light_weighted_pressure_plate
+- minecraft:heavy_weighted_pressure_plate
+- #minecraft:wooden_pressure_plates
+- #minecraft:stone_pressure_plates
+
+#c:ores_in_ground/stone
+- create:zinc_ore
+- minecraft:coal_ore
+- minecraft:copper_ore
+- minecraft:diamond_ore
+- minecraft:emerald_ore
+- minecraft:gold_ore
+- minecraft:iron_ore
+- minecraft:lapis_ore
+- minecraft:redstone_ore
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+
+#c:storage_blocks/raw_copper
+- minecraft:raw_copper_block
+
+#minecraft:wooden_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- twilightforest:twilight_oak_stairs
+- twilightforest:canopy_stairs
+- twilightforest:mangrove_stairs
+- twilightforest:dark_stairs
+- twilightforest:time_stairs
+- twilightforest:transformation_stairs
+- twilightforest:mining_stairs
+- twilightforest:sorting_stairs
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+
+#c:ores/copper
+- #minecraft:copper_ores
+
+#expandedstorage:mini_chest_secret_cycle_2
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+- expandedstorage:lavender_mini_present
+- expandedstorage:pink_amethyst_mini_present
+- expandedstorage:vanilla_wood_mini_chest_with_sparrow
+- expandedstorage:wood_mini_chest_with_sparrow
+- expandedstorage:pumpkin_mini_chest_with_sparrow
+- expandedstorage:red_mini_present_with_sparrow
+- expandedstorage:white_mini_present_with_sparrow
+- expandedstorage:candy_cane_mini_present_with_sparrow
+- expandedstorage:green_mini_present_with_sparrow
+- expandedstorage:lavender_mini_present_with_sparrow
+- expandedstorage:pink_amethyst_mini_present_with_sparrow
+
+#minecraft:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
+
+#minecraft:base_stone_overworld
+- minecraft:stone
+- minecraft:granite
+- minecraft:diorite
+- minecraft:andesite
+- minecraft:tuff
+- minecraft:deepslate
+- minecraft:netherrack
+
+#minecraft:wooden_buttons
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- twilightforest:twilight_oak_button
+- twilightforest:canopy_button
+- twilightforest:mangrove_button
+- twilightforest:dark_button
+- twilightforest:time_button
+- twilightforest:transformation_button
+- twilightforest:mining_button
+- twilightforest:sorting_button
+
+#c:mineable/knife
+
+#minecraft:axolotls_spawnable_on
+- minecraft:clay
+
+#minecraft:stone_bricks
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+
+#minecraft:mineable/axe
+- minecraft:note_block
+- minecraft:attached_melon_stem
+- minecraft:attached_pumpkin_stem
+- minecraft:azalea
+- minecraft:bamboo
+- minecraft:barrel
+- minecraft:bee_nest
+- minecraft:beehive
+- minecraft:beetroots
+- minecraft:big_dripleaf_stem
+- minecraft:big_dripleaf
+- minecraft:bookshelf
+- minecraft:brown_mushroom_block
+- minecraft:brown_mushroom
+- minecraft:campfire
+- minecraft:carrots
+- minecraft:cartography_table
+- minecraft:carved_pumpkin
+- minecraft:cave_vines_plant
+- minecraft:cave_vines
+- minecraft:chest
+- minecraft:chorus_flower
+- minecraft:chorus_plant
+- minecraft:cocoa
+- minecraft:composter
+- minecraft:crafting_table
+- minecraft:crimson_fungus
+- minecraft:daylight_detector
+- minecraft:dead_bush
+- minecraft:fern
+- minecraft:fletching_table
+- minecraft:glow_lichen
+- minecraft:grass
+- minecraft:hanging_roots
+- minecraft:jack_o_lantern
+- minecraft:jukebox
+- minecraft:ladder
+- minecraft:large_fern
+- minecraft:lectern
+- minecraft:lily_pad
+- minecraft:loom
+- minecraft:melon_stem
+- minecraft:melon
+- minecraft:mushroom_stem
+- minecraft:nether_wart
+- minecraft:potatoes
+- minecraft:pumpkin_stem
+- minecraft:pumpkin
+- minecraft:red_mushroom_block
+- minecraft:red_mushroom
+- minecraft:scaffolding
+- minecraft:small_dripleaf
+- minecraft:smithing_table
+- minecraft:soul_campfire
+- minecraft:spore_blossom
+- minecraft:sugar_cane
+- minecraft:sweet_berry_bush
+- minecraft:tall_grass
+- minecraft:trapped_chest
+- minecraft:twisting_vines_plant
+- minecraft:twisting_vines
+- minecraft:vine
+- minecraft:warped_fungus
+- minecraft:weeping_vines_plant
+- minecraft:weeping_vines
+- minecraft:wheat
+- #minecraft:banners
+- #minecraft:fence_gates
+- #minecraft:logs
+- #minecraft:planks
+- #minecraft:saplings
+- #minecraft:signs
+- #minecraft:wooden_buttons
+- #minecraft:wooden_doors
+- #minecraft:wooden_fences
+- #minecraft:wooden_pressure_plates
+- #minecraft:wooden_slabs
+- #minecraft:wooden_stairs
+- #minecraft:wooden_trapdoors
+- create:schematic_table
+- create:cogwheel
+- create:large_cogwheel
+- create:andesite_encased_shaft
+- create:brass_encased_shaft
+- create:andesite_encased_cogwheel
+- create:brass_encased_cogwheel
+- create:andesite_encased_large_cogwheel
+- create:brass_encased_large_cogwheel
+- create:gearbox
+- create:clutch
+- create:gearshift
+- create:encased_chain_drive
+- create:adjustable_chain_gearshift
+- create:belt
+- create:water_wheel
+- create:encased_fan
+- create:nozzle
+- create:turntable
+- create:hand_crank
+- create:cuckoo_clock
+- create:mysterious_cuckoo_clock
+- create:mechanical_press
+- create:mechanical_mixer
+- create:depot
+- create:weighted_ejector
+- create:speedometer
+- create:stressometer
+- create:wooden_bracket
+- create:encased_fluid_pipe
+- create:portable_fluid_interface
+- create:mechanical_piston
+- create:sticky_mechanical_piston
+- create:piston_extension_pole
+- create:mechanical_piston_head
+- create:gantry_carriage
+- create:gantry_shaft
+- create:windmill_bearing
+- create:mechanical_bearing
+- create:clockwork_bearing
+- create:rope_pulley
+- create:cart_assembler
+- create:linear_chassis
+- create:secondary_linear_chassis
+- create:radial_chassis
+- create:mechanical_drill
+- create:mechanical_saw
+- create:deployer
+- create:portable_storage_interface
+- create:redstone_contact
+- create:mechanical_harvester
+- create:mechanical_plough
+- create:white_seat
+- create:orange_seat
+- create:magenta_seat
+- create:light_blue_seat
+- create:yellow_seat
+- create:lime_seat
+- create:pink_seat
+- create:gray_seat
+- create:light_gray_seat
+- create:cyan_seat
+- create:purple_seat
+- create:blue_seat
+- create:brown_seat
+- create:green_seat
+- create:red_seat
+- create:black_seat
+- create:sail_frame
+- create:white_sail
+- create:orange_sail
+- create:magenta_sail
+- create:light_blue_sail
+- create:yellow_sail
+- create:lime_sail
+- create:pink_sail
+- create:gray_sail
+- create:light_gray_sail
+- create:cyan_sail
+- create:purple_sail
+- create:blue_sail
+- create:brown_sail
+- create:green_sail
+- create:red_sail
+- create:black_sail
+- create:andesite_casing
+- create:brass_casing
+- create:copper_casing
+- create:shadow_steel_casing
+- create:refined_radiance_casing
+- create:mechanical_crafter
+- create:sequenced_gearshift
+- create:flywheel
+- create:rotation_speed_controller
+- create:mechanical_arm
+- create:railway_casing
+- create:content_observer
+- create:stockpile_switch
+- create:creative_crate
+- create:display_link
+- create:redstone_link
+- create:analog_lever
+- create:lectern_controller
+- expandedstorage:iron_barrel
+- expandedstorage:gold_barrel
+- expandedstorage:diamond_barrel
+- expandedstorage:obsidian_barrel
+- expandedstorage:netherite_barrel
+- expandedstorage:wood_chest
+- expandedstorage:pumpkin_chest
+- expandedstorage:present
+- expandedstorage:bamboo_chest
+- expandedstorage:old_wood_chest
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+- expandedstorage:lavender_mini_present
+- expandedstorage:pink_amethyst_mini_present
+- expandedstorage:vanilla_wood_mini_chest_with_sparrow
+- expandedstorage:wood_mini_chest_with_sparrow
+- expandedstorage:pumpkin_mini_chest_with_sparrow
+- expandedstorage:red_mini_present_with_sparrow
+- expandedstorage:white_mini_present_with_sparrow
+- expandedstorage:candy_cane_mini_present_with_sparrow
+- expandedstorage:green_mini_present_with_sparrow
+- expandedstorage:lavender_mini_present_with_sparrow
+- expandedstorage:pink_amethyst_mini_present_with_sparrow
+- extended_drawers:single_drawer
+- extended_drawers:double_drawer
+- extended_drawers:quad_drawer
+- extended_drawers:connector
+- farmersdelight:basket
+- farmersdelight:cutting_board
+- farmersdelight:carrot_crate
+- farmersdelight:potato_crate
+- farmersdelight:beetroot_crate
+- farmersdelight:cabbage_crate
+- farmersdelight:tomato_crate
+- farmersdelight:onion_crate
+- farmersdelight:oak_cabinet
+- farmersdelight:birch_cabinet
+- farmersdelight:spruce_cabinet
+- farmersdelight:jungle_cabinet
+- farmersdelight:acacia_cabinet
+- farmersdelight:dark_oak_cabinet
+- farmersdelight:crimson_cabinet
+- farmersdelight:warped_cabinet
+- farmersdelight:sandy_shrub
+- farmersdelight:stuffed_pumpkin_block
+- ftbquests:loot_crate_opener
+- gofish:supply_crate
+- gofish:wooden_crate
+- morevillagers:oceanography_table
+- morevillagers:woodworking_table
+- morevillagers:decayed_workbench
+- morevillagers:blueprint_table
+- morevillagers:gardening_table
+- morevillagers:hunting_post
+- #twilightforest:banisters
+- #twilightforest:hollow_logs
+- twilightforest:hedge
+- twilightforest:root
+- twilightforest:liveroot_block
+- twilightforest:mangrove_root
+- twilightforest:uncrafting_table
+- twilightforest:encased_smoker
+- twilightforest:encased_fire_jet
+- twilightforest:time_log_core
+- twilightforest:transformation_log_core
+- twilightforest:mining_log_core
+- twilightforest:sorting_log_core
+- twilightforest:towerwood
+- twilightforest:mossy_towerwood
+- twilightforest:cracked_towerwood
+- twilightforest:infested_towerwood
+- twilightforest:encased_towerwood
+- twilightforest:reappearing_block
+- twilightforest:antibuilder
+- twilightforest:carminite_reactor
+- twilightforest:carminite_builder
+- twilightforest:ghast_trap
+- twilightforest:huge_stalk
+- twilightforest:huge_mushgloom
+- twilightforest:huge_mushgloom_stem
+- twilightforest:cinder_log
+- twilightforest:cinder_wood
+- twilightforest:ironwood_block
+- twilightforest:death_tome_spawner
+- twilightforest:empty_canopy_bookshelf
+- twilightforest:canopy_bookshelf
+- twilightforest:twilight_oak_chest
+- twilightforest:canopy_chest
+- twilightforest:mangrove_chest
+- twilightforest:darkwood_chest
+- twilightforest:time_chest
+- twilightforest:transformation_chest
+- twilightforest:mining_chest
+- twilightforest:sorting_chest
+
+#incendium:smashables
+- minecraft:netherrack
+- minecraft:basalt
+- minecraft:blackstone
+- minecraft:stone
+
+#c:ores/lapis
+- #minecraft:lapis_ores
+
+#create:windmill_sails
+- create:sail_frame
+- create:white_sail
+- create:orange_sail
+- create:magenta_sail
+- create:light_blue_sail
+- create:yellow_sail
+- create:lime_sail
+- create:pink_sail
+- create:gray_sail
+- create:light_gray_sail
+- create:cyan_sail
+- create:purple_sail
+- create:blue_sail
+- create:brown_sail
+- create:green_sail
+- create:red_sail
+- create:black_sail
+- #minecraft:wool
+
+#twilightforest:hollow_logs_horizontal
+- twilightforest:hollow_oak_log_horizontal
+- twilightforest:hollow_spruce_log_horizontal
+- twilightforest:hollow_birch_log_horizontal
+- twilightforest:hollow_jungle_log_horizontal
+- twilightforest:hollow_acacia_log_horizontal
+- twilightforest:hollow_dark_oak_log_horizontal
+- twilightforest:hollow_crimson_stem_horizontal
+- twilightforest:hollow_warped_stem_horizontal
+- twilightforest:hollow_twilight_oak_log_horizontal
+- twilightforest:hollow_canopy_log_horizontal
+- twilightforest:hollow_mangrove_log_horizontal
+- twilightforest:hollow_dark_log_horizontal
+- twilightforest:hollow_time_log_horizontal
+- twilightforest:hollow_transformation_log_horizontal
+- twilightforest:hollow_mining_log_horizontal
+- twilightforest:hollow_sorting_log_horizontal
+
+#twilightforest:hollow_logs_climbable
+- twilightforest:hollow_oak_log_climbable
+- twilightforest:hollow_spruce_log_climbable
+- twilightforest:hollow_birch_log_climbable
+- twilightforest:hollow_jungle_log_climbable
+- twilightforest:hollow_acacia_log_climbable
+- twilightforest:hollow_dark_oak_log_climbable
+- twilightforest:hollow_crimson_stem_climbable
+- twilightforest:hollow_warped_stem_climbable
+- twilightforest:hollow_twilight_oak_log_climbable
+- twilightforest:hollow_canopy_log_climbable
+- twilightforest:hollow_mangrove_log_climbable
+- twilightforest:hollow_dark_log_climbable
+- twilightforest:hollow_time_log_climbable
+- twilightforest:hollow_transformation_log_climbable
+- twilightforest:hollow_mining_log_climbable
+- twilightforest:hollow_sorting_log_climbable
+
+#c:barrels
+- #c:barrels/wooden
+
+#minecraft:slabs
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- minecraft:cobbled_deepslate_slab
+- minecraft:polished_deepslate_slab
+- minecraft:deepslate_tile_slab
+- minecraft:deepslate_brick_slab
+- minecraft:waxed_weathered_cut_copper_slab
+- minecraft:waxed_exposed_cut_copper_slab
+- minecraft:waxed_cut_copper_slab
+- minecraft:oxidized_cut_copper_slab
+- minecraft:weathered_cut_copper_slab
+- minecraft:exposed_cut_copper_slab
+- minecraft:cut_copper_slab
+- minecraft:waxed_oxidized_cut_copper_slab
+- create:cut_granite_slab
+- create:polished_cut_granite_slab
+- create:cut_granite_brick_slab
+- create:small_granite_brick_slab
+- create:cut_diorite_slab
+- create:polished_cut_diorite_slab
+- create:cut_diorite_brick_slab
+- create:small_diorite_brick_slab
+- create:cut_andesite_slab
+- create:polished_cut_andesite_slab
+- create:cut_andesite_brick_slab
+- create:small_andesite_brick_slab
+- create:cut_calcite_slab
+- create:polished_cut_calcite_slab
+- create:cut_calcite_brick_slab
+- create:small_calcite_brick_slab
+- create:cut_dripstone_slab
+- create:polished_cut_dripstone_slab
+- create:cut_dripstone_brick_slab
+- create:small_dripstone_brick_slab
+- create:cut_deepslate_slab
+- create:polished_cut_deepslate_slab
+- create:cut_deepslate_brick_slab
+- create:small_deepslate_brick_slab
+- create:cut_tuff_slab
+- create:polished_cut_tuff_slab
+- create:cut_tuff_brick_slab
+- create:small_tuff_brick_slab
+- create:cut_asurine_slab
+- create:polished_cut_asurine_slab
+- create:cut_asurine_brick_slab
+- create:small_asurine_brick_slab
+- create:cut_crimsite_slab
+- create:polished_cut_crimsite_slab
+- create:cut_crimsite_brick_slab
+- create:small_crimsite_brick_slab
+- create:cut_limestone_slab
+- create:polished_cut_limestone_slab
+- create:cut_limestone_brick_slab
+- create:small_limestone_brick_slab
+- create:cut_ochrum_slab
+- create:polished_cut_ochrum_slab
+- create:cut_ochrum_brick_slab
+- create:small_ochrum_brick_slab
+- create:cut_scoria_slab
+- create:polished_cut_scoria_slab
+- create:cut_scoria_brick_slab
+- create:small_scoria_brick_slab
+- create:cut_scorchia_slab
+- create:polished_cut_scorchia_slab
+- create:cut_scorchia_brick_slab
+- create:small_scorchia_brick_slab
+- create:cut_veridium_slab
+- create:polished_cut_veridium_slab
+- create:cut_veridium_brick_slab
+- create:small_veridium_brick_slab
+- twilightforest:aurora_slab
+
+#c:glass/lime
+- minecraft:lime_stained_glass
+
+#c:chests/ender
+- minecraft:ender_chest
+
+#minecraft:animals_spawnable_on
+- minecraft:grass_block
+
+#minecraft:guarded_by_piglins
+- minecraft:gold_block
+- minecraft:barrel
+- minecraft:chest
+- minecraft:ender_chest
+- minecraft:gilded_blackstone
+- minecraft:trapped_chest
+- minecraft:raw_gold_block
+- #minecraft:shulker_boxes
+- #minecraft:gold_ores
+- expandedstorage:iron_barrel
+- expandedstorage:gold_barrel
+- expandedstorage:diamond_barrel
+- expandedstorage:obsidian_barrel
+- expandedstorage:netherite_barrel
+- expandedstorage:wood_chest
+- expandedstorage:pumpkin_chest
+- expandedstorage:present
+- expandedstorage:bamboo_chest
+- expandedstorage:iron_chest
+- expandedstorage:gold_chest
+- expandedstorage:diamond_chest
+- expandedstorage:obsidian_chest
+- expandedstorage:netherite_chest
+- expandedstorage:old_wood_chest
+- expandedstorage:old_iron_chest
+- expandedstorage:old_gold_chest
+- expandedstorage:old_diamond_chest
+- expandedstorage:old_obsidian_chest
+- expandedstorage:old_netherite_chest
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+- expandedstorage:lavender_mini_present
+- expandedstorage:pink_amethyst_mini_present
+- expandedstorage:vanilla_wood_mini_chest_with_sparrow
+- expandedstorage:wood_mini_chest_with_sparrow
+- expandedstorage:pumpkin_mini_chest_with_sparrow
+- expandedstorage:red_mini_present_with_sparrow
+- expandedstorage:white_mini_present_with_sparrow
+- expandedstorage:candy_cane_mini_present_with_sparrow
+- expandedstorage:green_mini_present_with_sparrow
+- expandedstorage:lavender_mini_present_with_sparrow
+- expandedstorage:pink_amethyst_mini_present_with_sparrow
+
+#incendium:ssv_ceiling
+- minecraft:netherrack
+- minecraft:blackstone
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#create:casing
+- create:andesite_casing
+- create:brass_casing
+- create:copper_casing
+- create:shadow_steel_casing
+- create:refined_radiance_casing
+- create:railway_casing
+- create_crystal_clear:andesite_glass_casing
+- create_crystal_clear:brass_glass_casing
+- create_crystal_clear:copper_glass_casing
+- create_crystal_clear:train_glass_casing
+- create_crystal_clear:andesite_clear_glass_casing
+- create_crystal_clear:brass_clear_glass_casing
+- create_crystal_clear:copper_clear_glass_casing
+- create_crystal_clear:train_clear_glass_casing
+- create_crystal_clear:steel_glass_casing
+- create_crystal_clear:steel_tinted_glass_casing
+
+#expandedstorage:mini_chest_cycle
+- expandedstorage:vanilla_wood_mini_chest
+- expandedstorage:wood_mini_chest
+- expandedstorage:pumpkin_mini_chest
+- expandedstorage:red_mini_present
+- expandedstorage:white_mini_present
+- expandedstorage:candy_cane_mini_present
+- expandedstorage:green_mini_present
+
+#minecraft:stone_ore_replaceables
+- minecraft:stone
+- minecraft:granite
+- minecraft:diorite
+- minecraft:andesite
+
+#c:storage_blocks/raw_iron
+- minecraft:raw_iron_block
+
+#incendium:black_concrete
+- minecraft:black_concrete
+
+#twilightforest:carminite_reactor_immune
+- #twilightforest:common_protections
+
+#twilightforest:portal/edge
+- #minecraft:dirt
+
+#minecraft:flowers
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+- minecraft:flowering_azalea_leaves
+- minecraft:flowering_azalea
+
+#minecraft:corals
+- #minecraft:coral_plants
+- minecraft:tube_coral_fan
+- minecraft:brain_coral_fan
+- minecraft:bubble_coral_fan
+- minecraft:fire_coral_fan
+- minecraft:horn_coral_fan
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+
+#minecraft:rabbits_spawnable_on
+- minecraft:grass_block
+- minecraft:snow
+- minecraft:snow_block
+- minecraft:sand
+
+#minecraft:planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- twilightforest:twilight_oak_planks
+- twilightforest:canopy_planks
+- twilightforest:mangrove_planks
+- twilightforest:dark_planks
+- twilightforest:time_planks
+- twilightforest:transformation_planks
+- twilightforest:mining_planks
+- twilightforest:sorting_planks
+- twilightforest:towerwood
+- twilightforest:encased_towerwood
+- twilightforest:cracked_towerwood
+- twilightforest:mossy_towerwood
+- twilightforest:infested_towerwood
+
+#c:glass/silica
+- minecraft:glass
+- minecraft:black_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:green_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:red_stained_glass
+- minecraft:white_stained_glass
+- minecraft:yellow_stained_glass
+
+#c:glass/orange
+- minecraft:orange_stained_glass
+
+#c:ores_in_ground/root
+- twilightforest:liveroot_block
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+- create:cart_assembler
+- create:controller_rail
+
+#c:glass_panes/yellow
+- minecraft:yellow_stained_glass_pane
+
+#minecraft:diamond_ores
+- minecraft:diamond_ore
+- minecraft:deepslate_diamond_ore
+
+#c:ores/netherite_scrap
+- minecraft:ancient_debris
+
+#c:shulker_boxes
+- minecraft:shulker_box
+- minecraft:blue_shulker_box
+- minecraft:brown_shulker_box
+- minecraft:cyan_shulker_box
+- minecraft:gray_shulker_box
+- minecraft:green_shulker_box
+- minecraft:light_blue_shulker_box
+- minecraft:light_gray_shulker_box
+- minecraft:lime_shulker_box
+- minecraft:magenta_shulker_box
+- minecraft:orange_shulker_box
+- minecraft:pink_shulker_box
+- minecraft:purple_shulker_box
+- minecraft:red_shulker_box
+- minecraft:white_shulker_box
+- minecraft:yellow_shulker_box
+- minecraft:black_shulker_box
+
+#minecraft:deepslate_ore_replaceables
+- minecraft:deepslate
+- minecraft:tuff
+
+#c:chests/trapped
+- minecraft:trapped_chest
+
+#c:netherrack
+- minecraft:netherrack
+
+#c:glass_blocks
+- minecraft:glass
+- minecraft:gray_stained_glass
+- minecraft:black_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:green_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:red_stained_glass
+- minecraft:tinted_glass
+- minecraft:white_stained_glass
+- minecraft:yellow_stained_glass
+
+#minecraft:strider_warm_blocks
+- minecraft:lava
+- twilightforest:fiery_block
+
+#minecraft:fence_gates
+- minecraft:acacia_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- twilightforest:twilight_oak_fence_gate
+- twilightforest:canopy_fence_gate
+- twilightforest:mangrove_fence_gate
+- twilightforest:dark_fence_gate
+- twilightforest:time_fence_gate
+- twilightforest:transformation_fence_gate
+- twilightforest:mining_fence_gate
+- twilightforest:sorting_fence_gate
+
+#minecraft:bee_growables
+- #minecraft:crops
+- minecraft:sweet_berry_bush
+- minecraft:cave_vines
+- minecraft:cave_vines_plant
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- twilightforest:twilight_oak_pressure_plate
+- twilightforest:canopy_pressure_plate
+- twilightforest:mangrove_pressure_plate
+- twilightforest:dark_pressure_plate
+- twilightforest:time_pressure_plate
+- twilightforest:transformation_pressure_plate
+- twilightforest:mining_pressure_plate
+- twilightforest:sorting_pressure_plate
+
+#incendium:toxic_surface
+- minecraft:green_terracotta
+- minecraft:lime_terracotta
+- minecraft:yellow_terracotta
+- minecraft:netherrack
+- minecraft:blackstone
+
+#create:brittle
+- create:nozzle
+- create:hand_crank
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+- create:rope
+- create:pulley_magnet
+- create:redstone_link
+- create:peculiar_bell
+- create:haunted_bell
+- minecraft:bell
+- minecraft:cocoa
+- minecraft:flower_pot
+- #minecraft:beds
+- #minecraft:doors
+
+#minecraft:candles
+- minecraft:candle
+- minecraft:white_candle
+- minecraft:orange_candle
+- minecraft:magenta_candle
+- minecraft:light_blue_candle
+- minecraft:yellow_candle
+- minecraft:lime_candle
+- minecraft:pink_candle
+- minecraft:gray_candle
+- minecraft:light_gray_candle
+- minecraft:cyan_candle
+- minecraft:purple_candle
+- minecraft:blue_candle
+- minecraft:brown_candle
+- minecraft:green_candle
+- minecraft:red_candle
+- minecraft:black_candle
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+- farmersdelight:wild_rice
+
+#c:glass/black
+- minecraft:black_stained_glass
+
+#c:cobblestone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+- minecraft:cobbled_deepslate
+
+#origins:cobwebs
+- minecraft:cobweb
+- origins:temporary_cobweb
+
+#c:fences/nether_brick
+- minecraft:nether_brick_fence
+
+#incendium:soul_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#minecraft:stone_pressure_plates
+- minecraft:stone_pressure_plate
+- minecraft:polished_blackstone_pressure_plate
+
+#c:chests/wooden
+- minecraft:chest
+- minecraft:trapped_chest
+- twilightforest:twilight_oak_chest
+- twilightforest:canopy_chest
+- twilightforest:mangrove_chest
+- twilightforest:darkwood_chest
+- twilightforest:time_chest
+- twilightforest:transformation_chest
+- twilightforest:mining_chest
+- twilightforest:sorting_chest
+
+#c:barrels/wooden
+- minecraft:barrel
+
+#minecraft:snow
+- minecraft:snow
+- minecraft:snow_block
+- minecraft:powder_snow
+
+#minecraft:nylium
+- minecraft:crimson_nylium
+- minecraft:warped_nylium
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+- minecraft:deepslate_gold_ore
+
+#c:ores
+- create:zinc_ore
+- create:deepslate_zinc_ore
+- #minecraft:redstone_ores?
+- #minecraft:copper_ores?
+- #minecraft:gold_ores?
+- #minecraft:iron_ores?
+- #minecraft:coal_ores?
+- #minecraft:emerald_ores?
+- #minecraft:lapis_ores?
+- #minecraft:diamond_ores?
+- #c:quartz_ores?
+- #c:ores/coal
+- #c:ores/copper
+- #c:ores/diamond
+- #c:ores/emerald
+- #c:ores/gold
+- #c:ores/iron
+- #c:ores/lapis
+- #c:ores/redstone
+- #c:ores/quartz
+- #c:ores/netherite_scrap
+- #twilightforest:ores/ironwood
+- #twilightforest:ores/knightmetal
+
+#minecraft:dirt
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+- minecraft:mycelium
+- minecraft:rooted_dirt
+- minecraft:moss_block
+- farmersdelight:rich_soil
+- twilightforest:uberous_soil
+
+#minecraft:candle_cakes
+- minecraft:candle_cake
+- minecraft:white_candle_cake
+- minecraft:orange_candle_cake
+- minecraft:magenta_candle_cake
+- minecraft:light_blue_candle_cake
+- minecraft:yellow_candle_cake
+- minecraft:lime_candle_cake
+- minecraft:pink_candle_cake
+- minecraft:gray_candle_cake
+- minecraft:light_gray_candle_cake
+- minecraft:cyan_candle_cake
+- minecraft:purple_candle_cake
+- minecraft:blue_candle_cake
+- minecraft:brown_candle_cake
+- minecraft:green_candle_cake
+- minecraft:red_candle_cake
+- minecraft:black_candle_cake

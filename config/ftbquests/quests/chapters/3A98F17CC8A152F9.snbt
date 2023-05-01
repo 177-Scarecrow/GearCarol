@@ -1,0 +1,398 @@
+{
+	id: "3A98F17CC8A152F9"
+	group: "7D5427D8C2C23CF9"
+	order_index: 1
+	filename: "3A98F17CC8A152F9"
+	title: "谜题"
+	icon: "kubejs:quest_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "寻找谜题羊"
+			x: -8.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "使用探险家指南针搜索该结构并前往"
+			dependencies: ["1211964EE9196E52"]
+			hide: true
+			id: "25908F025D0A7164"
+			tasks: [{
+				id: "332150DF15F87147"
+				type: "structure"
+				icon: "twilightforest:quest_ram_spawn_egg"
+				structure: "twilightforest:quest_grove"
+			}]
+		}
+		{
+			title: "完美的羊"
+			x: -5.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "破解谜题羊的谜题，并且获得战利品"
+			description: ["使用之前别忘了切割"]
+			dependencies: ["25908F025D0A7164"]
+			size: 1.5d
+			id: "15AD967080858B7B"
+			tasks: [{
+				id: "111E72F63D88D210"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "制作谜题粉末，它能够生产许多矿物"
+			dependencies: ["15AD967080858B7B"]
+			id: "6B2D1C7060F838EB"
+			tasks: [{
+				id: "071BDA56131D14E1"
+				type: "item"
+				item: "kubejs:quest_dust"
+				count: 64L
+			}]
+		}
+		{
+			title: "螺纹石"
+			x: -5.0d
+			y: 1.5d
+			subtitle: "切制螺纹石"
+			dependencies: ["15AD967080858B7B"]
+			id: "3D5D557760B74AE2"
+			tasks: [{
+				id: "5E746D694DF1849E"
+				type: "item"
+				item: "twilightforest:twisted_stone"
+				count: 8L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "制作一个谜题构件"
+			dependencies: ["3D5D557760B74AE2"]
+			size: 1.25d
+			id: "005C827832733343"
+			tasks: [{
+				id: "2435CEE8C8EAF8EC"
+				type: "item"
+				item: "kubejs:quest_mechanism"
+			}]
+		}
+		{
+			title: "便宜的蛋"
+			x: -5.0d
+			y: 3.0d
+			subtitle: "你现在能够用更便宜的办法生产基础蛋了"
+			description: ["该部分不是必要任务，你可以自由选择"]
+			dependencies: ["005C827832733343"]
+			optional: true
+			id: "4CEF1985E9811F30"
+			tasks: [{
+				id: "27C690278F99C232"
+				type: "item"
+				item: "cse:basespawnegg"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			subtitle: "对黑石使用粗金，即可生成镶金黑石"
+			dependencies: ["005C827832733343"]
+			id: "70B16D5F0FB352FC"
+			tasks: [{
+				id: "25E7665C4BA6B25F"
+				type: "item"
+				item: "minecraft:gilded_blackstone"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			subtitle: "制作一个宝石工匠台"
+			description: ["放置物品之后，空手shift+右键激活"]
+			dependencies: ["70B16D5F0FB352FC"]
+			id: "43ADBF9ACA13AFFF"
+			tasks: [{
+				id: "6DA24CE6F01F6FE2"
+				type: "item"
+				item: "conjuring:gem_tinkerer"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			subtitle: "制作一个起源之球"
+			description: ["你可以使用它更换种族和职业，但是请注意，种族的特性会被重置，比如潜影贝的额外空间会重置为空"]
+			dependencies: ["43ADBF9ACA13AFFF"]
+			id: "3F81B13921D59E87"
+			tasks: [{
+				id: "7F0BBA1B76386683"
+				type: "item"
+				item: "origins:orb_of_origin"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "自动化生产闪长岩"
+			dependencies: ["6B2D1C7060F838EB"]
+			id: "4621BF4138D6044F"
+			tasks: [{
+				id: "65A3E86735246372"
+				type: "item"
+				item: "minecraft:diorite"
+				count: 256L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "自动化生产安山岩"
+			dependencies: ["4621BF4138D6044F"]
+			id: "6179978238D45E7C"
+			tasks: [{
+				id: "50694780D28D6298"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 256L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			subtitle: "自动化生产花岗岩"
+			dependencies: ["4621BF4138D6044F"]
+			id: "2D930D27276EDA64"
+			tasks: [{
+				id: "6524FD23EE7D64F4"
+				type: "item"
+				item: "minecraft:granite"
+				count: 256L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			subtitle: "自动化生产石灰岩"
+			dependencies: ["6B2D1C7060F838EB"]
+			id: "50E2F6B065D44368"
+			tasks: [{
+				id: "608EF399131A6469"
+				type: "item"
+				item: "create:limestone"
+				count: 256L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			subtitle: "自动化生产辉绿矿"
+			dependencies: ["50E2F6B065D44368"]
+			id: "34E78F2246FC4BDC"
+			tasks: [{
+				id: "7A38ED9060249A46"
+				type: "item"
+				item: "create:veridium"
+				count: 256L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			subtitle: "自动化生产绯红岩"
+			dependencies: ["4621BF4138D6044F"]
+			id: "6F0D138DAA279E14"
+			tasks: [{
+				id: "52B9DE1B116D5F42"
+				type: "item"
+				item: "create:crimsite"
+				count: 256L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "自动化生产皓蓝石"
+			dependencies: ["6179978238D45E7C"]
+			id: "44B5F84914607D3A"
+			tasks: [{
+				id: "2878ADBF73B31BED"
+				type: "item"
+				item: "create:asurine"
+				count: 256L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "自动化生产赭金砂"
+			dependencies: ["2D930D27276EDA64"]
+			id: "44CA6546E9EF55D1"
+			tasks: [{
+				id: "4AA0674132C557D0"
+				type: "item"
+				item: "create:ochrum"
+				count: 256L
+			}]
+		}
+		{
+			title: "矿物自由"
+			icon: "create:deepslate_zinc_ore"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "从此实现矿物自由"
+			dependencies: [
+				"44CA6546E9EF55D1"
+				"6F0D138DAA279E14"
+				"34E78F2246FC4BDC"
+				"44B5F84914607D3A"
+			]
+			id: "67D7EE1F39C97F96"
+			tasks: [
+				{
+					id: "20A1A65A301B67F9"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 64L
+				}
+				{
+					id: "7A71396376D906A7"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 64L
+				}
+				{
+					id: "4C8C86F0AC94B962"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 64L
+				}
+				{
+					id: "509DF343B12E1E96"
+					type: "item"
+					item: "create:zinc_ingot"
+					count: 64L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			subtitle: "自动化生产安山合金"
+			dependencies: ["67D7EE1F39C97F96"]
+			id: "01A5914EAF0BDBBC"
+			tasks: [{
+				id: "16BE8B2846CDC870"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 256L
+			}]
+		}
+		{
+			title: "树苗"
+			icon: "minecraft:spruce_sapling"
+			x: -3.5d
+			y: 1.5d
+			subtitle: "选择树苗，用于制作树场"
+			description: ["推荐使用云杉"]
+			dependencies: ["15AD967080858B7B"]
+			id: "65C9770FDE7F5A30"
+			tasks: [{
+				id: "684094878425589F"
+				type: "item"
+				title: "Any #minecraft:saplings"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				count: 8L
+			}]
+		}
+		{
+			title: "树场"
+			icon: "minecraft:spruce_log"
+			x: -3.5d
+			y: 3.0d
+			subtitle: "制作一个树场"
+			dependencies: ["65C9770FDE7F5A30"]
+			id: "7FA41CDE25AB9B4E"
+			tasks: [{
+				id: "53B950B6F70BD96A"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 512L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "自动化生产安山机壳"
+			dependencies: [
+				"01A5914EAF0BDBBC"
+				"7FA41CDE25AB9B4E"
+			]
+			id: "160225C22C16E9E0"
+			tasks: [{
+				id: "1166506055C7F559"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 128L
+			}]
+		}
+		{
+			icon: "minecraft:poppy"
+			x: -2.0d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "恭喜你完成了这一阶段的任务"
+			dependencies: [
+				"160225C22C16E9E0"
+				"3F81B13921D59E87"
+			]
+			size: 1.5d
+			id: "4D296A2EFC118628"
+			tasks: [{
+				id: "0E39FFACE4353FC1"
+				type: "checkmark"
+				title: "完成！"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -9.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "迷题的守卫"
+			description: [
+				"据说，谜题羊是受到某种力量影响而变异的绵羊，它的身上有一种奇妙的物质，可以极大地推动科技的发展，你一定要得到它。"
+				""
+				"当我们有了无尽的资源之后，探索的脚步将不再受阻。"
+				""
+				"但是这种物质也让我感到恐慌，它好像闪烁出一种不详的光芒，就像来自于另一个世界。"
+				""
+				"如果这是来自于下界的力量，对它的过度依赖是否是陷入深渊的第一步呢？"
+			]
+			dependencies: ["25908F025D0A7164"]
+			id: "2C10810BC166007A"
+			tasks: [{
+				id: "3A87B6FDC972B530"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

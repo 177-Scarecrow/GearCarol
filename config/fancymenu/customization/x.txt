@@ -1,0 +1,339 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = Material/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = 60
+  advanced_posy = 140
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 接入网络
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = Material/on.png
+  backgroundnormal = Material/off.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = 60
+  advanced_posy = 170
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 组件
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = Material/on.png
+  backgroundnormal = Material/off.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376310%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = 60
+  advanced_posy = 110
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 本地工程
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = Material/on.png
+  backgroundnormal = Material/off.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = 60
+  advanced_posy = 200
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 调试
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = Material/on.png
+  backgroundnormal = Material/off.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label = 调试
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = 120
+  advanced_posy = 200
+}
+
+customization {
+  advanced_height = 20
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 20
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = Material/close_on.png
+  backgroundnormal = Material/close_off.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-left
+  x = 27
+  action = movebutton
+  y = -51
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 143
+  action = deep_customization_element:title_screen_branding
+  actionid = fe6cbe40-854d-4260-a0b7-433c8c1b9b701675594709355
+  y = 239
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = d2ad3a11-9687-49ac-8740-d2e272c6d82c1675594709355
+  y = 162
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 118db4e0-f4c6-439c-844d-b162379009ce1675594709355
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-left
+  splash_color = #ffff00
+  hidden = false
+  x = 214
+  width = 60
+  splash_rotation = -30
+  action = deep_customization_element:title_screen_splash
+  actionid = 0e0785ce-a3bd-4982-9bd1-d0417eef43451675594709355
+  y = 110
+  splash_file_path = Material/sentence.txt
+  height = 30
+}
+
+customization {
+  advanced_height = 113
+  orientation = top-left
+  delayappearanceseconds = 1.0
+  advanced_posx = 10
+  advanced_width = 200
+  advanced_posy = 5
+  path = Material/logo3.0.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = 0
+  width = 200
+  action = addtexture
+  actionid = 0e609549-0320-4931-b352-c1692f60e7741675607599514
+  y = 0
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 113
+}
+

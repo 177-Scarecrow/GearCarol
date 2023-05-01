@@ -1,0 +1,18 @@
+{
+	// The amount of sharper uses a tool has after using it on the grindstone.
+	// min: 1, max: 5000
+	"usesAfterGrinding": 8,
+	// The damage modifier of sharpened tools.
+	// min: 0, max: 100.0
+	"sharpenedDamageModifier": 1.75,
+	// Whether to decrease sharpened uses in creative.
+	"infiniteCreativeUses": false,
+	// Sends the sharpened tool user a message at 75%, 50%, 25%, 10%.
+	"sendUsesLeftInChat": false,
+	// Shows the uses left in the name of the item.
+	"showUsesLeftInItemName": true,
+	// The prefix of the sharpened uses left in the tool name.
+	"nameUsesPrefix": "(SHARPNESS:",
+	// The suffix of the sharpened uses left in the tool name.
+	"nameUsesSuffix": ")"
+}

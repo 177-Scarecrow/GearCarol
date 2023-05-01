@@ -1,0 +1,638 @@
+{
+	id: "2D738E3FF2AADDD1"
+	order_index: 0
+	title: "初始背包"
+	icon: {
+		id: "travelersbackpack:standard"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "travelersbackpack:bat"
+				Count: 1b
+				tag: {
+					CraftingInventory: [{
+						Slot: 4b
+						id: "minecraft:campfire"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"营火防刷怪\"}"
+							}
+						}
+					}]
+					Ability: 0b
+					RepairCost: 0
+					BlockEntityTag: {
+						CraftingInventory: [{
+							Slot: 4b
+							id: "minecraft:campfire"
+							Count: 1b
+							tag: {
+								RepairCost: 0
+								display: {
+									Name: "{\"text\":\"营火防刷怪\"}"
+								}
+							}
+						}]
+						Ability: 0b
+						SleepingBag: 0b
+						Color: 0
+						UnsortableSlots: [I; ]
+						RightTank: {
+							fluid: "minecraft:empty"
+						}
+						LeftTank: {
+							fluid: "minecraft:empty"
+						}
+						SleepingBagColor: 14
+						RightTankAmount: 0L
+						id: "travelersbackpack:travelers_backpack"
+						LeftTankAmount: 0L
+						Inventory: [
+							{
+								Slot: 3b
+								id: "create:goggles"
+								Count: 1b
+							}
+							{
+								Slot: 11b
+								id: "minecraft:leather_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 16b
+								id: "farmersdelight:fish_stew"
+								Count: 16b
+							}
+							{
+								Slot: 17b
+								id: "hookshot:white_hookshot"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 18b
+								id: "minecraft:stone_axe"
+								Count: 1b
+								tag: {
+									RepairCost: 0
+									Damage: 0
+									display: {
+										Name: "{\"text\":\"不能砍树了？按h\"}"
+									}
+								}
+							}
+							{
+								Slot: 19b
+								id: "minecraft:leather_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 20b
+								id: "minecraft:shield"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 21b
+								id: "create:wrench"
+								Count: 1b
+							}
+							{
+								Slot: 22b
+								id: "farmersdelight:vegetable_soup"
+								Count: 16b
+							}
+							{
+								Slot: 27b
+								id: "minecraft:leather_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 32b
+								id: "minecraft:leather_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 37b
+								id: "origins:orb_of_origin"
+								Count: 1b
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"起源之球(一次重选种族的机会)\"}"
+									}
+								}
+							}
+						]
+						LastTime: 0
+					}
+					display: {
+						Lore: ["\"(+NBT)\""]
+						Name: "{\"text\":\"蝙蝠 夜视背包\"}"
+					}
+					UnsortableSlots: [I; ]
+					RightTank: {
+						fluid: "minecraft:empty"
+					}
+					LeftTank: {
+						fluid: "minecraft:empty"
+					}
+					RightTankAmount: 0L
+					LeftTankAmount: 0L
+					Inventory: [
+						{
+							Slot: 3b
+							id: "create:goggles"
+							Count: 1b
+						}
+						{
+							Slot: 11b
+							id: "minecraft:leather_helmet"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 16b
+							id: "farmersdelight:fish_stew"
+							Count: 16b
+						}
+						{
+							Slot: 17b
+							id: "hookshot:white_hookshot"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 18b
+							id: "minecraft:stone_axe"
+							Count: 1b
+							tag: {
+								RepairCost: 0
+								Damage: 0
+								display: {
+									Name: "{\"text\":\"不能砍树了？按h\"}"
+								}
+							}
+						}
+						{
+							Slot: 19b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 20b
+							id: "minecraft:shield"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 21b
+							id: "create:wrench"
+							Count: 1b
+						}
+						{
+							Slot: 22b
+							id: "farmersdelight:vegetable_soup"
+							Count: 16b
+						}
+						{
+							Slot: 27b
+							id: "minecraft:leather_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 32b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 37b
+							id: "origins:orb_of_origin"
+							Count: 1b
+							tag: {
+								RepairCost: 0
+								display: {
+									Name: "{\"text\":\"起源之球(一次重选种族的机会)\"}"
+								}
+							}
+						}
+					]
+					LastTime: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:ocelot"
+				Count: 1b
+				tag: {
+					CraftingInventory: [{
+						Slot: 4b
+						id: "minecraft:campfire"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"营火防刷怪\"}"
+							}
+						}
+					}]
+					Ability: 0b
+					RepairCost: 0
+					BlockEntityTag: {
+						CraftingInventory: [{
+							Slot: 4b
+							id: "minecraft:campfire"
+							Count: 1b
+							tag: {
+								RepairCost: 0
+								display: {
+									Name: "{\"text\":\"营火防刷怪\"}"
+								}
+							}
+						}]
+						Ability: 0b
+						SleepingBag: 0b
+						Color: 0
+						UnsortableSlots: [I; ]
+						RightTank: {
+							fluid: "minecraft:empty"
+						}
+						LeftTank: {
+							fluid: "minecraft:empty"
+						}
+						SleepingBagColor: 14
+						RightTankAmount: 0L
+						id: "travelersbackpack:travelers_backpack"
+						LeftTankAmount: 0L
+						Inventory: [
+							{
+								Slot: 3b
+								id: "create:goggles"
+								Count: 1b
+							}
+							{
+								Slot: 11b
+								id: "minecraft:leather_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 16b
+								id: "farmersdelight:fish_stew"
+								Count: 16b
+							}
+							{
+								Slot: 17b
+								id: "hookshot:white_hookshot"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 18b
+								id: "minecraft:stone_axe"
+								Count: 1b
+								tag: {
+									RepairCost: 0
+									Damage: 0
+									display: {
+										Name: "{\"text\":\"不能砍树了？按h\"}"
+									}
+								}
+							}
+							{
+								Slot: 19b
+								id: "minecraft:leather_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 20b
+								id: "minecraft:shield"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 21b
+								id: "create:wrench"
+								Count: 1b
+							}
+							{
+								Slot: 22b
+								id: "farmersdelight:vegetable_soup"
+								Count: 16b
+							}
+							{
+								Slot: 27b
+								id: "minecraft:leather_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 32b
+								id: "minecraft:leather_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 37b
+								id: "origins:orb_of_origin"
+								Count: 1b
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"起源之球(一次重选种族的机会)\"}"
+									}
+								}
+							}
+						]
+						LastTime: 0
+					}
+					display: {
+						Lore: ["\"(+NBT)\""]
+						Name: "{\"text\":\"豹猫 速度背包\"}"
+					}
+					UnsortableSlots: [I; ]
+					RightTank: {
+						fluid: "minecraft:empty"
+					}
+					LeftTank: {
+						fluid: "minecraft:empty"
+					}
+					RightTankAmount: 0L
+					LeftTankAmount: 0L
+					Inventory: [
+						{
+							Slot: 3b
+							id: "create:goggles"
+							Count: 1b
+						}
+						{
+							Slot: 11b
+							id: "minecraft:leather_helmet"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 16b
+							id: "farmersdelight:fish_stew"
+							Count: 16b
+						}
+						{
+							Slot: 17b
+							id: "hookshot:white_hookshot"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 18b
+							id: "minecraft:stone_axe"
+							Count: 1b
+							tag: {
+								RepairCost: 0
+								Damage: 0
+								display: {
+									Name: "{\"text\":\"不能砍树了？按h\"}"
+								}
+							}
+						}
+						{
+							Slot: 19b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 20b
+							id: "minecraft:shield"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 21b
+							id: "create:wrench"
+							Count: 1b
+						}
+						{
+							Slot: 22b
+							id: "farmersdelight:vegetable_soup"
+							Count: 16b
+						}
+						{
+							Slot: 27b
+							id: "minecraft:leather_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 32b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 37b
+							id: "origins:orb_of_origin"
+							Count: 1b
+							tag: {
+								RepairCost: 0
+								display: {
+									Name: "{\"text\":\"起源之球(一次重选种族的机会)\"}"
+								}
+							}
+						}
+					]
+					LastTime: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:spider"
+				Count: 1b
+				tag: {
+					CraftingInventory: [{
+						Slot: 4b
+						id: "minecraft:campfire"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"营火防刷怪\"}"
+							}
+						}
+					}]
+					Ability: 0b
+					RepairCost: 0
+					LeftTank: {
+						fluid: "minecraft:empty"
+					}
+					display: {
+						Name: "{\"text\":\"蜘蛛 攀爬背包\"}"
+					}
+					RightTankAmount: 0L
+					UnsortableSlots: [I; ]
+					RightTank: {
+						fluid: "minecraft:empty"
+					}
+					LeftTankAmount: 0L
+					Inventory: [
+						{
+							Slot: 3b
+							id: "create:goggles"
+							Count: 1b
+						}
+						{
+							Slot: 11b
+							id: "minecraft:leather_helmet"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 16b
+							id: "farmersdelight:fish_stew"
+							Count: 16b
+						}
+						{
+							Slot: 17b
+							id: "hookshot:white_hookshot"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 18b
+							id: "minecraft:stone_axe"
+							Count: 1b
+							tag: {
+								RepairCost: 0
+								Damage: 0
+								display: {
+									Name: "{\"text\":\"不能砍树了？按h\"}"
+								}
+							}
+						}
+						{
+							Slot: 19b
+							id: "minecraft:leather_chestplate"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 20b
+							id: "minecraft:shield"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 21b
+							id: "create:wrench"
+							Count: 1b
+						}
+						{
+							Slot: 22b
+							id: "farmersdelight:vegetable_soup"
+							Count: 16b
+						}
+						{
+							Slot: 27b
+							id: "minecraft:leather_leggings"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 32b
+							id: "minecraft:leather_boots"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						{
+							Slot: 37b
+							id: "origins:orb_of_origin"
+							Count: 1b
+							tag: {
+								RepairCost: 0
+								display: {
+									Name: "{\"text\":\"起源之球(一次重选种族的机会)\"}"
+								}
+							}
+						}
+					]
+					LastTime: 0
+				}
+			}
+		}
+	]
+}

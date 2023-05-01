@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:shield",
+    "mcdw:shield_royal_guard",
+    "mcdw:shield_tower_guard",
+    "mcdw:shield_vanguard",
+    "twilightforest:knightmetal_shield"
+  ]
+}

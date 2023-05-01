@@ -1,0 +1,46 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 26, 2023, 10:27:53 PM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#create:bottomless/deny
+
+#c:honey
+- create:flowing_honey
+- create:honey
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- milk:flowing_milk?
+- milk:still_milk?
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#c:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#c:milk
+- milk:flowing_milk?
+- milk:still_milk?
+
+#c:tea
+- create:flowing_tea
+- create:tea
+
+#c:water
+- #minecraft:water?
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava
+
+#c:lava
+- #minecraft:lava?

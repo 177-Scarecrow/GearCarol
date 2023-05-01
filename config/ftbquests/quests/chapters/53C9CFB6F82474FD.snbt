@@ -1,0 +1,268 @@
+{
+	id: "53C9CFB6F82474FD"
+	group: "7D5427D8C2C23CF9"
+	order_index: 2
+	filename: "53C9CFB6F82474FD"
+	title: "术法"
+	icon: "kubejs:hex_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: 3.5d
+			subtitle: "制作机械工作台"
+			dependencies: ["40385972828587AD"]
+			id: "5A3596B6C83DD73B"
+			tasks: [{
+				id: "2C25C18405543310"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 21L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			subtitle: "使用动力合成制作粉碎轮"
+			dependencies: ["5A3596B6C83DD73B"]
+			id: "1846DA831356B7A6"
+			tasks: [{
+				id: "5EAE0E77FBD8603C"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			subtitle: "洗涤粉碎锌矿石，自动化生产青金石"
+			dependencies: ["32D6B8B076BCA6EC"]
+			id: "0AD78D1A4D53B652"
+			tasks: [{
+				id: "66EF4D868B0A4188"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 1024L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			subtitle: "粉碎皓蓝石，自动化生产粉碎锌矿石"
+			dependencies: ["1846DA831356B7A6"]
+			id: "32D6B8B076BCA6EC"
+			tasks: [{
+				id: "0C5A401B90729709"
+				type: "item"
+				item: "create:crushed_zinc_ore"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "制作一张魔法地图，它可以显示boss的位置"
+			dependencies: ["4D296A2EFC118628"]
+			hide: true
+			id: "40385972828587AD"
+			tasks: [{
+				id: "612D811781D872F7"
+				type: "item"
+				item: "twilightforest:magic_map"
+			}]
+		}
+		{
+			title: "硫磺石"
+			x: -4.0d
+			y: 0.5d
+			subtitle: "制作一块硫磺石"
+			dependencies: ["080590ADC5CF8DD3"]
+			id: "149B07BF4BE1B21E"
+			tasks: [{
+				id: "104F00202023CE36"
+				type: "item"
+				item: "betterend:brimstone"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			subtitle: "自动化生产硫磺"
+			description: ["硫磺岩与水源接触的面会缓慢生长出硫磺结晶，成熟的硫磺结晶会被动力收割机收割"]
+			dependencies: ["149B07BF4BE1B21E"]
+			id: "7416BD6CF7079392"
+			tasks: [{
+				id: "1CBE96B631CFEC2E"
+				type: "item"
+				item: "betterend:crystalline_sulphur"
+				count: 1024L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			subtitle: "制作动力收割机"
+			dependencies: ["40385972828587AD"]
+			id: "080590ADC5CF8DD3"
+			tasks: [{
+				id: "241FFC6DDBFFC8DF"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			subtitle: "你可以从灵魂盒中获得地狱疣，并且自动化生产它"
+			dependencies: ["40385972828587AD"]
+			id: "4EF65B5009704A3E"
+			tasks: [{
+				id: "49BC245FA9B0C8BF"
+				type: "item"
+				item: "minecraft:nether_wart"
+				count: 384L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "生产一罐浓缩魔能"
+			description: ["就像之前一样使用它"]
+			dependencies: [
+				"4EF65B5009704A3E"
+				"0AD78D1A4D53B652"
+				"7416BD6CF7079392"
+			]
+			id: "014F207D97ED9791"
+			tasks: [{
+				id: "66B80B9C9B1F0CD6"
+				type: "item"
+				item: "kubejs:magicka_concentrate"
+			}]
+		}
+		{
+			title: "亡者之遗"
+			x: -2.5d
+			y: 3.5d
+			shape: "rsquare"
+			subtitle: "击败巫妖，并且获得战利品"
+			dependencies: ["014F207D97ED9791"]
+			size: 1.5d
+			id: "103B99D150441459"
+			tasks: [{
+				id: "21F8FA7D69370ECD"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			shape: "gear"
+			subtitle: "制作一个术法构件"
+			dependencies: ["103B99D150441459"]
+			size: 1.25d
+			id: "03E7EC47ACDBA55C"
+			tasks: [{
+				id: "0FF3E3BC194C5735"
+				type: "item"
+				item: "kubejs:hex_mechanism"
+			}]
+		}
+		{
+			title: "法杖"
+			icon: "hexcasting:wand_oak"
+			x: -2.5d
+			y: 6.5d
+			subtitle: "制作一个法杖"
+			description: [
+				"咒法学包含了大量惊人的法术，能够在各种方面为你提供帮助，非常推荐工程师们进行学习"
+				"咒法学的手册可以使用书和紫水晶粉合成"
+				"请查阅B站/MC百科进行学习，模组名称：咒法学"
+			]
+			dependencies: ["03E7EC47ACDBA55C"]
+			id: "7B5357A2A56A2809"
+			tasks: [{
+				id: "39B3619C8DA7C272"
+				type: "item"
+				title: "Any #hexcasting:wands"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hexcasting:wands"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D62BC38497EB658"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "hexcasting:thehexbook"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			subtitle: "法术的能量来源于紫水晶，你或许可以想办法自动生产它们"
+			description: [
+				"你可以使用矿车运输紫水晶母岩，然后使用侦测器配合钻头进行自动化。"
+				"该部分不是必要任务，你可以自由选择"
+			]
+			dependencies: ["7B5357A2A56A2809"]
+			optional: true
+			id: "7230DA6BF30C9670"
+			tasks: [{
+				id: "1356EB999367E84B"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+			}]
+		}
+		{
+			icon: "minecraft:poppy"
+			x: -4.0d
+			y: 8.0d
+			shape: "hexagon"
+			subtitle: "恭喜你完成了这一阶段的任务"
+			dependencies: ["7B5357A2A56A2809"]
+			size: 1.5d
+			id: "04ECB3429446FCFC"
+			tasks: [{
+				id: "7805A64CAC9D1A67"
+				type: "checkmark"
+				title: "完成！"
+			}]
+		}
+		{
+			icon: "fwaystones:waystone_debugger"
+			x: -8.5d
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "亡骸的魔法"
+			description: [
+				"巫妖是被邪恶魔法腐化的尸骸，要用魔法打败魔法，青金石之中的纯净魔力能够击溃它。"
+				""
+				"虽然你是一名不折不扣的工程师，但是学习一些魔法也不错，它能够与科技互补，成为你的帮手。"
+				""
+				"话说回来，巫妖的邪恶魔法居然能够奴役亡灵，这让你很是不安，这些怪物的内核充斥着难以理解的魔法和科技，这也使得你可以将他们改装成各式各样的构件。"
+				""
+				"难道这个世界有更高等级的文明？你不得而知，看来对暮色森林的攻略要加速了。"
+			]
+			dependencies: ["40385972828587AD"]
+			id: "4D664E634D5D1D66"
+			tasks: [{
+				id: "06A3EC620E994D5C"
+				type: "checkmark"
+				title: "主线剧情"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

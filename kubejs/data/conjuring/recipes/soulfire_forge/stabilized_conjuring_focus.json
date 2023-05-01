@@ -1,0 +1,24 @@
+{
+  "type": "conjuring:soulfire_forge",
+  "pattern": [
+    "gng",
+    "nKn",
+    "gng"
+  ],
+  "key": {
+    "g": {
+      "item": "conjuring:soul_slice"
+    },
+    "n": {
+      "item": "conjuring:soul_alloy"
+    },
+    "K": {
+      "item": "kubejs:flame_mechanism"
+    }
+  },
+  "smeltTime": 1200,
+  "result": {
+    "item": "conjuring:stabilized_conjuring_focus",
+    "count": 1
+  }
+}

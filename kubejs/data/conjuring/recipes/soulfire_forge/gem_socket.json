@@ -1,0 +1,24 @@
+{
+  "type": "conjuring:soulfire_forge",
+  "pattern": [
+    "   ",
+    "nln",
+    " s "
+  ],
+  "key": {
+    "s": {
+      "item": "conjuring:soul_alloy"
+    },
+    "l": {
+      "item": "kubejs:flame_mechanism"
+    },
+    "n": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "smeltTime": 100,
+  "result": {
+    "item": "conjuring:gem_socket",
+    "count": 1
+  }
+}

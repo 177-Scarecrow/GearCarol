@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "52F2EDCA6A703111", title: "第一章 齿轮世界" }
+		{ id: "7D5427D8C2C23CF9", title: "第二章 传奇伊始" }
+		{ id: "74F07FB54C1CE100", title: "第三章 披荆斩棘" }
+		{ id: "0FEC8D895C672F23", title: "第四章 破晓之战" }
+	]
+}

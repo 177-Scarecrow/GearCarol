@@ -1,0 +1,27 @@
+{
+  "type": "conjuring:soulfire_forge",
+  "pattern": [
+    " Kn",
+    " sK",
+    "q  "
+  ],
+  "key": {
+    "s": {
+      "item": "conjuring:soul_rod"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    },
+    "n": {
+      "item": "minecraft:nether_star"
+    },
+    "K": {
+      "item": "kubejs:flame_mechanism"
+    }
+  },
+  "smeltTime": 12000,
+  "result": {
+    "item": "conjuring:superior_conjuring_scepter",
+    "count": 1
+  }
+}
